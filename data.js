@@ -11402,7 +11402,7 @@ const TOOLS = [
       "All-in-one",
       "Monetization"
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/ClickFunnels_logo.png",
+    "img": "clickfunnels-logo.png",
     "pricing": "Paid",
     "dead": false,
     "deal": "🔥 3 Months for $99"

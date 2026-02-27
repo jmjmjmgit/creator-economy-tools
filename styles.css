@@ -317,6 +317,62 @@ body {
     opacity: 1;
 }
 
+/* ── Floating ProductHunt badge ──────────────── */
+.ph-float-badge {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    animation: ph-float-in 0.5s ease 1s both;
+}
+
+.ph-float-badge:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.ph-float-badge img {
+    display: block;
+    border-radius: 10px;
+}
+
+@keyframes ph-float-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile-only PH badge (above eyebrow) */
+.mobile-ph-badge {
+    display: none;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+
+.mobile-ph-badge img {
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .ph-float-badge {
+        display: none;
+    }
+
+    .mobile-ph-badge {
+        display: flex;
+    }
+}
+
 @keyframes float {
 
     0%,
