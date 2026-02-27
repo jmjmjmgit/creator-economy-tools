@@ -1,6 +1,47 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
 const TOOLS = [
   {
+    "name": "Scripe",
+    "desc": "An AI-powered content platform that repurposes your audio and video into blogs, threads, and linkedIn posts.",
+    "url": "https://scripe.io/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "",
+    "pricing": "",
+    "dead": false,
+    "deal": "Exclusive: Use code CET for 1 month free",
+    "featuredOrder": 5
+  },
+  {
+    "name": "Poppy AI",
+    "desc": "The ultimate AI assistant for creators.",
+    "url": "https://cet--cleverprogrammer.thrivecart.com/poppy-ai-checkout/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "",
+    "pricing": "",
+    "dead": false,
+    "deal": "HOT 🔥",
+    "featuredOrder": 1
+  },
+  {
+    "name": "Roster",
+    "desc": "Roster is an influencer marketing platform that helps brands recruit and manage ambassadors, creators, and affiliates.",
+    "url": "https://www.joinroster.co/",
+    "categories": [
+      "Influencer Marketing/Brand Deals",
+      "Community & Engagement"
+    ],
+    "img": "https://assets-global.website-files.com/62e2bc23aa8ca206a48fe75b/62e2bc23aa8ca24a498fe771_Roster-Logo.svg",
+    "pricing": "",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
     "name": "The Influencer Marketing Factory",
     "desc": "The Influencer Marketing Factory is your go-to data-driven partner in influencer marketing. Expertly matching your brand with influencers who align with your values and target audience, IMF ensures impactful campaigns that drive results. From strategy to execution, IMF handles everything, making your brand the talk of the digital world.",
     "url": "https://theinfluencermarketingfactory.com/",
@@ -9,7 +50,9 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qaoVRYh.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 6,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Hafi by HypeAuditor",
@@ -20,7 +63,9 @@ const TOOLS = [
     ],
     "img": "https://hafi.pro/img/hafi-logo-2024-2.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 7,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Crayo.AI",
@@ -33,19 +78,23 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Ogjw4ks.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 8,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Skool",
     "desc": "Skool is a community platform. You can discover communities or create your own",
-    "url": "https://www.skool.com/refer?ref=7b29eefcfd4a40c4a6b5837554b10dd6",
+    "url": "https://www.skool.com/signup?ref=7b29eefcfd4a40c4a6b5837554b10dd6",
     "categories": [
       "Course Creator",
       "Community & Engagement"
     ],
     "img": "https://assets-global.website-files.com/623b199ca2171a083b6bb379/643d77e0806e9b1e0bfc8e86_skool_logo.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 4,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Substack",
@@ -57,7 +106,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/5f205cb0549d56fdade3ba71/5f6636d2d432f7d04a56385d_https___substack.com_img_substack_wordmark%20(2).png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Moosend",
@@ -68,7 +118,9 @@ const TOOLS = [
     ],
     "img": "https://moosend.com/wp-content/uploads/2021/09/Moosend-Sitecore_Logo_color-back.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 10,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Circle",
@@ -80,7 +132,9 @@ const TOOLS = [
     ],
     "img": "https://app.circle.so/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCUFNSRHdFPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a773c42d4fffd2a5361def27487a2c579b56045f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNITUdrQ2FBRTZDbk5oZG1WeWV3WTZDbk4wY21sd1ZBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e7ed929538cfb0e8497fbd036110b7591e89532a/circle-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 9,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Notion",
@@ -93,7 +147,9 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 11,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "LearnWorlds",
@@ -105,7 +161,8 @@ const TOOLS = [
     ],
     "img": "https://www.learnworlds.com/app/themes/learnworlds/dist/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "F*** You Pay Me",
@@ -118,7 +175,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/V4G1PDc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Passes",
@@ -130,7 +188,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/wJWd3fk.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gumroad",
@@ -142,7 +201,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6171b265e5c8aa59b42c3472/618ea7afd990103829d614ff_gumroad-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kajabi",
@@ -157,7 +217,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5db0d55a083f4b7cd59d2e42/5f761762fbf17b2402d7bce2_Kajabi%20Logo%20Tall_.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ghost",
@@ -170,7 +231,8 @@ const TOOLS = [
     ],
     "img": "https://ghost.org/images/logos/ghost-logo-dark.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Patreon",
@@ -182,7 +244,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/1iLcvNX.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Subify",
@@ -193,7 +256,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/mmonH3Y.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Fangage",
@@ -206,7 +270,8 @@ const TOOLS = [
     ],
     "img": "https://20236771.fs1.hubspotusercontent-na1.net/hub/20236771/hubfs/Fangage%20By%20Triller%20Logo%20-%20Full-color%20(1)-1.png?height=120&name=Fangage%20By%20Triller%20Logo%20-%20Full-color%20(1)-1.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Ko-Fi",
@@ -218,7 +283,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11149b3af2ee970bb8ead_Ko-fi_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "OnlyFans",
@@ -230,7 +296,8 @@ const TOOLS = [
     ],
     "img": "https://logos-world.net/wp-content/uploads/2022/02/OnlyFans-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Komi",
@@ -243,7 +310,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Sfzq0Cm.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Brandarmy",
@@ -255,7 +323,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/3j5Lg7e.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creatorstack",
@@ -268,7 +337,8 @@ const TOOLS = [
     ],
     "img": "https://www.creatorstack.com/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creatorpad",
@@ -281,7 +351,8 @@ const TOOLS = [
     ],
     "img": "https://global-uploads.webflow.com/61ad7b391bba4f44e3f0b879/62f0162e9147fe6d4e629954_CreatorPad%20Logo%2BIcon%20(Black).svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Linktree",
@@ -292,7 +363,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2022/03/Linktree-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Notion AI",
@@ -303,7 +375,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Later",
@@ -314,7 +387,8 @@ const TOOLS = [
     ],
     "img": "https://later.com/images/brand/LaterLogo_Bright.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Shorby",
@@ -325,7 +399,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/9JJGxMY.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Chirpley",
@@ -336,7 +411,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Q3EYniF.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MyVocal.ai",
@@ -348,7 +424,8 @@ const TOOLS = [
     ],
     "img": "https://myvocal.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-title.99afc874.png&w=384&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zora",
@@ -362,7 +439,8 @@ const TOOLS = [
     ],
     "img": "https://bynovl.com/cdn/shop/files/square-logo-light.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pearpop",
@@ -374,7 +452,8 @@ const TOOLS = [
     ],
     "img": "https://d11l3enjtav3k4.cloudfront.net/assets/img/v3/pearpop-logo-share.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Buy me a coffee",
@@ -385,7 +464,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/kYQrcnh.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stck",
@@ -397,7 +477,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/WfrYPK8.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "iFans",
@@ -409,7 +490,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/C2dgLmB.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Link in Profile",
@@ -420,7 +502,8 @@ const TOOLS = [
     ],
     "img": "https://storage.googleapis.com/lip-app-assets/production-3b29e13/packs/media/src/images/logo-b2d9ebb18db54a418799959d1dbe91b7.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Modelcentro",
@@ -432,7 +515,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/CxlgzUP.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fourthwall",
@@ -446,7 +530,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1691543/FOURTHWALL_LOGO_DOODLE_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Disciple",
@@ -459,7 +544,8 @@ const TOOLS = [
     ],
     "img": "https://disciplemedia.wpenginepowered.com/wp-content/themes/disciple/assets/dist/images/logo2.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bettermode",
@@ -472,7 +558,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/632a253b6e9c1587d2b8853d/63575a2021ca0c1fecc4a44b_better-mode-logo-circle.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Uscreen",
@@ -484,7 +571,8 @@ const TOOLS = [
     ],
     "img": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_61953675ac9d0597f40136d47ecaa5a6/uscreen.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Clara",
@@ -495,7 +583,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/eMoCfjd.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HiTide",
@@ -506,7 +595,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/x38Z1c3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Influenswer",
@@ -518,7 +608,8 @@ const TOOLS = [
     ],
     "img": "https://influenswer.com/assets/influenswer.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hivebrite",
@@ -530,7 +621,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1080658/Hivebrite_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MYM",
@@ -543,7 +635,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1577088/MYM_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SoClose",
@@ -555,7 +648,8 @@ const TOOLS = [
     ],
     "img": "https://global-uploads.webflow.com/5eb32176139e6a30bfd3f123/5f106071c34311588082593a_logo_so_close_png-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Slushy",
@@ -568,7 +662,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1841046/SLUSHY_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Loyalfans",
@@ -581,7 +676,8 @@ const TOOLS = [
     ],
     "img": "https://www.loyalfans.com/assets/images/page-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Admireme",
@@ -594,7 +690,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.admireme.vip/images/logo-full.png?v=1.1",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TipSnaps",
@@ -606,7 +703,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1579194/Full_Logo_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Geneva",
@@ -617,7 +715,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/63e6a39a4b9c7d16572a7ab3/64078f7da612396fe794fd8c_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bevy",
@@ -628,7 +727,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6287d831288b9d3adcdadb45/628ca20a5ec6164b250bd384_Bevy-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "GetCourse",
@@ -640,7 +740,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/MqTVuwY.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Nuum",
@@ -653,7 +754,8 @@ const TOOLS = [
     ],
     "img": "https://static.nuum.ru/assets/fe-new/images/logos/nuum-full.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Lnk.bio",
@@ -664,7 +766,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.lnk.bi/img/favicon/202006sqr/favicon512.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sked Social",
@@ -675,7 +778,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/q7hVuY1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Loomly",
@@ -686,7 +790,8 @@ const TOOLS = [
     ],
     "img": "https://www.loomly.com/hubfs/raw_assets/public/loomly-theme/images/frontend/logo-loomly.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Feedlink",
@@ -697,7 +802,8 @@ const TOOLS = [
     ],
     "img": "https://feed.link/wp-content/uploads/2022/05/feedlink-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sponsr",
@@ -708,7 +814,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/bDjJuKQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Boosty",
@@ -719,7 +826,8 @@ const TOOLS = [
     ],
     "img": "https://images.boosty.to/user/442/avatar?change_time=1558443914",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Upfluence",
@@ -730,7 +838,8 @@ const TOOLS = [
     ],
     "img": "https://ww1.prweb.com/prfiles/2020/09/07/17920245/Logo-upfluence-blue.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Julius",
@@ -741,7 +850,8 @@ const TOOLS = [
     ],
     "img": "https://www.juliusworks.com/wp-content/uploads/2021/12/Julius_with_HYPR__horizontal_original.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hopin",
@@ -752,7 +862,8 @@ const TOOLS = [
     ],
     "img": "https://www.wolvessummit.com/hubfs/reallogo-2f2d3a170b5b88ea05abe9d1858acb34973dcfc43b83b3acc608712838196aaa.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Payhip",
@@ -764,7 +875,8 @@ const TOOLS = [
     ],
     "img": "https://payhip.com/images/designv2/logo/logo-large.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Launchpass",
@@ -776,7 +888,8 @@ const TOOLS = [
     ],
     "img": "https://launchpass.com/static/landerb/images/LaunchPass_Logo-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Jemi",
@@ -788,7 +901,8 @@ const TOOLS = [
     ],
     "img": "https://marketplacecontent.zoom.us/%2FNw_seJ1wSNiRlH8DR9Fo8g%2FAkYbjalAThW93uN2tdmjow%2Fapp%2FeoNwAjE2TzOGHaBr3ATL1g%2FDNohDdvMSbmbsHGEsnIR-w.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sutra",
@@ -801,7 +915,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61bf4814f8dafe3f3daef4d8/61e86eddb3697483a9316188_sutra_logo_trans_cropped.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LYNX",
@@ -812,7 +927,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/O3OF3qx.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hubilo",
@@ -824,7 +940,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1558374/Hubilo_Logo.jpg?p=twitter",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Moment",
@@ -836,7 +953,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/kyQ34Tm.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rally",
@@ -848,7 +966,8 @@ const TOOLS = [
     ],
     "img": "https://images.ctfassets.net/nahcm66izr58/4T5QaFAbns7DbDds7nqUIN/7fa1b531280682a4fda6ddb238f92487/Youtube_RallyProfile-800x800_Dark.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Run The World",
@@ -859,7 +978,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JME3t4j.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Venu",
@@ -871,7 +991,8 @@ const TOOLS = [
     ],
     "img": "https://bookface-images.s3.amazonaws.com/logos/48ec8e0e10a73a3ec2dbeec3b545772cfd35579e.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Convertkit",
@@ -883,7 +1004,8 @@ const TOOLS = [
     ],
     "img": "https://www.drupal.org/files/project-images/convertkit.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mirror",
@@ -895,7 +1017,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/13879980/112dc2e6b99a08fa3c398b160a4c153794cff316.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "#Paid",
@@ -906,7 +1029,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/5c34f4c0ee3329913fc72eac/5ec5bb73b2a6fb3d17adff89_Group%20133.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hecto",
@@ -918,7 +1042,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/YFr4pFr.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lumanu",
@@ -929,7 +1054,8 @@ const TOOLS = [
     ],
     "img": "https://startupsavant.com/images/startup-culture/articles/lumanu-profile.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Podcorn",
@@ -941,7 +1067,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AMBszCA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Moe",
@@ -954,7 +1081,8 @@ const TOOLS = [
     ],
     "img": "https://influencermarketinghub.com/wp-content/uploads/2021/05/MOE2.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Pico",
@@ -965,7 +1093,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/6050b5e7ce26aec04f7d1120/607c42ede2745d2255228d85_pico_icon_violet.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dropd",
@@ -978,7 +1107,8 @@ const TOOLS = [
     ],
     "img": "https://dropd.live/cdn/shop/files/black-transparent_14d4b56b-3a59-4ef9-8eca-fd59bb9ad43f_188x@2x.png?v=1670879602",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Livescale",
@@ -991,7 +1121,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qwjpqH2.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Spin",
@@ -1005,7 +1136,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.dribbble.com/users/9727/screenshots/11209066/spin_logo_spin_logo_4x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Whatnot",
@@ -1019,7 +1151,8 @@ const TOOLS = [
     ],
     "img": "https://www.whatnot.com/assets/48397edf.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cameo",
@@ -1031,7 +1164,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.cookielaw.org/logos/b87f17a9-38e8-4d4b-b571-8ab706eefdee/5af2bc4c-a764-4b92-900d-3bdd2e324bb2/83cea90f-09fb-43ac-8b4c-52951df6bcbc/FullLogo_Color.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Huddles",
@@ -1044,7 +1178,8 @@ const TOOLS = [
     ],
     "img": "https://huddlesapp.co/assets/images/logos/logo_header.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hoo.be",
@@ -1055,7 +1190,8 @@ const TOOLS = [
     ],
     "img": "https://hoo.be/icons/meta-icon.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanvue",
@@ -1067,7 +1203,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/jzHSxba.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "NoSpace",
@@ -1079,7 +1216,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/pm6ZAlg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Memmo",
@@ -1091,7 +1229,8 @@ const TOOLS = [
     ],
     "img": "https://memmo.me/_next/static/images/og-share-default-2dd195c8fdda8a6509171c86cd8767f5.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MyFanPark",
@@ -1103,7 +1242,8 @@ const TOOLS = [
     ],
     "img": "https://d2mdxsti6y5rs.cloudfront.net/images/promotional_images/partner_files/LOGO_3_5BIO0RFI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Olekoo",
@@ -1115,7 +1255,8 @@ const TOOLS = [
     ],
     "img": "https://play-lh.googleusercontent.com/BK0JKMu6jrioniCLOwF9kN_gQcg4qZCajvEav0jhwau0jsZHbvTnBzPl_WZI9PYyel4",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Qoohoo",
@@ -1127,7 +1268,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/b6db0Vq.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Super.fans",
@@ -1139,7 +1281,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/h8tVKB0.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spoon",
@@ -1150,7 +1293,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/0/04/Spoon_Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tap.Bio",
@@ -1161,7 +1305,8 @@ const TOOLS = [
     ],
     "img": "https://startupbonsai.com/wp-content/uploads/2021/09/Tap-Bio-Review-Featured.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Streamloots",
@@ -1173,7 +1318,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/10835801/64ac9adb460ad290889b68162c16e373ee03be59.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Adobe Speech Enhancer",
@@ -1185,7 +1331,8 @@ const TOOLS = [
     ],
     "img": "https://intelarter.com/wp-content/uploads/2023/05/Adobe-podcast-logo-1024x538.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Superpeer",
@@ -1197,7 +1344,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/BPNafAG.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wr1",
@@ -1210,7 +1358,8 @@ const TOOLS = [
     ],
     "img": "https://wr1.com/wp-content/uploads/2021/12/Wr1_retina_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Audius",
@@ -1222,7 +1371,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6234c4b05d62f185d0f24dc4/623503294e34832e0e575139_Horizontal_Color%402x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cliqz",
@@ -1233,7 +1383,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5hraFHO.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Locals",
@@ -1246,7 +1397,8 @@ const TOOLS = [
     ],
     "img": "https://www.locals.com/_nuxt/img/logo.a9eb6d9.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SubscribeStar",
@@ -1258,7 +1410,8 @@ const TOOLS = [
     ],
     "img": "https://assets.subscribestar.com/assets/public/images/logo-16dcd04aa1b4d30bc2289228b4a5f93a.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Supercast",
@@ -1269,7 +1422,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/614de09034e9eb7ea9d96614/614de09034e9eb16ded9666a_Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Playbook",
@@ -1281,7 +1435,8 @@ const TOOLS = [
     ],
     "img": "https://influencermarketinghub.com/wp-content/uploads/2021/03/Playbook.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Arketa",
@@ -1293,7 +1448,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/60d9e2a171ce3611756f982c/61466ebaf0f0667a89c5eec6_arketa_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Trybe",
@@ -1304,7 +1460,8 @@ const TOOLS = [
     ],
     "img": "https://play-lh.googleusercontent.com/GTekXBfXWtpit-vfwBNvbN5kGt0mfD16P6GpTDMlIsQjLMzKWNywgVuJg69M4SDJY5UT",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dukaan",
@@ -1316,7 +1473,8 @@ const TOOLS = [
     ],
     "img": "https://play-lh.googleusercontent.com/RIQWkeXsV8f444U2xG-243gwHBkTlXb5LRspoo1s-SsnzfLuRmY0ufX7-GKr_SIW9eXx",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Easol",
@@ -1330,7 +1488,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/10811853/bf65d2ee179a7a4fd133c8ca95ba03ffa7bd98e8.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Samcart",
@@ -1342,7 +1501,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/C0gCwuH.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Nexus",
@@ -1353,7 +1513,8 @@ const TOOLS = [
     ],
     "img": "https://help.nexus.gg/hc/article_attachments/360079374692/Group_1133.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Clubhouse",
@@ -1364,7 +1525,8 @@ const TOOLS = [
     ],
     "img": "https://static-assets.clubhouseapi.com/static/img/full_tn_new.d488e720c49a.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Comradery",
@@ -1375,7 +1537,8 @@ const TOOLS = [
     ],
     "img": "https://comradery.com/img/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Discord",
@@ -1387,7 +1550,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6257adef93867e50d84d30e2/625eb604bb8605784489d361_Discord-Logo%2BWordmark-Color%20(1).png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Discourse",
@@ -1398,7 +1562,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Qy4lijG.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Guild",
@@ -1409,7 +1574,8 @@ const TOOLS = [
     ],
     "img": "https://res-2.cloudinary.com/https-guild-co/image/upload/q_auto/v1/blog-images/Copy-of-Guild-logo_no-strap.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mighty Networks",
@@ -1423,7 +1589,8 @@ const TOOLS = [
     ],
     "img": "https://images.ctfassets.net/m9n8o4ceoyuw/ifmdeCZyabRuvCVPfroIp/d3a1093c47c3293678d6669daf3463f4/MNLogoBlack.png?w=350&h=46&q=50&fm=webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gump",
@@ -1434,7 +1601,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/8gj3gce.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kunstmatrix",
@@ -1446,7 +1614,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/SCaeMYX.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "OnJam",
@@ -1458,7 +1627,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/cpVWlTO.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Pipeline",
@@ -1470,7 +1640,8 @@ const TOOLS = [
     ],
     "img": "https://www.pipeline.gg/_next/image?url=%2Fimages%2FPipeline_Logo_Light.png&w=384&q=75",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Liinks",
@@ -1481,7 +1652,8 @@ const TOOLS = [
     ],
     "img": "https://d1ym67wyom4bkd.cloudfront.net/assets/bundles/46380ad2a094ad5be1a2c11972d15b9006988df7/images/meta.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stage Ten",
@@ -1495,7 +1667,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.betakit.com/wp-content/uploads/2019/02/stageten.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "StreamElements",
@@ -1509,7 +1682,8 @@ const TOOLS = [
     ],
     "img": "https://mms.businesswire.com/media/20190124005580/en/702318/23/SE_Logo_02_Light_BG.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Streamlabs",
@@ -1520,7 +1694,8 @@ const TOOLS = [
     ],
     "img": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2021/09/01/streamlabs_feature.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "XSplit",
@@ -1532,7 +1707,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/H03QZDE.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Earnr",
@@ -1543,7 +1719,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/617bf2c533032d8351ffdbac/617bf625a78818bcaf052996_OY.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fairmint",
@@ -1554,7 +1731,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/eeyThH5.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tap.Link",
@@ -1565,7 +1743,8 @@ const TOOLS = [
     ],
     "img": "https://taplink.at/s/i/taplink-opengraph.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Friz",
@@ -1576,7 +1755,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/mpRnxVY.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Karat",
@@ -1587,7 +1767,8 @@ const TOOLS = [
     ],
     "img": "https://uspto.report/TM/90751529/mark.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lance",
@@ -1598,7 +1779,8 @@ const TOOLS = [
     ],
     "img": "https://meshpayments.com/wp-content/uploads/2022/01/lance.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Disco",
@@ -1613,7 +1795,8 @@ const TOOLS = [
     ],
     "img": "https://ml.globenewswire.com/Resource/Download/ae31de16-6188-4eae-aa13-697b93f42543",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ensemble",
@@ -1625,7 +1808,8 @@ const TOOLS = [
     ],
     "img": "https://www.ensemble.chat/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Laylo",
@@ -1639,7 +1823,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Bwg2HoA.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Luma",
@@ -1650,7 +1835,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.lu.ma/static-social/home-social.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Omnilink",
@@ -1661,7 +1847,8 @@ const TOOLS = [
     ],
     "img": "https://cdn-ico-omnilink.iconosquare.com/assets/original/images/logos/omnilink_powered.svg?v=1.0.019",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mixily",
@@ -1673,7 +1860,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5HZHagz.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Oooh Tv",
@@ -1686,7 +1874,8 @@ const TOOLS = [
     ],
     "img": "https://oooh.tv/oooh.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Orbit",
@@ -1697,7 +1886,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6090f2cbfb550680d4288567/60916d2d77cab34ad9d7666f_Logo.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "The Labz",
@@ -1709,7 +1899,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ZgjBoAe.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vocal Remover",
@@ -1721,7 +1912,8 @@ const TOOLS = [
     ],
     "img": "https://global-uploads.webflow.com/644238b1cf656a0846763003/64d14632f32ecc10dcbea071_nwMQDYgddCwVqFrkub8LQ-min.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ToneDen",
@@ -1732,7 +1924,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/5c1426cc1ac48f15ca9c8e22/5c89a2b1df5bbd0c2a3da04d_blog-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Avid",
@@ -1744,7 +1937,8 @@ const TOOLS = [
     ],
     "img": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1342263/339421_47438.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mana",
@@ -1755,7 +1949,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/kZY2n1c.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Maven",
@@ -1767,7 +1962,8 @@ const TOOLS = [
     ],
     "img": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/273/700/original/Social_Share_Image.jpg?1680101999",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Podia",
@@ -1783,7 +1979,8 @@ const TOOLS = [
     ],
     "img": "https://logovtor.com/wp-content/uploads/2020/11/podia-labs-inc-logo-vector.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Teachable",
@@ -1794,7 +1991,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/65393b768d06ee4c16d24a0b/65393dc01f9388d10c80d6bd_teachable-logo-dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Thinkific",
@@ -1805,7 +2003,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5KS1paA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Virtually",
@@ -1816,7 +2015,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5fc46126e6be6c61aa2a15cb/617b305ca189fc3bd7fa1b9d_Horizontal%20logo-p-1080.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "About.me",
@@ -1827,7 +2027,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/About.me_logo.svg/1200px-About.me_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bio.fm",
@@ -1838,7 +2039,8 @@ const TOOLS = [
     ],
     "img": "https://bio.fm/assets/img/logos/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Urlbio",
@@ -1849,7 +2051,8 @@ const TOOLS = [
     ],
     "img": "https://url.bio/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stir",
@@ -1861,7 +2064,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/60945ba55138b4f2adad0961/6097ad4b15e2220a65060ae7_logo_stir_purple.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "StreamBee",
@@ -1874,7 +2078,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/aMlXufo.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Castbox",
@@ -1885,7 +2090,8 @@ const TOOLS = [
     ],
     "img": "https://s3.castbox.fm/wp-content/uploads/2018/05/castbox_logo-text.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Castup",
@@ -1896,7 +2102,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/5c433bf72ce71cc7842f38ab/5c433bf72ce71c12332f38f9_Castup.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Restream",
@@ -1907,7 +2114,8 @@ const TOOLS = [
     ],
     "img": "https://restream.io/landings-assets/img/logo-ukraine-5e86fcda835fb7fe833446766436041f.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Glow",
@@ -1918,7 +2126,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/5ccc82f437a19df3b2dd50e8/61d752eb71d16cc66d8dc8d5_Libsyn_Glow-01%5B23%5D.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hubhopper",
@@ -1930,7 +2139,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/10156525/1bada32e235f94593d42c1680aa912f264b48ac4.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "RedCircle",
@@ -1941,7 +2151,8 @@ const TOOLS = [
     ],
     "img": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_11b0f8409c44103a7bbb42a56faf752f/redcircle.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sounder",
@@ -1952,7 +2163,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AwnumsB.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Descript",
@@ -1963,7 +2175,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5d761d627a6dfa6a5b28ab12/5d761d627a6dfa6c3f28ab40_descript-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Waveformer",
@@ -1975,7 +2188,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/PJ9h8IC.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "InVideo",
@@ -1986,7 +2200,8 @@ const TOOLS = [
     ],
     "img": "https://web-assets.invideo.io/common/prod/logos/purple_logo_with_text.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kapwing",
@@ -1997,7 +2212,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/xlq0zmI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Litelink",
@@ -2008,7 +2224,8 @@ const TOOLS = [
     ],
     "img": "https://litelink.at/uploads/logo/d245ab95c04f4805058c24183a8d9941.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Milk",
@@ -2019,7 +2236,8 @@ const TOOLS = [
     ],
     "img": "https://milkvideo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-milk-summary-yc-slide.a92e9d52.png&w=3840&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mojo",
@@ -2030,7 +2248,8 @@ const TOOLS = [
     ],
     "img": "https://www.mojo-app.com/logo_mojo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "PicsArt",
@@ -2041,7 +2260,8 @@ const TOOLS = [
     ],
     "img": "https://cdn140.picsart.com/28410169050081638995.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spext",
@@ -2052,7 +2272,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/PLfQkxip4p5Ywml9kEXYcD3e2U.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "iLink",
@@ -2063,7 +2284,8 @@ const TOOLS = [
     ],
     "img": "https://il.ink/img/icon%20with%20text.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Tella",
@@ -2074,7 +2296,8 @@ const TOOLS = [
     ],
     "img": "https://bookface-images.s3.amazonaws.com/logos/e539c9bb4608fd2158b38b2bc7632df323afff2b.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "WhatTheBeat",
@@ -2086,7 +2309,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/xl1JvwC.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Podsift",
@@ -2098,7 +2322,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/zx7n9cN.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Voice.ai",
@@ -2110,7 +2335,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/15535464/d6a0cd40585fc1f152bfd70b9fa4d9de410b6080.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "PlaylistAI",
@@ -2122,7 +2348,8 @@ const TOOLS = [
     ],
     "img": "https://www.playlistai.app/_next/static/media/pai.3d963ba6.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "On24",
@@ -2135,7 +2362,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/en/5/59/ON24_logo_2021.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Voicemod",
@@ -2146,7 +2374,8 @@ const TOOLS = [
     ],
     "img": "https://www.voicemod.net/v4/wp-content/uploads/2021/05/Voicemod-logo.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI-Coustics",
@@ -2158,7 +2387,8 @@ const TOOLS = [
     ],
     "img": "https://ai-coustics.com/logos/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "FlyFin",
@@ -2169,7 +2399,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1705506/FlyFin_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pianity",
@@ -2180,7 +2411,8 @@ const TOOLS = [
     ],
     "img": "https://mms.businesswire.com/media/20220302005197/en/1376122/23/Pianity_logo.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Voila",
@@ -2191,7 +2423,8 @@ const TOOLS = [
     ],
     "img": "https://www.voila.love/assets/logo.1ac622f4.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "The Stack",
@@ -2204,7 +2437,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/IgtkQqJ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pex",
@@ -2215,7 +2449,8 @@ const TOOLS = [
     ],
     "img": "https://pex.com/wp-content/uploads/2021/02/pex-announces-57m-in-new-funding.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "FilmHub",
@@ -2227,7 +2462,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/iU8TQWy.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Quantum Pigeon",
@@ -2239,7 +2475,8 @@ const TOOLS = [
     ],
     "img": "https://qp.me/img/qp-logo-wordmarkRev.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Teespring",
@@ -2250,7 +2487,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Teespring_logo.svg/1280px-Teespring_logo.svg.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Issuu",
@@ -2261,7 +2499,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Issuu_logo.svg/1280px-Issuu_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Topia",
@@ -2273,7 +2512,8 @@ const TOOLS = [
     ],
     "img": "https://global-uploads.webflow.com/62e7004a0f9b3a63b980ac3c/62e70c84dd3aac06fb2ac2b6_topia-logo-blue-2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Adventr",
@@ -2284,7 +2524,8 @@ const TOOLS = [
     ],
     "img": "https://logowik.com/content/uploads/images/adventr-new5737.logowik.com.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Compiled",
@@ -2295,7 +2536,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JXSvmxx.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Unlock",
@@ -2307,7 +2549,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1819778/3Unlock_Protocol_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bubblehouse",
@@ -2319,7 +2562,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/RSaQhaL.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mayk.it",
@@ -2330,7 +2574,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/624211ad6eca3f34a21418f9/624b44273eed1a6225ef5c3c_mayk-it-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MakersPlace",
@@ -2343,7 +2588,8 @@ const TOOLS = [
     ],
     "img": "https://lever-client-logos.s3.us-west-2.amazonaws.com/dd703b58-9de6-46a6-93fa-5fa3e9334c7c-1646068798727.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kale",
@@ -2355,7 +2601,8 @@ const TOOLS = [
     ],
     "img": "https://kalecard.com/kale-lockup.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ongo",
@@ -2368,7 +2615,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6536ea41250cd0997e7b5039/65370bcd19263efa2ab7fa2f_ongo-logo-gray.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Passionfroot",
@@ -2382,7 +2630,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/629e8baa026db93f045c983a/629e8baa026db921905c989f_Logo%2520new-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "The Luupe",
@@ -2394,7 +2643,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The-Luupe-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ZenBusiness",
@@ -2405,7 +2655,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/hW9wChA.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Printful",
@@ -2416,7 +2667,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/2383316/76e366866d9ee1ca30a2873f99403003769a7efb.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Display Social",
@@ -2427,7 +2679,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/6078586ecd3eca2a01bcd151/1618779677456-3IOMBUIYH6AU067KFRVS/display-gradient-trans-text-Asset+4%401.5x.png?format=1500w",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Maestro",
@@ -2438,7 +2691,8 @@ const TOOLS = [
     ],
     "img": "https://ww1.prweb.com/prfiles/2020/04/13/17047439/Maestro%20Logo.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Catch",
@@ -2449,7 +2703,8 @@ const TOOLS = [
     ],
     "img": "https://catch.co/graphics/OG_Catch.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Keeper Tax",
@@ -2460,7 +2715,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5cdcb07b95678daa55f2bd83/5ff8272b50b4732758581773_full-name-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mixcloud",
@@ -2471,7 +2727,8 @@ const TOOLS = [
     ],
     "img": "https://support.the-source.eu/AvatarHandler.ashx?kbattchid=26",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Turnip",
@@ -2482,7 +2739,8 @@ const TOOLS = [
     ],
     "img": "https://bwm.world/wp-content/uploads/2021/01/Feature-Graphic.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lickd",
@@ -2493,7 +2751,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/yHzJ39J.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creator+",
@@ -2505,7 +2764,8 @@ const TOOLS = [
     ],
     "img": "https://lever-client-logos.s3.us-west-2.amazonaws.com/44e57989-d8fa-4ced-8cbb-33b5ff9ed57a-1645844286557.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Humanz",
@@ -2516,7 +2776,8 @@ const TOOLS = [
     ],
     "img": "https://www.humanz.com/wp-content/uploads/2022/04/cropped-humanz-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Obviously",
@@ -2527,7 +2788,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/609b4624cb5b144eb1db7127/60ec79cfb1c9735827c2b7ee_Logo%20Final%20-%20white.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lili",
@@ -2538,7 +2800,8 @@ const TOOLS = [
     ],
     "img": "https://lili.co/wp-content/uploads/2022/08/logo-lili.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hifi",
@@ -2550,7 +2813,8 @@ const TOOLS = [
     ],
     "img": "https://musically.com/wp-content/uploads/2021/10/Hifi-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "RareCircles",
@@ -2561,7 +2825,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/12979294/8024308c2617ec1c484ef7a167075327edce03cb.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cohley",
@@ -2572,7 +2837,8 @@ const TOOLS = [
     ],
     "img": "https://www.cohley.com/hubfs/layout/Cohley-DefaultOGImage.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "NTWRK",
@@ -2584,7 +2850,8 @@ const TOOLS = [
     ],
     "img": "https://i.ytimg.com/vi/r-Mqbf3ywnA/maxresdefault.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Music Breakr",
@@ -2596,7 +2863,8 @@ const TOOLS = [
     ],
     "img": "https://s3.amazonaws.com/appforest_uf/d94/f1639070134606x593873644622467500/Breakr%20Logo-green.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Jellysmack",
@@ -2608,7 +2876,8 @@ const TOOLS = [
     ],
     "img": "https://getlogo.net/wp-content/uploads/2020/11/jellysmack-logo-vector.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Songwhip",
@@ -2619,7 +2888,8 @@ const TOOLS = [
     ],
     "img": "https://songwhip.com/static/icons/icon-512x512.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dequency",
@@ -2630,7 +2900,8 @@ const TOOLS = [
     ],
     "img": "https://dequency.io/wp-content/uploads/2022/02/logo@2x.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Popchew",
@@ -2643,7 +2914,8 @@ const TOOLS = [
     ],
     "img": "https://s3-us-west-2.amazonaws.com/cbi-image-service-prd/modified/24b1611e-0937-4c18-b8d3-20f641766ca6.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "EnTribe",
@@ -2654,7 +2926,8 @@ const TOOLS = [
     ],
     "img": "https://global-uploads.webflow.com/62b1efd4882c3e4e50731768/62b20eaf026b9119e666075a_Entribe%20Logo%20Positive.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Key",
@@ -2666,7 +2939,8 @@ const TOOLS = [
     ],
     "img": "https://www.mykeylive.com/media/pages/home/8451f33431-1655932647/key-gradient-1-860x540-crop-q72.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Impact",
@@ -2677,7 +2951,8 @@ const TOOLS = [
     ],
     "img": "https://impact.com/wp-content/uploads/2022/04/Impact-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Willa",
@@ -2689,7 +2964,8 @@ const TOOLS = [
     ],
     "img": "https://global-uploads.webflow.com/5e21b2a010e3494722f05b51/5f3ae50b31dc35e435031b5f_Willa%20Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Infinite Canvas",
@@ -2700,7 +2976,8 @@ const TOOLS = [
     ],
     "img": "https://venturebeat.com/wp-content/uploads/2021/08/infinite.jpg?w=1200&strip=all",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Community",
@@ -2711,7 +2988,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/60b03728e9361e401b234d0b/6127ee03d77eea22ed11d4ff_community-logo-black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Curastory",
@@ -2722,7 +3000,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.circle.so/cjbpp5qpu781ntccq6ps7qtiulsq",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Uncut.fm",
@@ -2735,7 +3014,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/zXDPA6L.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Grin",
@@ -2746,7 +3026,8 @@ const TOOLS = [
     ],
     "img": "https://grin.co/wp-content/uploads/2021/07/GRIN.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Eluvio",
@@ -2757,7 +3038,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/2216951/Eluvio_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "StreamAlive",
@@ -2769,7 +3051,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/6216e2f201419b570c66a175/6216e53a6d55313977725546_wordsWorthUpdated.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MediaKits",
@@ -2780,7 +3063,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/G7KxncU.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Rosebud AI",
@@ -2792,7 +3076,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61d3497c1c98244344b2c850/61d5dd45e9685eddd1f6b6ed_rosebud%20logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "DNABlock",
@@ -2804,7 +3089,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/6007eec2d4535b44c901266e/1611197743764-2946I36LTW0O5829R6JV/DNABLOCK+-+Primary+Logo+Design+-+Vertical+-+NO+SLOGAN-01.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Spotter",
@@ -2815,7 +3101,8 @@ const TOOLS = [
     ],
     "img": "https://spotter.la/spotter-share.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spring",
@@ -2826,7 +3113,8 @@ const TOOLS = [
     ],
     "img": "https://d33wubrfki0l68.cloudfront.net/bc7ff81b17efdb0af974e4aa2297592f79b9fac1/8e707/v3/img/blog/spring-logo-alpha-04.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Profi",
@@ -2838,7 +3126,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/604b409bd0218f7308223ed9/60e31d9993ee0645d19b75b9_Profi-logo-dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BandLab",
@@ -2849,7 +3138,8 @@ const TOOLS = [
     ],
     "img": "https://www.bandlab.com/web-app/images/bandlab-logotype-466ab31274.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Thatch",
@@ -2860,7 +3150,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/CLBbFGc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creative Juice",
@@ -2871,7 +3162,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/611692d2540c3c56deb73173/62965c80f0e8353044e84c68_Horizontal.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Stan",
@@ -2884,7 +3176,8 @@ const TOOLS = [
     ],
     "img": "https://www.stan.store/images/home/v4/logos/stan-blue.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rapchat",
@@ -2895,7 +3188,8 @@ const TOOLS = [
     ],
     "img": "https://play-lh.googleusercontent.com/3M5h2sTIOCbqsqAPHuSmhrDGezJq5aA6m-APOGPqrXhNo0cSAeBysskUdb5gkkVNbw",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Norby",
@@ -2907,7 +3201,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/z9lms3h.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Outseta",
@@ -2921,7 +3216,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/5fb73a41ebcde70c43b9399c/5fd436ab0b94d00bbf885afb_Outseta%20Logo.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sunroom",
@@ -2932,7 +3228,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/RYYW1Ji.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanbase.com",
@@ -2943,7 +3240,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/p8KYo1g.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanbase.app",
@@ -2954,7 +3252,8 @@ const TOOLS = [
     ],
     "img": "https://www.fanbase.app/assets/img/login/logo-black.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Afterparty",
@@ -2967,7 +3266,8 @@ const TOOLS = [
     ],
     "img": "https://afterparty.ai/webapp/static/media/afterparty-logotype.a0a45050.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SageSpot",
@@ -2980,7 +3280,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/sSmGEXR.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Collective",
@@ -2991,7 +3292,8 @@ const TOOLS = [
     ],
     "img": "https://www.collective.com/wp-content/uploads/2021/05/cropped-collective-logo.png.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Oxygen",
@@ -3002,7 +3304,8 @@ const TOOLS = [
     ],
     "img": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5f3480af3c1b4c000169ef2b/0x0.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Beehiiv",
@@ -3013,7 +3316,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/11651456/b310d005f5cefa45955cbb0f0b32ce9b7183a2b5.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fave",
@@ -3025,7 +3329,8 @@ const TOOLS = [
     ],
     "img": "https://faveforfans.com/assets/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Snipfeed",
@@ -3036,7 +3341,8 @@ const TOOLS = [
     ],
     "img": "https://website.snipfeed.co/images/snipfeed-expressive.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wonder Dynamics",
@@ -3047,7 +3353,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5eba37af72d05349330f50ab/61b30337257c18de3a0f7a3a_website-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Millions.co",
@@ -3060,7 +3367,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.millions.co/images/logos/millions-logo-black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wordpress",
@@ -3071,7 +3379,8 @@ const TOOLS = [
     ],
     "img": "https://s.w.org/style/images/about/WordPress-logotype-alternative.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanfix",
@@ -3083,7 +3392,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/62c48d78ef34931f8a604ef5/632b6dab66aec33652179883_TypefaceColor-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "CatchScan",
@@ -3094,7 +3404,8 @@ const TOOLS = [
     ],
     "img": "https://catchscan.com/wp-content/uploads/2023/08/CatchScan-Logo-Blue@4x.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Sketchar",
@@ -3106,7 +3417,8 @@ const TOOLS = [
     ],
     "img": "https://d3n32ilufxuvd1.cloudfront.net/519202b5a21b8fefe100038f/3304282/upload-8ef6fb7c-006e-4121-9b98-c5b7b1798a63.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BitanGO",
@@ -3117,7 +3429,8 @@ const TOOLS = [
     ],
     "img": "https://bintango.com/assets/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rella",
@@ -3128,7 +3441,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/603dad8fcb77f75c3643e7d3/4ad6f653-3f91-4291-8346-5db91960a5e2/Rella_Logomark_Purple.png?format=1500w",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Notch",
@@ -3139,7 +3453,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61878fa5ae899b3d02d58201/62fa116bc55f63037a2f3ef0_logo-notch.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mavely",
@@ -3150,7 +3465,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/6305254a9fb9532d2b5ad0a1/52379eb2-e33e-488b-885b-45b226d30aa9/mavely-logo.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zezam",
@@ -3163,7 +3479,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61ae043d7867c1c07ee79a1c/61ae072c91e724836ce71b06_zezam-logo-black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Thematic",
@@ -3174,7 +3491,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/max/1083/1*5jqwP1BmNr6j8M9rVbaKZA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TapeReal",
@@ -3187,7 +3505,8 @@ const TOOLS = [
     ],
     "img": "https://unicorn-cdn.b-cdn.net/d331fb11-d748-4249-b47b-1f5cdce1a4f7/tapereal---a-youtube-alternative.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Squarespace",
@@ -3198,7 +3517,8 @@ const TOOLS = [
     ],
     "img": "https://static1.squarespace.com/static/5134cbefe4b0c6fb04df8065/t/5bd1e161419202b8ab974c21/1582743997338/squarespace-logo-horizontal-black.jpg",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Direct.me",
@@ -3209,7 +3529,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/fjokvI2.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zaiko",
@@ -3222,7 +3543,8 @@ const TOOLS = [
     ],
     "img": "https://business.zaiko.io/hubfs/raw_assets/public/Zaiko_Business_December2022/images/ZAIKO-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Howdy",
@@ -3233,7 +3555,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/77D9D5j.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "GoFundMe",
@@ -3244,7 +3567,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/GoFundMe_logo.svg/2560px-GoFundMe_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Indiegogo",
@@ -3255,7 +3579,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Indiegogo_logo.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kickstarter",
@@ -3266,7 +3591,8 @@ const TOOLS = [
     ],
     "img": "https://a.kickstarter.com/assets/site/social/og-kickstarter-social-new-d68ea5b8257b3ff7ec063993ddc0f9662494309832feb40117fc936fa1c819a2.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanjoy",
@@ -3277,7 +3603,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/O8yN3Os.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Framer",
@@ -3288,7 +3615,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.icon-icons.com/icons2/2699/PNG/512/framer_logo_icon_169150.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Webflow",
@@ -3299,7 +3627,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Webflow_logo.svg/2560px-Webflow_logo.svg.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SimpleInk",
@@ -3310,7 +3639,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/610db4fccfb55c0a1dd2f429/614342398e90e51feca7d7e5_Logo%20SI%20Icon%20Text.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wix",
@@ -3321,7 +3651,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wix.com_website_logo.svg/2560px-Wix.com_website_logo.svg.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dorik",
@@ -3332,7 +3663,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/61a1f4035bfd7b0011fb92f9/images/logo-dark_jta933n2.svg",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Unstack",
@@ -3343,7 +3675,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.spark.app/media/www/image/unstack_logo_black.svg",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Carrd",
@@ -3355,7 +3688,8 @@ const TOOLS = [
     ],
     "img": "https://onepagelove.imgix.net/2022/08/opl-promo-carrd-pricing.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Weebly",
@@ -3366,7 +3700,8 @@ const TOOLS = [
     ],
     "img": "https://cdn2.editmysite.com/images/landing-pages/global/logo.svg",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Universe",
@@ -3377,7 +3712,8 @@ const TOOLS = [
     ],
     "img": "https://lever-client-logos.s3.us-west-2.amazonaws.com/d1bf7985-4ba4-443a-903d-684e3335068e-1614630984919.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tilda",
@@ -3388,7 +3724,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/WQovI11.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bio Link",
@@ -3399,7 +3736,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.icon-icons.com/icons2/3911/PNG/512/biolink_logo_icon_247471.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Webydo",
@@ -3410,7 +3748,8 @@ const TOOLS = [
     ],
     "img": "https://images7.webydo.com/90/9098746/3958%2f49AAC505-09D2-0805-9F14-FF144717C644.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Shopify",
@@ -3421,7 +3760,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/2560px-Shopify_logo_2018.svg.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Strikingly",
@@ -3432,7 +3772,8 @@ const TOOLS = [
     ],
     "img": "https://images.ctfassets.net/0exzujcgu96f/26EBGGFuGdBZm81Tj7eo5u/ada00b9ac2b5ac24f981a06e1a977eb9/strikingly-logo.svg",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Biosites",
@@ -3443,7 +3784,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/yIZ4Cbk.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LinkFire",
@@ -3454,7 +3796,8 @@ const TOOLS = [
     ],
     "img": "https://www.linkfire.com/hubfs/linkfire-logo-dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pixpa",
@@ -3465,7 +3808,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ZRlpT8c.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ReadyMag",
@@ -3476,7 +3820,8 @@ const TOOLS = [
     ],
     "img": "https://d3n32ilufxuvd1.cloudfront.net/readymag/upload-07fe9597-de75-459a-afdf-841c9bef6c13.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Berta",
@@ -3487,7 +3832,8 @@ const TOOLS = [
     ],
     "img": "https://www.berta.me/storage/media/logo.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tapmybio",
@@ -3498,7 +3844,8 @@ const TOOLS = [
     ],
     "img": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/eb/20/1f/eb201f9a-308c-0d32-05b8-294570a9013a/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Popshop Live",
@@ -3509,7 +3856,8 @@ const TOOLS = [
     ],
     "img": "https://popshoplive.com/wp-content/uploads/2023/06/PSL-New-logo_1@3x.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Big Cartel",
@@ -3520,7 +3868,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Big_Cartel_Logo.svg/2560px-Big_Cartel_Logo.svg.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cala",
@@ -3531,7 +3880,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/61a795656542dcc01622c17b/61d3529df2141b7615e975c1_Regular%20Black2.svg",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spreadshirt",
@@ -3542,7 +3892,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/YB9yf2q.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sellfy",
@@ -3553,7 +3904,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/5f96916c846a8769a380ae65/5f969565846a87daea80b4a1_logotype.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AllMyLinks",
@@ -3564,7 +3916,8 @@ const TOOLS = [
     ],
     "img": "https://allmylinks.com/img/logo-full-pink.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pietra",
@@ -3575,7 +3928,8 @@ const TOOLS = [
     ],
     "img": "https://pietra.store/_next/image?url=%2Fimages%2Flayouts%2Ffooter-logo.png&w=640&q=75",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Moteefe",
@@ -3586,7 +3940,8 @@ const TOOLS = [
     ],
     "img": "https://www.bgf.co.uk/wp-content/uploads/2020/09/Moteef_01_Master_logo_RGB_BLACK.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Beacons",
@@ -3597,7 +3952,8 @@ const TOOLS = [
     ],
     "img": "https://beacons.ai/bw_logo_full.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "OffScript",
@@ -3608,7 +3964,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/6318f0eb58a216ed5a63e9dd/631916afbac8537a304d224b_offscript_black-p-500.png",
     "pricing": "Free",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MMM",
@@ -3619,7 +3976,8 @@ const TOOLS = [
     ],
     "img": "https://static.mmm.page/image/colored_logo_no_margin.png",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "DistroKid",
@@ -3630,7 +3988,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5cb5162c145f7c1a41cbdb88/5ef535aa229b342838faac9f_Distrokid%402x%20(2).jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "FlowPage",
@@ -3641,7 +4000,8 @@ const TOOLS = [
     ],
     "img": "https://www.flowcode.com/static/flowcode-black-nav-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Artflow",
@@ -3653,7 +4013,8 @@ const TOOLS = [
     ],
     "img": "https://superblog.supercdn.cloud/site_cuid_cln0dzmhr1466211no0ks229wiv/images/logo-artflowai-1696486265774.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Recast",
@@ -3664,7 +4025,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6419f3c64f9b3b0e6df5b1c1/6419f3c64f9b3b45acf5b204_recastYellow-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Durable",
@@ -3676,7 +4038,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/632df91dd7c99c0ac992c47b/632dfb43290276df48242a7c_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Instabio",
@@ -3687,7 +4050,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/oiSUS9l.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Longshot AI",
@@ -3699,7 +4063,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/62a1d5337c2a860b919132f8/62a8d225affe049f2bea5549_ls-svg.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Murf",
@@ -3711,7 +4076,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.freelogovectors.net/wp-content/uploads/2022/11/murf-ai-logo-freelogovectors.net_.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Super Meme",
@@ -3723,7 +4089,8 @@ const TOOLS = [
     ],
     "img": "https://static.typecdn.com/0b79c911-7065-45bf-abbf-78bf6cd7661d_Minimalist_simple_Brand_initial_logo_png.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Campsite.Bio",
@@ -3734,7 +4101,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/OWILc6y.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Supernormal",
@@ -3746,7 +4114,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/60095848b05297ee1c0470c9/63ced92c7747897beed3f7d9_sn-lockup%402x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Surfer",
@@ -3758,7 +4127,8 @@ const TOOLS = [
     ],
     "img": "https://p9n2c8y2.rocketcdn.me/wp-content/uploads/2021/12/Surfer-SEO-Logo-Transparent.png.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Feature.FM",
@@ -3769,7 +4139,8 @@ const TOOLS = [
     ],
     "img": "https://www.thehypemagazine.com/wp-content/uploads/2023/03/Logo-Centered-LightBG_high-res-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Synthesia",
@@ -3781,7 +4152,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61dc0796f359b6145bc06ea6/64c79742aea929123919db35_Primary%20Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LinkPop",
@@ -3793,7 +4165,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.shopify.com/shopifycloud/linkpop/assets/logo.5a02db47.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Just For Fans",
@@ -3805,7 +4178,8 @@ const TOOLS = [
     ],
     "img": "https://justforfans.app/public/img/logo_2-1693141887.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fansly",
@@ -3817,7 +4191,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Fansly_logo.svg/1200px-Fansly_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fancentro",
@@ -3829,7 +4204,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/14632020/3f554da026c362397d23e0c111e0fb8103a82ad1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "It'sMyBio",
@@ -3840,7 +4216,8 @@ const TOOLS = [
     ],
     "img": "https://files-landing.socialgest.net/images/logoitsmybiblack.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Unlockd",
@@ -3852,7 +4229,8 @@ const TOOLS = [
     ],
     "img": "https://preview.redd.it/okx9la1amri71.jpg?auto=webp&s=e01a306850c72b0cde28713a34acbca1a651bf4f",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AdultNode",
@@ -3864,7 +4242,8 @@ const TOOLS = [
     ],
     "img": "https://imgs.search.brave.com/PaQBOaNjuTIpbbc5ulD0BEu_pI8fvOw72-8amocAZVM/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC8yYi82ZC80ZC8y/YjZkNGQyZmVjYWI0/MTcxOWVkZGI1MDQ1/MzI3OWI3MS5qcGc",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AllMyBio",
@@ -3875,7 +4254,8 @@ const TOOLS = [
     ],
     "img": "https://allmy.bio/uploads/main/23bfadd83ca80ce3cf2dc908d5f7c585.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Scrile",
@@ -3887,7 +4267,8 @@ const TOOLS = [
     ],
     "img": "https://www.scrile.com/connect_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hypage",
@@ -3899,7 +4280,8 @@ const TOOLS = [
     ],
     "img": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_542243e98bd7b9510163ed43d8c0a6ca/hy-page.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Renown",
@@ -3911,7 +4293,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/uF7mOBr.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ton.Place",
@@ -3923,7 +4306,8 @@ const TOOLS = [
     ],
     "img": "https://ton.place/snippet.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stampfans",
@@ -3934,7 +4318,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/kacF0el.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Studio",
@@ -3945,7 +4330,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/xlSzU49.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "KROWD",
@@ -3957,7 +4343,8 @@ const TOOLS = [
     ],
     "img": "https://yourkrowd.com/images/logo-krowd.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Attentive",
@@ -3969,7 +4356,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5f8dd331b45e61acc8ac985c/5f8dd331b45e615199ac9946_Attentive_Logotype_Black_RGB.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Memberful",
@@ -3980,7 +4368,8 @@ const TOOLS = [
     ],
     "img": "https://coywolf.reviews/wp-content/uploads/2021/02/memberful.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanize",
@@ -3991,7 +4380,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/max/1200/1*wFVXp5-uxKpTW4VhD-sU9w.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Getnext",
@@ -4002,7 +4392,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/O9sbvKO.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SteadyHQ",
@@ -4015,7 +4406,8 @@ const TOOLS = [
     ],
     "img": "https://assets.steadyhq.com/gfx/brand2019/steady_wordmark_purple.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Honeycommb",
@@ -4027,7 +4419,8 @@ const TOOLS = [
     ],
     "img": "https://www.honeycommb.com/images/og-image-honeycommb-03.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Opensocial",
@@ -4041,7 +4434,8 @@ const TOOLS = [
     ],
     "img": "https://www.getopensocial.com/wp-content/uploads/2021/01/Open-Social-Logo-Bluedots-Bluename-Large.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Linkr",
@@ -4052,7 +4446,8 @@ const TOOLS = [
     ],
     "img": "https://linkr.bio/img/Logo.78169ea4.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Supapass",
@@ -4064,7 +4459,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/60e5b211b8d0d6af7d5a8104/60e5b7287b788af20ef5b43b_supapass-logo-top.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Linksom",
@@ -4075,7 +4471,8 @@ const TOOLS = [
     ],
     "img": "https://linksome.me/s/app/themes/linksome/dist/images/logo.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "LTX Bio",
@@ -4087,7 +4484,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/787161/Lightricks_Logo.jpg?p=twitter",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pineapple Builder",
@@ -4099,7 +4497,8 @@ const TOOLS = [
     ],
     "img": "https://www.pineapplebuilder.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Faurity%2Fimage%2Fupload%2Fv1654003370%2Fpineapple_logo_da24f39f8e.png&w=640&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pagy",
@@ -4110,7 +4509,8 @@ const TOOLS = [
     ],
     "img": "https://media.pagy.co/421f4d13.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bullet",
@@ -4121,7 +4521,8 @@ const TOOLS = [
     ],
     "img": "https://firebasestorage.googleapis.com/v0/b/digital-axon-366208.appspot.com/o/sites%2Fs9BgQ7pk958uoWRXvHXh%2Flogo%2FbulletLogo.png?alt=media&token=cd0d7b30-58e1-4a97-afbb-d8c1ad9f94f2",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bodyguard",
@@ -4133,7 +4534,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/OYX0sLv.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LinkList",
@@ -4144,7 +4546,8 @@ const TOOLS = [
     ],
     "img": "https://linklist.bio/assets/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "My PT Hub",
@@ -4158,7 +4561,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1357410/My_PT_Hub_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fanalytics",
@@ -4170,7 +4574,8 @@ const TOOLS = [
     ],
     "img": "https://www.fanalytics.ai/statics/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Magisto",
@@ -4181,7 +4586,8 @@ const TOOLS = [
     ],
     "img": "https://www.magisto.com/media/new/img/logo_magisto_d@2x.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "OhMyBio",
@@ -4192,7 +4598,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qnbm9mv.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Animoto",
@@ -4203,7 +4610,8 @@ const TOOLS = [
     ],
     "img": "https://www.spectrumequity.com/system/uploads/fae/image/asset/25/AnimotoLogo_1500x800.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Acast",
@@ -4215,7 +4623,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Acast_2022.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Buzzsprout",
@@ -4226,7 +4635,8 @@ const TOOLS = [
     ],
     "img": "https://assets.buzzsprout.com/assets/home/press_kit/logo_buzzsprout-5d667884068b3ca3cd5e44de3574aaeaf244ae74d7c6be1b3bab061f716c0083.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hype",
@@ -4240,7 +4650,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/637235ed99096a35ad124313/65269f3b5bf888e2fbc78ed0_hype-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Flagship",
@@ -4252,7 +4663,8 @@ const TOOLS = [
     ],
     "img": "https://i.ytimg.com/vi/O6I6IgKTW90/maxresdefault.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Autograph",
@@ -4264,7 +4676,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1883126/Autograph_Wordmark_Black_RGB_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gronda",
@@ -4276,7 +4689,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/62f1652df4eb674e370a0f6f/62f166beeafac5158a47cd02_gronda-logo-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Paved",
@@ -4288,7 +4702,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6140c21995aa66ae3f35a4f2/6140c21995aa663f7035a52c_paved-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ManyVids",
@@ -4300,7 +4715,8 @@ const TOOLS = [
     ],
     "img": "https://pineapplesupport.org/wp-content/uploads/2019/06/manyvids2blog.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Capiche FM",
@@ -4311,7 +4727,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/zPgnjDh.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Foundation",
@@ -4322,7 +4739,8 @@ const TOOLS = [
     ],
     "img": "https://www.fortune.my/wp-content/uploads/2021/09/foundation.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cent",
@@ -4333,7 +4751,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6473bdd3101c81b742654fe5/6473c57ec16a8d71e8eaf919_CENT-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Roll",
@@ -4345,7 +4764,8 @@ const TOOLS = [
     ],
     "img": "https://joinroll.com/assets/images/green-logo.image.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zora",
@@ -4356,7 +4776,8 @@ const TOOLS = [
     ],
     "img": "https://zora.co/assets/zora-tm-black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LinkInProfile",
@@ -4367,7 +4788,8 @@ const TOOLS = [
     ],
     "img": "https://storage.googleapis.com/lip-app-assets/production-d4c73b1/packs/media/src/images/logo-b2d9ebb18db54a418799959d1dbe91b7.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Biolinky",
@@ -4378,7 +4800,8 @@ const TOOLS = [
     ],
     "img": "https://images.saasworthy.com/biolinky_13033_logo_1667214958_yvqsj.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bronto",
@@ -4390,7 +4813,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64e944d9e764544da81a708b/65522217cb6d3a0aa1133e78_Group%2038058.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creator Metrics",
@@ -4402,7 +4826,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:2400/1*5OVi_vYexVfgzI7ZUtTWbA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Para",
@@ -4414,7 +4839,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/8dsZuQ6.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "DFTBA",
@@ -4425,7 +4851,8 @@ const TOOLS = [
     ],
     "img": "https://store.dftba.com/cdn/shop/files/logo_280x192.png?v=1613685009",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Instaco",
@@ -4437,7 +4864,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AQ36tHS.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Podbean",
@@ -4449,7 +4877,8 @@ const TOOLS = [
     ],
     "img": "https://d8g345wuhgd7e.cloudfront.net/site/images/logo-img2.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Squadcast",
@@ -4461,7 +4890,8 @@ const TOOLS = [
     ],
     "img": "https://squadcast.fm/wp-content/themes/SquadStack/assets/logos/squadcast_by_descript.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Megaphone",
@@ -4473,7 +4903,8 @@ const TOOLS = [
     ],
     "img": "https://routenote.com/blog/wp-content/uploads/2020/11/s3-untitled_design_59_0-default-1024.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tales",
@@ -4485,7 +4916,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Ys1O8ba.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wattpad",
@@ -4498,7 +4930,8 @@ const TOOLS = [
     ],
     "img": "https://www.wattpad.com/wp-web-assets/images/wp-logo-orange.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Solo.To",
@@ -4509,7 +4942,8 @@ const TOOLS = [
     ],
     "img": "https://cdx.solo.to/images/logo/solo-text-logo-color.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Manticore Games",
@@ -4521,7 +4955,8 @@ const TOOLS = [
     ],
     "img": "https://www.manticoregames.com/images/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "E-pal",
@@ -4533,7 +4968,8 @@ const TOOLS = [
     ],
     "img": "https://s3-us-west-2.amazonaws.com/issuewireassets/primg/64581/e-pal-the-go-to-virtual-gaming-platform-now-offers-all-unique-features-the-users-are-looking-for10.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Metafy",
@@ -4545,7 +4981,8 @@ const TOOLS = [
     ],
     "img": "https://creativeindustriesnews.com/wp-content/uploads/2022/02/Logo_Metafy-1000x274.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "1v1Me",
@@ -4557,7 +4994,8 @@ const TOOLS = [
     ],
     "img": "https://www.1v1me.com/1v1me.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Loots",
@@ -4569,7 +5007,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/MwrWAFg.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "VEEPS",
@@ -4581,7 +5020,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/2297847/VEEPS_Black_ID_166454a75f7f_Logo.jpg?p=twitter",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Crowdcast",
@@ -4593,7 +5033,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5b79b085ee914cb2cabb3127/606df4af67d679987f9398df_crowdcast-wide-light.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stage 10",
@@ -4605,7 +5046,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.betakit.com/wp-content/uploads/2019/02/stageten.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Beatstarts",
@@ -4616,7 +5058,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/BeatStars.svg/2560px-BeatStars.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Createsafe",
@@ -4630,7 +5073,8 @@ const TOOLS = [
     ],
     "img": "https://createsafe.io/apng/blob.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Landr",
@@ -4642,7 +5086,8 @@ const TOOLS = [
     ],
     "img": "https://www.prsformusic.com/-/media/images/press/logolandr2.ashx?w=640&hash=F1E1F0CDD7FCB3CF80FAEE279C2AFECD",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Heights",
@@ -4654,7 +5099,8 @@ const TOOLS = [
     ],
     "img": "https://june-changelog.s3.eu-central-1.amazonaws.com/og_image_df9c294d41.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Xperiencify",
@@ -4666,7 +5112,8 @@ const TOOLS = [
     ],
     "img": "https://helenethituson.com/wp-content/uploads/2022/01/Xperiencify-Logo-400x100-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "OpenSea",
@@ -4677,7 +5124,8 @@ const TOOLS = [
     ],
     "img": "https://storage.googleapis.com/opensea-static/Logos/OpenSea-Full-Logo%20(dark).svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Twitter",
@@ -4689,7 +5137,8 @@ const TOOLS = [
     ],
     "img": "https://www.zilliondesigns.com/blog/wp-content/uploads/Twitter-New-Logo-X-2023--1280x720.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Instasize",
@@ -4701,7 +5150,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/aKCwzbn.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pry",
@@ -4712,7 +5162,8 @@ const TOOLS = [
     ],
     "img": "https://pry.co/static/pry-logo-7d2db0830d8817f48e2b6c3bf8957707.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mentorcam",
@@ -4723,7 +5174,8 @@ const TOOLS = [
     ],
     "img": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/ubfnqkw1vtuz13q9qqbl",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Splash",
@@ -4734,7 +5186,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/608b897871ccafc166c3d0f3/64814c274c8aa83e0b7874a9_LogoGroup.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creators Legal",
@@ -4746,7 +5199,8 @@ const TOOLS = [
     ],
     "img": "https://creatorslegal.com/wp-content/uploads/2023/04/Creators-Legal-regustered-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Anytype",
@@ -4758,7 +5212,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Zqk4TNG.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fireside Chat",
@@ -4771,7 +5226,8 @@ const TOOLS = [
     ],
     "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a4/cd/9e/a4cd9efc-20d8-bb05-9a1a-f034ae96ee39/AppIcon-1x_U007emarketing-0-10-0-0-85-220-0.png/460x0w.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Throne",
@@ -4784,7 +5240,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/647dfd182460b45da7ca7613/647dfd437d175e178f0d6d68_Throne_Logo_Gradient_Dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LinkedIn",
@@ -4796,7 +5253,8 @@ const TOOLS = [
     ],
     "img": "https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-png.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vu Technologies",
@@ -4808,7 +5266,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/62a93360036c7430f88a062f/62a9342fb999bf5cbee0c3c4_Vu%20Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SuperRare",
@@ -4819,7 +5278,8 @@ const TOOLS = [
     ],
     "img": "https://superrare.com/static/media/sr-logo.be6813ba.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Twitch",
@@ -4832,7 +5292,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twitch_logo.svg/2560px-Twitch_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Agora",
@@ -4844,7 +5305,8 @@ const TOOLS = [
     ],
     "img": "https://www.agora.io/en/wp-content/themes/agora-main/images/agora-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Amplifidor",
@@ -4856,7 +5318,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64973be883eb9508ae555824/65930e037da1e8db63660c0e_amplifidor%20web%20img.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Launch House",
@@ -4868,7 +5331,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ilE5EEe.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Upstream",
@@ -4880,7 +5344,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Eulj7yQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "The Leap",
@@ -4891,7 +5356,8 @@ const TOOLS = [
     ],
     "img": "https://www.theleap.co/wp-content/uploads/2023/09/The-Leap-by-Thinkific.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Airmeet",
@@ -4904,7 +5370,8 @@ const TOOLS = [
     ],
     "img": "https://cdn-cpdoj.nitrocdn.com/bdPRQtAGdEdDThAkFvaCqXUlcEqEsAJN/assets/images/optimized/rev-17bbefb/www.airmeet.com/hub/wp-content/uploads/2022/10/AM_Logo_Dark_WM.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Listium",
@@ -4916,7 +5383,8 @@ const TOOLS = [
     ],
     "img": "https://listium-res.cloudinary.com/image/upload/v1517524284/static/BlackAndWhiteLogo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Articulate",
@@ -4928,7 +5396,8 @@ const TOOLS = [
     ],
     "img": "https://www.articulate.com/wp-content/uploads/2023/06/articulate-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Doing Things Media",
@@ -4939,7 +5408,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/RDx1pBG.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Per Diem",
@@ -4951,7 +5421,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/603692334b0bfc52d46b3eb8/632b1b3e05d8cb773c803b28_Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Snapchat",
@@ -4965,7 +5436,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2017/08/Snapchat-logo.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Splice",
@@ -4976,7 +5448,8 @@ const TOOLS = [
     ],
     "img": "https://logowik.com/content/uploads/images/splice7428.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Soundcloud",
@@ -4989,7 +5462,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Faceit",
@@ -5000,7 +5474,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.freelogovectors.net/wp-content/uploads/2021/12/faceit-logo-freelogovectors.net_.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "VersusGame",
@@ -5011,7 +5486,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/zSIvOea.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pinterest",
@@ -5024,7 +5500,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pinterest_Logo.svg/1200px-Pinterest_Logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Nas Academy",
@@ -5036,7 +5513,8 @@ const TOOLS = [
     ],
     "img": "https://kadencross.com/wp-content/uploads/2022/05/Nas-Academy-logo-black.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BigRoom",
@@ -5048,7 +5526,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/dxKCEAO.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Hubla",
@@ -5059,7 +5538,8 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/61155779df3cb9f240815607/6206aa98efa43a84b2d43f98_HUBLA%20Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Nifty Gateway",
@@ -5070,7 +5550,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1775936/NG_wordmark_2.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creator Economy NYC",
@@ -5082,7 +5563,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/2ieuyJ8.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Unscreen",
@@ -5094,7 +5576,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/k9WCEPc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Snappa",
@@ -5105,7 +5588,8 @@ const TOOLS = [
     ],
     "img": "https://d2qp0siotla746.cloudfront.net/img/brand-assets/logos/primary-logo-color-black.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dispo",
@@ -5116,7 +5600,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Dispo_logo.svg/2560px-Dispo_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LTK",
@@ -5127,7 +5612,8 @@ const TOOLS = [
     ],
     "img": "https://mms.businesswire.com/media/20230323005041/en/1744003/5/LTK-Logo-Black.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Chord",
@@ -5138,7 +5624,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1471326/CHORD_Black_Logo.jpg?p=twitter",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Courses.so",
@@ -5149,7 +5636,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/EicPIZm.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LinksUp",
@@ -5161,7 +5649,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/6t33E2p.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Captiv8",
@@ -5172,7 +5661,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1533313/Captiv8_Logo.jpg?p=publish",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Workweek",
@@ -5183,7 +5673,8 @@ const TOOLS = [
     ],
     "img": "https://workweek.com/wp-content/uploads/2021/11/workweek-black.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rarible",
@@ -5194,7 +5685,8 @@ const TOOLS = [
     ],
     "img": "https://findvectorlogo.com/wp-content/uploads/2023/03/rarible-inc-vector-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SnapMotion",
@@ -5205,7 +5697,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.neededapps.com/media/public/3e97c5f5-0027-462d-a965-7591a3050928.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mintable",
@@ -5216,7 +5709,8 @@ const TOOLS = [
     ],
     "img": "https://mintable.com/static/media/mintable-logo-new.e2bd394114ffcecad16c.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creative Fabrica",
@@ -5227,7 +5721,8 @@ const TOOLS = [
     ],
     "img": "https://www.creativefabrica.com/wp-content/uploads/2024/01/18/29DaysLove_Homepage_Top-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Milkshake",
@@ -5238,7 +5733,8 @@ const TOOLS = [
     ],
     "img": "https://milkshake.app/wp-content/uploads/2023/03/milkshake_logo_FF4716.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "United Masters",
@@ -5250,7 +5746,8 @@ const TOOLS = [
     ],
     "img": "https://v.fastcdn.co/u/2676f833/62700269-0-1024px-UnitedMasters.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Allstar",
@@ -5261,7 +5758,8 @@ const TOOLS = [
     ],
     "img": "https://resources.esportsinsider.com/esportsinsider/2023/12/Allstar.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kobalt",
@@ -5272,7 +5770,8 @@ const TOOLS = [
     ],
     "img": "https://routenote.com/blog/wp-content/uploads/2022/09/Kobalt-Music-Group-sold-for-a-total-of-1.2-billion-RouteNote-Blog.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cargo",
@@ -5283,7 +5782,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JYLXd1R.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Aria",
@@ -5295,7 +5795,8 @@ const TOOLS = [
     ],
     "img": "https://aria.fm/favicons/ms-icon-70x70.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Slashpage",
@@ -5306,7 +5807,8 @@ const TOOLS = [
     ],
     "img": "https://static.cafenono.com/og/slashpage_og.png?f=jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gatheround",
@@ -5318,7 +5820,8 @@ const TOOLS = [
     ],
     "img": "https://gatheround.com/img/gatheround-name.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Anyone",
@@ -5329,7 +5832,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5JqfqRh.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "4D Sight",
@@ -5340,7 +5844,8 @@ const TOOLS = [
     ],
     "img": "https://4dsight.com/assets/4d-sight.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Domestika",
@@ -5351,7 +5856,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/9213162/bbfd0f7fc1d4da308ccaf71bbb963cee4c61f19c.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Claimd",
@@ -5362,7 +5868,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61f11be5d50b75d175ca86f9/61f12a5daba9887b77ec8842_Group%20244.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Hustle Engine",
@@ -5373,7 +5880,8 @@ const TOOLS = [
     ],
     "img": "https://hustle.amplify.ai/static/img/hustle-engine-logo.png?0823",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Drakula",
@@ -5384,7 +5892,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/H39JqKQ.jpeg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "CommonRoom",
@@ -5395,7 +5904,8 @@ const TOOLS = [
     ],
     "img": "https://mms.businesswire.com/media/20220331005669/en/1406895/23/Common_Room_Logo_for_Media_%281%29.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Toonsutra",
@@ -5406,7 +5916,8 @@ const TOOLS = [
     ],
     "img": "https://i0.wp.com/company.toonsutra.com/wp-content/uploads/2023/08/TOONSUTRA_TRANSPARANT-LOGO-01.png?fit=1024%2C310&ssl=1",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Breeze",
@@ -5418,7 +5929,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/624c7ab499207ddd3696e5b5/6434f1810ef584c19212f58f_Breeze_creators_logo_colour.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MasterClass",
@@ -5431,7 +5943,8 @@ const TOOLS = [
     ],
     "img": "https://seekvectorlogo.com/wp-content/uploads/2022/03/masterclass-vector-logo-2022.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Moonbounce",
@@ -5442,7 +5955,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/UuZ7Ci5.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Songfinch",
@@ -5454,7 +5968,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/57851af46b8f5bfd16e9b270/8e1adc89-759f-4861-84fe-3409df421719/SF-Logo-Transparent.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Passion",
@@ -5468,7 +5983,8 @@ const TOOLS = [
     ],
     "img": "https://www.courseplatformsreview.com/wp-content/uploads/2022/12/passion-io-logo-scaled.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Guestio",
@@ -5480,7 +5996,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/hYMbMx3.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Genies",
@@ -5492,7 +6009,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Genies%2C_Inc_logo.svg/2560px-Genies%2C_Inc_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Curtsy",
@@ -5503,7 +6021,8 @@ const TOOLS = [
     ],
     "img": "https://curtsyapp.com/curtsy/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spotify",
@@ -5515,7 +6034,8 @@ const TOOLS = [
     ],
     "img": "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bunches",
@@ -5527,7 +6047,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Om7K7yI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bitski",
@@ -5538,7 +6059,8 @@ const TOOLS = [
     ],
     "img": "https://asset.brandfetch.io/idZskk8kSJ/idcKMdguQN.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rec Room",
@@ -5550,7 +6072,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/582e7271bebafbd72792bd97/bf633a24-58e0-4702-bff9-47df51fc2d7e/1000_square_stacked.png?format=1500w",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "The Landing",
@@ -5561,7 +6084,8 @@ const TOOLS = [
     ],
     "img": "https://landing.space/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fsrc%2Fassets%2Flogos%2Flogo-global-nav.a7e0953cac53966c5650cfdc3d802e6f.png&w=96&q=75",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Thunder Content",
@@ -5572,7 +6096,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/DyHzUGv.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Takle.io",
@@ -5584,7 +6109,8 @@ const TOOLS = [
     ],
     "img": "https://79c932b4371b3e338f2466f47d057b18.cdn.bubble.io/f1670909810142x275290699916912900/Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Talkshoplive",
@@ -5596,7 +6122,8 @@ const TOOLS = [
     ],
     "img": "https://assets.talkshop.live/images/tsl-logo-talkshoplive_r.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wos",
@@ -5607,7 +6134,8 @@ const TOOLS = [
     ],
     "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/08/0e/ed/080eeda6-51aa-d195-e95e-d8ff8522d140/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/460x0w.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Beloga",
@@ -5618,7 +6146,8 @@ const TOOLS = [
     ],
     "img": "https://storage.googleapis.com/creatorspace-public/users%2Fclq86yw4a001xqo0126dvtjfs%2FFsLmLCMDjy6Q6wGQ-Untitled%2520design%2520(5).png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Screen.Studio",
@@ -5629,7 +6158,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Z7to7Rp.jpg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Slack",
@@ -5640,7 +6170,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BuddyBoss",
@@ -5653,7 +6184,8 @@ const TOOLS = [
     ],
     "img": "https://www.buddyboss.com/wp-content/uploads/2022/04/bb-logo-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pixlr",
@@ -5665,7 +6197,8 @@ const TOOLS = [
     ],
     "img": "https://blog.pixlr.com/wp-content/uploads/2021/12/Full-Colored-Pixlr-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Jitter.Video",
@@ -5676,7 +6209,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JshhfH7.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tubebuddy",
@@ -5689,7 +6223,8 @@ const TOOLS = [
     ],
     "img": "https://www.tubebuddy.com/wp-content/themes/luis/assets/images/logo_light_bg.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Unfold",
@@ -5701,7 +6236,8 @@ const TOOLS = [
     ],
     "img": "https://s.yimg.com/uu/api/res/1.2/F_muIaE0xFexjyG1nFs7rA--~B/aD0yMzA0O3c9NTI1NjthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-02/7f32de40-3604-11e9-92fd-a0747cc1e137",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Afterlight",
@@ -5712,7 +6248,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/pHprMf6.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Facetune",
@@ -5723,7 +6260,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/650865454c2393ac25711ff2/650865454c2393ac25712536_Facetune-black-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "VSCO",
@@ -5734,7 +6272,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2022/09/VSCO-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Huji",
@@ -5745,7 +6284,8 @@ const TOOLS = [
     ],
     "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/75/e7/ba/75e7ba82-ad65-f65b-efa5-f9fd7951462d/AppIcon-0-1x_U007emarketing-0-85-220-0-7.png/460x0w.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Afluencer",
@@ -5756,7 +6296,8 @@ const TOOLS = [
     ],
     "img": "https://peertopeermarketing.co/wp-content/uploads/2021/12/Afluencer-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Exly",
@@ -5769,7 +6310,8 @@ const TOOLS = [
     ],
     "img": "https://www.medianews4u.com/wp-content/uploads/2021/10/Backed-by-Y-Combinator-Exly-aims-to-acquire-1-million-creators.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "EzyCourse",
@@ -5781,7 +6323,8 @@ const TOOLS = [
     ],
     "img": "https://letcheck.b-cdn.net/ezycourseAssets/ezycourse_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Taplio",
@@ -5794,7 +6337,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/647daf37f31ac13e5d14bb03/64fec04fb2b752f61f789376_taplio.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HypeFury",
@@ -5807,7 +6351,8 @@ const TOOLS = [
     ],
     "img": "https://hypefury.com/wp-content/uploads/2021/08/Website-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tweepsmap",
@@ -5819,7 +6364,8 @@ const TOOLS = [
     ],
     "img": "https://fedica.com/c/images/static/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Twitonomy",
@@ -5831,7 +6377,8 @@ const TOOLS = [
     ],
     "img": "https://www.twitonomy.com/images/logo_300x105.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Buffer",
@@ -5844,7 +6391,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2022/05/Buffer-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vizcom",
@@ -5855,7 +6403,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/J2avilA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Typefully",
@@ -5868,7 +6417,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61cd557c4e697c73451e1e6c/63796c874ada24c9409fa646_typefully%20logo-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SocialBee",
@@ -5881,7 +6431,8 @@ const TOOLS = [
     ],
     "img": "https://socialbee.com/wp-content/themes/socialbee/resources/logo-socialbee.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "CreatorIQ",
@@ -5893,7 +6444,8 @@ const TOOLS = [
     ],
     "img": "https://mms.businesswire.com/media/20220113005132/en/1326703/22/CreatorIQ_Logo.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Audience Republic",
@@ -5905,7 +6457,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/603b6e55cdeb027114d8961c/603c2ec716b10d64db615312_Audience-Republic-Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "E-Junkie",
@@ -5916,7 +6469,8 @@ const TOOLS = [
     ],
     "img": "https://us-rd.gr-cdn.com/800x/https://us-wd.gr-cdn.com/integrations2/sites/10/2020/12/1326/e-junkie.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lemonsqueezy",
@@ -5928,7 +6482,8 @@ const TOOLS = [
     ],
     "img": "https://i.ytimg.com/vi/wcFSb5EMiI0/maxresdefault.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TextCortex",
@@ -5939,7 +6494,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/622611a2b23d0e1ab20fba78/63ca62820b4fe017cb951544_textcortex-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Whop",
@@ -5950,7 +6506,8 @@ const TOOLS = [
     ],
     "img": "https://whop.com/v2/whop.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Theoasis",
@@ -5961,7 +6518,8 @@ const TOOLS = [
     ],
     "img": "https://www.theoasis.com/assets/logo-black2.142ff5bc.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Printify",
@@ -5972,7 +6530,8 @@ const TOOLS = [
     ],
     "img": "https://logowik.com/content/uploads/images/printify5383.logowik.com.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cosmofeed",
@@ -5985,7 +6544,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1767750/Cosmofeed_Logo.jpg?p=facebook",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Typli.ai",
@@ -5996,7 +6556,8 @@ const TOOLS = [
     ],
     "img": "https://typli.ai/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wellsaidlabs",
@@ -6007,7 +6568,8 @@ const TOOLS = [
     ],
     "img": "https://wellsaidlabs.com/wp-content/uploads/2022/03/mark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Elenas",
@@ -6018,7 +6580,8 @@ const TOOLS = [
     ],
     "img": "https://www.elenas.co/wp-content/uploads/2023/11/cropped-LOGOS-07.webp",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "HYPD",
@@ -6030,7 +6593,8 @@ const TOOLS = [
     ],
     "img": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fe63546b00382b21b8ca28ba1e0593d1f.cdn.bubble.io%2Ff1653988764644x267617725236427360%2FHypd.png?w=&h=&auto=compress&dpr=1&fit=max",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MintGate",
@@ -6042,7 +6606,8 @@ const TOOLS = [
     ],
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBttE4CjeLxjlLYV1PP66XPZw_WuPWCHkp0vXccyjB&s",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tweet Hunter",
@@ -6053,7 +6618,8 @@ const TOOLS = [
     ],
     "img": "https://res.cloudinary.com/helpkit/image/upload/v1670466671/tweethunter_logo_light_7c8ec25fd5.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "VanceAI",
@@ -6064,7 +6630,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/msehfdC.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Voicemaker",
@@ -6075,7 +6642,8 @@ const TOOLS = [
     ],
     "img": "https://voicemaker.in/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Website Planet",
@@ -6086,7 +6654,8 @@ const TOOLS = [
     ],
     "img": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/08/image13.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Webullar",
@@ -6098,7 +6667,8 @@ const TOOLS = [
     ],
     "img": "https://www.webullar.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.671a33be.png&w=1080&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "xpression camera",
@@ -6109,7 +6679,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/9yHTfer.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "YouTube Summary with ChatGPT",
@@ -6120,7 +6691,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Glasp_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "OnJuno",
@@ -6131,7 +6703,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.juno.finance/company-assets/juno-logo-combined.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sonomo",
@@ -6143,7 +6716,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/63288b9bee80fb39ef1f43f9/63288b9bee80fb45b21f447e_Logo_Sonomo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Trubify",
@@ -6155,7 +6729,8 @@ const TOOLS = [
     ],
     "img": "https://trubify.com/wp-content/uploads/2022/06/cropped-tru-favicon-22.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "WordAi",
@@ -6166,7 +6741,8 @@ const TOOLS = [
     ],
     "img": "https://wordai.com/images/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wepik",
@@ -6177,7 +6753,8 @@ const TOOLS = [
     ],
     "img": "https://content.wepik.com/media/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "VersoView",
@@ -6189,7 +6766,8 @@ const TOOLS = [
     ],
     "img": "https://pbs.twimg.com/profile_images/1202203989506478085/HkfxEtWh_400x400.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Caffeine",
@@ -6201,7 +6779,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.buttercms.com/V63HdSvmTGuoGQUfBkQO",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Livepeer",
@@ -6212,7 +6791,8 @@ const TOOLS = [
     ],
     "img": "https://logowik.com/content/uploads/images/livepeer-lpt-coin7356.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "The Plug",
@@ -6223,7 +6803,8 @@ const TOOLS = [
     ],
     "img": "https://plugco.in/static/img/headerLogo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "PopularPays",
@@ -6234,7 +6815,8 @@ const TOOLS = [
     ],
     "img": "https://popularpays.com/wp-content/themes/popularpays/source/images/page-builder/popularpays-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Revue",
@@ -6245,7 +6827,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qe8eNQn.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Collab.Land",
@@ -6257,7 +6840,8 @@ const TOOLS = [
     ],
     "img": "https://ml.globenewswire.com/Resource/Download/f5dba20a-ed69-4c1f-9bda-9cb5b83ccf8b",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "WebCopilot",
@@ -6268,7 +6852,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/KDM0oBv.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bonfire",
@@ -6279,7 +6864,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bonfire-primary-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bullieverse",
@@ -6290,7 +6876,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/1wvDK7A.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Looka",
@@ -6301,7 +6888,8 @@ const TOOLS = [
     ],
     "img": "https://looka.com/wp-content/themes/looka/images/logos/looka_logo_black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Compose.ai",
@@ -6313,7 +6901,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/601176a2e3b45908f0088112/62a6fe7961f5b6549f201e36_img_logo_compose_ai_light.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Flowrite",
@@ -6325,7 +6914,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5f59c28a9ccb43847f62c5fe/65267c94786f099f6a4ed2d0_Frame%201791%20(1).png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Portaly",
@@ -6337,7 +6927,8 @@ const TOOLS = [
     ],
     "img": "https://portaly.cc/_next/static/media/logo-color.4c13c24f.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vimma",
@@ -6348,7 +6939,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/83DVJLw.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Bambuser",
@@ -6360,7 +6952,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/k3kN6pU.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lalabox",
@@ -6371,7 +6964,8 @@ const TOOLS = [
     ],
     "img": "https://lalabox.io/img/logo_2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "10 Web",
@@ -6383,7 +6977,8 @@ const TOOLS = [
     ],
     "img": "https://europe.wordcamp.org/2021/files/2021/05/wceu2021-sponsor-10web.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Brandwatch",
@@ -6395,7 +6990,8 @@ const TOOLS = [
     ],
     "img": "https://www.library.ucsb.edu/sites/default/files/brandwatch.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creator.co",
@@ -6407,7 +7003,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qyX3YRd.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Influencity",
@@ -6419,7 +7016,8 @@ const TOOLS = [
     ],
     "img": "https://influencermarketinghub.com/wp-content/uploads/2020/02/Influencity_Logo_RGB.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Klear",
@@ -6430,7 +7028,8 @@ const TOOLS = [
     ],
     "img": "https://klear.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fklear-logo.71a5394f.png&w=1080&q=100",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rapidely",
@@ -6441,7 +7040,8 @@ const TOOLS = [
     ],
     "img": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F70b2ba838de3a7fc80fc15675915abad.cdn.bubble.io%2Ff1697881007103x938085505351135000%2Fsparklrapidely_black_big.png?w=192&h=54&auto=compress&dpr=2&fit=max",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tagger Media",
@@ -6452,7 +7052,8 @@ const TOOLS = [
     ],
     "img": "https://imtb.org.uk/wp-content/uploads/2023/08/tagger-by-sprout-social-horizontal-dark.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Softr",
@@ -6464,7 +7065,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/eYFgoGo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Glide",
@@ -6476,7 +7078,8 @@ const TOOLS = [
     ],
     "img": "https://digital-expert.online/images/soft/glideapps.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Adalo",
@@ -6488,7 +7091,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5d123a0e13543973a9665271/5d123bef06b9a863a21eefa0_Adalo-Logo-Large-Transparent.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Feedly",
@@ -6500,7 +7104,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/jzyORwo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Buzzsumo",
@@ -6511,7 +7116,8 @@ const TOOLS = [
     ],
     "img": "https://growthsupermarket.com/wp-content/uploads/2018/06/Buzzsumo-logo-e1529905884243.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "RunwayML",
@@ -6524,7 +7130,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/yLMopH1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Slip Stream",
@@ -6535,7 +7142,8 @@ const TOOLS = [
     ],
     "img": "https://d2l2bio4w79xfz.cloudfront.net/assets/metatags_default_image.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MixKit",
@@ -6546,7 +7154,8 @@ const TOOLS = [
     ],
     "img": "https://mixkit.imgix.net/mixkit-social-meta.png?q=80&auto=format%2Ccompress",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zyro",
@@ -6557,7 +7166,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Zyro_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Writesonic",
@@ -6569,7 +7179,8 @@ const TOOLS = [
     ],
     "img": "https://taalk.com/wp-content/uploads/2021/06/logo-10.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wordtune",
@@ -6581,7 +7192,8 @@ const TOOLS = [
     ],
     "img": "https://logowik.com/content/uploads/images/wordtune5989.logowik.com.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wordplay.ai",
@@ -6593,7 +7205,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/jgvw0AF.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Motom",
@@ -6604,7 +7217,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/9574496/18d4833501b6db8dcf05ab089f55c7b1c6db6990.JPG",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Makeship",
@@ -6615,7 +7229,8 @@ const TOOLS = [
     ],
     "img": "https://theme.zdassets.com/theme_assets/9818450/f06577d9c86c9cfc06289f8f0949dca043cab3bb.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Elopage",
@@ -6627,7 +7242,8 @@ const TOOLS = [
     ],
     "img": "https://portal2.elopage.com/wp-content/uploads/2022/12/Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Textomap",
@@ -6638,7 +7254,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/MPPyuGF.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Digistore24",
@@ -6650,7 +7267,8 @@ const TOOLS = [
     ],
     "img": "https://www.digistore24.com/pb/webinc/f3d00962/images/brand/digistore/logo/logo_wide.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Veed",
@@ -6662,7 +7280,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.freelogovectors.net/wp-content/uploads/2022/06/veed_io_logo-freelogovectors.net_.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Notion4teachers",
@@ -6673,7 +7292,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Jeu6qAd.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wistia",
@@ -6685,7 +7305,8 @@ const TOOLS = [
     ],
     "img": "https://getvectorlogo.com/wp-content/uploads/2019/09/wistia-vector-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "WebinarJam",
@@ -6696,7 +7317,8 @@ const TOOLS = [
     ],
     "img": "https://d1aettbyeyfilo.cloudfront.net/GenesisDigital/7231451_1578049296233logo-WJ-color.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Unsplash",
@@ -6707,7 +7329,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Unsplash_wordmark_logo.svg/2560px-Unsplash_wordmark_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Convosight",
@@ -6718,7 +7341,8 @@ const TOOLS = [
     ],
     "img": "https://www.convosight.com/images/convosight_logo_h227lx.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Memberup",
@@ -6729,7 +7353,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.theorg.com/55d3df10-7269-46e9-a71e-4b69c52a2848_medium.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Frond",
@@ -6740,7 +7365,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GVnKOlH.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HeySummit",
@@ -6751,7 +7377,8 @@ const TOOLS = [
     ],
     "img": "https://heysummit.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fheysummit-logo.31fb46f6.png&w=1920&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Livestorm",
@@ -6763,7 +7390,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/UbZ2aFU.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mentimeter",
@@ -6774,7 +7402,8 @@ const TOOLS = [
     ],
     "img": "https://images.ctfassets.net/p03bi75xct27/5U9o7E54USEN8oeqtS8pWx/e647dfb4160a306b7297ac6397b02b16/Mentimeter_Branding_Logo_2020_RGB-10-v2-scaled.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Remo",
@@ -6786,7 +7415,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/602a043c2c042218db3b0851/62559b4e855ccf14737c93f9_Remo%20Logo%20Vector.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Streamyard",
@@ -6798,7 +7428,8 @@ const TOOLS = [
     ],
     "img": "https://streamyard.com/next-static/_next/static/images/combination_231x41-f03aded2a495c253eef1896e22147302.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kick",
@@ -6811,7 +7442,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kick_logo.svg/2560px-Kick_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Brella",
@@ -6823,7 +7455,8 @@ const TOOLS = [
     ],
     "img": "https://getlogo.net/wp-content/uploads/2019/12/brella-io-logo-vector.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Keyhole",
@@ -6835,7 +7468,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/DcAhNrI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Amity",
@@ -6847,7 +7481,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5eddccffdb3c6a27f79757c1/5eeb0be6ba225a23e09b0a80_amity-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Backspace",
@@ -6859,7 +7494,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61e5d986620ad059a04a1c6c/6285deb006f2da10f341187f_logo%20cutout%20perfectly%20black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gradual",
@@ -6871,7 +7507,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/PFSYmI1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Heartbeat",
@@ -6884,7 +7521,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61096122507f250678302b22/610961f2afc6c16cb7d516ae_Color-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hall",
@@ -6895,7 +7533,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ehOaiEP.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pensil",
@@ -6906,7 +7545,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/615a8096dd69ecb979d5ea68/61603eebe2de9c6ea99ba69a_pensil%20logo%20svg.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vito",
@@ -6917,7 +7557,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/c69W6Ay.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Habitate",
@@ -6928,7 +7569,8 @@ const TOOLS = [
     ],
     "img": "https://www.habitate.io/_nuxt/img/logo.14c1960.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ramen Life",
@@ -6939,7 +7581,8 @@ const TOOLS = [
     ],
     "img": "https://dwvfu7v8wlua7.cloudfront.net/d79ce779-2e76-4601-907a-eb9ff4d0fcec_RamenLifeLogo-Square.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Haaartland",
@@ -6951,7 +7594,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61e814562110106a7c661724/61e91776b0c7aebda5c43b56_logotype-horizontal-black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hylo",
@@ -6962,7 +7606,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AONnS8p.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Beam",
@@ -6973,7 +7618,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/608af673fad756886425a07b/608af9177ed276ca09c5a220_Logo%20Black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kartra",
@@ -6984,7 +7630,8 @@ const TOOLS = [
     ],
     "img": "https://d1aettbyeyfilo.cloudfront.net/Kartra/364372846747Kartra-official-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "GroupApp",
@@ -6997,7 +7644,8 @@ const TOOLS = [
     ],
     "img": "https://i0.wp.com/www.group.app/wp-content/uploads/2023/03/cropped-2a-rgb-.webp?w=391&ssl=1",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "GroupSite",
@@ -7010,7 +7658,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/26Vb64D.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Guilded",
@@ -7023,7 +7672,8 @@ const TOOLS = [
     ],
     "img": "https://i.pcmag.com/imagery/reviews/05z8OSQvG8PugS27YqTfDki-1..v1632333643.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Superwave",
@@ -7036,7 +7686,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64542b3da5b3595f86809d34/645bf63495abf924b35c8b58_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Graphy",
@@ -7049,7 +7700,8 @@ const TOOLS = [
     ],
     "img": "https://images.softwaresuggest.com/software_logo/1643786648_graphy_transparent.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Nas.io",
@@ -7062,7 +7714,8 @@ const TOOLS = [
     ],
     "img": "https://d2oi1rqwb0pj00.cloudfront.net/nd/svg/nasio_dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Brandmark",
@@ -7073,7 +7726,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/xOfz4sC.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Movement",
@@ -7086,7 +7740,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/NS94a1A.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TheHuddle",
@@ -7099,7 +7754,8 @@ const TOOLS = [
     ],
     "img": "https://media-01.imu.nl/storage/thehuddle.nl/28/huddle-e-learning-en-community-software.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Aluminati",
@@ -7112,7 +7768,8 @@ const TOOLS = [
     ],
     "img": "https://www.aluminati.net/wp-content/uploads/2021/06/logo-mobile-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dazzlink",
@@ -7123,7 +7780,8 @@ const TOOLS = [
     ],
     "img": "https://dazzl.ink/assets/images/dazzlink-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mesh",
@@ -7136,7 +7794,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/62d6ad51989b065fc1561b49/23aa237a-64a7-4289-a810-d15cf2d39bba/Mesh+Logo+Horizontal%402x.png?format=1500w",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kommunity",
@@ -7147,7 +7806,8 @@ const TOOLS = [
     ],
     "img": "https://kommunity.com/img/kommunity-logo-script-1200x630.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Andi",
@@ -7158,7 +7818,8 @@ const TOOLS = [
     ],
     "img": "https://bookface-images.s3.amazonaws.com/logos/dfd2443343f5af1e6a45fe931fa45b73ad024966.png?1661892924",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LikeMinds",
@@ -7169,7 +7830,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64e4e4744d3f3cf2831cfbff/64e5ba33808d5d4f819a737b_LikeMinds-logo-green.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "UnaCMS",
@@ -7180,7 +7842,8 @@ const TOOLS = [
     ],
     "img": "https://us-east-1.linodeobjects.com/una/sys_images_custom/wihkj9sjweqfqv6uw75ym5perrmghlft.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Eventbrite",
@@ -7191,7 +7854,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Eventbrite_Logo.svg/1280px-Eventbrite_Logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pory",
@@ -7203,7 +7867,8 @@ const TOOLS = [
     ],
     "img": "https://pory.io/pory-logo-symbol.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "WooCommerce",
@@ -7216,7 +7881,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2a/WooCommerce_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Adobe Podcast",
@@ -7228,7 +7894,8 @@ const TOOLS = [
     ],
     "img": "https://intelarter.com/wp-content/uploads/2023/05/Adobe-podcast-logo-1024x538.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AdZis App",
@@ -7239,7 +7906,8 @@ const TOOLS = [
     ],
     "img": "https://adzis.com/hub/wp-content/uploads/2018/12/new-logo-long-words.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Linklab",
@@ -7250,7 +7918,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/6XWZYig.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "FansMine",
@@ -7263,7 +7932,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/rdtndCD.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI Image Enlarger",
@@ -7274,7 +7944,8 @@ const TOOLS = [
     ],
     "img": "https://imglarger.com/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Indiepage",
@@ -7285,7 +7956,8 @@ const TOOLS = [
     ],
     "img": "https://indiepa.ge/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.da7805e6.png&w=640&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI Social Bio",
@@ -7296,7 +7968,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/QpImWJ3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Predis.ai",
@@ -7308,7 +7981,8 @@ const TOOLS = [
     ],
     "img": "https://predis.ai/assets/img/predis_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI-Writer",
@@ -7319,7 +7993,8 @@ const TOOLS = [
     ],
     "img": "https://wpism.com/wp-content/uploads/AI-Writer-Logo-Official-Colour.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI2image",
@@ -7330,7 +8005,8 @@ const TOOLS = [
     ],
     "img": "https://assets.softr-files.com/applications/aa2239db-84f4-49f5-8a98-3840a7879465/assets/32b3ed26-65f6-460c-a350-2050ae899a3e.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI SEO",
@@ -7341,7 +8017,8 @@ const TOOLS = [
     ],
     "img": "https://aiseo.ai/assets/images/aiseoMainLogo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Quintly",
@@ -7352,7 +8029,8 @@ const TOOLS = [
     ],
     "img": "https://www.quintly.com/hubfs/quintly_by_facelift_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI SEO Art",
@@ -7363,7 +8041,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ey8Wxq3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Aiva",
@@ -7374,7 +8053,8 @@ const TOOLS = [
     ],
     "img": "https://www.aiva.ai/assets/img/aiva_logo_2.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Anonymizer",
@@ -7385,7 +8065,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/vGtLo9c.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cloutdesk",
@@ -7396,7 +8077,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/62d9cca186fbe4be1f1f9a9a/62edd3db0e99ef5944e98ba4_cloutdesk-logo-black.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "AppyPie",
@@ -7407,7 +8089,8 @@ const TOOLS = [
     ],
     "img": "https://images.appypie.com/wp-content/uploads/2020/04/01135233/appypie-website.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Artbreeder",
@@ -7418,7 +8101,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/DzMx9Cu.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Daily",
@@ -7429,7 +8113,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/IkrjdKs.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Artistator",
@@ -7440,7 +8125,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/mRrp7mz.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bildr",
@@ -7453,7 +8139,8 @@ const TOOLS = [
     ],
     "img": "https://documents-scus.bildr.com/bildr2ac3ef7a68e34896b1c2c2f93c0b6addrev1020/doc/Bildr%20Logo%20Dark.6nUAZcIVpUCbziHdp2caew.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Matcha",
@@ -7464,7 +8151,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/sF1ifBJ.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "ArtroomAI",
@@ -7475,7 +8163,8 @@ const TOOLS = [
     ],
     "img": "https://artroom.ai/images/logo_full.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Namy AI",
@@ -7487,7 +8176,8 @@ const TOOLS = [
     ],
     "img": "https://namy.ai/static/img/logo_wide.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "AssetsAI",
@@ -7498,7 +8188,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Blk93d1.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Astria",
@@ -7509,7 +8200,8 @@ const TOOLS = [
     ],
     "img": "https://ambcrypto.com/blog/wp-content/uploads/2023/06/Web_Photo_Editor-1-5.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Audio Strip",
@@ -7521,7 +8213,8 @@ const TOOLS = [
     ],
     "img": "https://audiostripcdnendpoint.azureedge.net/static/media/audiostrip-logo.c2206d9cd9b91053e4fc86ca208dc3b6.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AutoRetouch",
@@ -7532,7 +8225,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/MHo4kmk.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Avatar AI",
@@ -7543,7 +8237,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Ajm12JZ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AVC AI",
@@ -7554,7 +8249,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Oa5u8uk.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BlogNLP",
@@ -7565,7 +8261,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/YFIq4kH.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Boomy",
@@ -7576,7 +8273,8 @@ const TOOLS = [
     ],
     "img": "https://webshoptiger.com/wp-content/uploads/2023/12/12e5c254b9b12a6343c7bb4c9988399aa4a167e0.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bearly.ai",
@@ -7587,7 +8285,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/05sn0kC.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Beautiful AI",
@@ -7598,7 +8297,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/59deb588800ae30001ec19c9/5d0bc991c864410c5ad87931_logo-new.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tiles",
@@ -7609,7 +8309,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5b6zZFd.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bertha.ai",
@@ -7620,7 +8321,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/w7CRpE3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Absorb",
@@ -7633,7 +8335,8 @@ const TOOLS = [
     ],
     "img": "https://i.pcmag.com/imagery/reviews/04D2d426kN3wom0yVnSXVi6-3..v1573002842.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BHuman",
@@ -7644,7 +8347,8 @@ const TOOLS = [
     ],
     "img": "https://images.saasworthy.com/bhumanai_40678_logo_1680162683_cip8h.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Podcastle",
@@ -7656,7 +8360,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/QJ9ZzEi.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MONET",
@@ -7667,7 +8372,8 @@ const TOOLS = [
     ],
     "img": "https://static.otta.com/uploads/images/company-logos/yh3HvSH_NWH6l2LuGclCN12nJGbyNlIpO1w9Wic7Ug4.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BrandMentions",
@@ -7678,7 +8384,8 @@ const TOOLS = [
     ],
     "img": "https://cdn-images-1.medium.com/v2/resize:fit:980/1*oWVKJaLDWda0Q8XGGvjLEg@2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gamma",
@@ -7690,7 +8397,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/62e823626cd4fdd0e5dc1527/62e823626cd4fdc26bdc1576_Gamma.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Browse AI",
@@ -7701,7 +8409,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/vzURnJM.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ChatGPT",
@@ -7712,7 +8421,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5b105a0c66f2f636c7884a17/64063dbcad97bd421b437096_chatgpt.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bruqi",
@@ -7723,7 +8433,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/641b0adb66297c46df6903cb/641b0b271794fb1c13c51add_Bruqi%20Purple%40256x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Claid.ai",
@@ -7734,7 +8445,8 @@ const TOOLS = [
     ],
     "img": "https://claid.ai/static/c20b56b4962276003ac2d15477e086ff/Logo_footer_inline_b9891b726e.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cleanvoice AI",
@@ -7745,7 +8457,8 @@ const TOOLS = [
     ],
     "img": "https://cleanvoice.ai/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fundmates",
@@ -7756,7 +8469,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/pRghXpQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Viralmoment",
@@ -7768,7 +8482,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/E5vzPsC.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Closers Copy",
@@ -7779,7 +8494,8 @@ const TOOLS = [
     ],
     "img": "https://www.closerscopy.com/img/welcome/logo-black-600px.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cogniflow",
@@ -7790,7 +8506,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/60510407e7726b268293da1c/60b004c29747724a369533e9_opcion%201%20svg.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Viral Nation",
@@ -7801,7 +8518,8 @@ const TOOLS = [
     ],
     "img": "https://mms.businesswire.com/media/20220412005116/en/1417311/23/ViralNation_Logo_2022_black_600px_W_%28002%29.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Consensus",
@@ -7813,7 +8531,8 @@ const TOOLS = [
     ],
     "img": "https://consensus.app/home/wp-content/themes/confluance/images/redesign/home/logo-full.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kortex",
@@ -7826,7 +8545,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/gsC21AB.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Clickable",
@@ -7837,7 +8557,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ddlLta3.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Classplus",
@@ -7850,7 +8571,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GJpDlyc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Copy AI",
@@ -7861,7 +8583,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/659e8f4c92a0028e36e42623_logo_kerning-fix.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Enterpix",
@@ -7872,7 +8595,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/VA8XeHa.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pillar",
@@ -7885,7 +8609,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64388e0ccc6e3bb8de54f1b5/644238d04ad193442407214f_Pillar%20Logo%20Purple.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TopMate",
@@ -7896,7 +8621,8 @@ const TOOLS = [
     ],
     "img": "https://topmate.io/_next/image?url=%2Fimages%2Fcommon%2Ftopmate-light.svg&w=640&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Word Counter",
@@ -7908,7 +8634,8 @@ const TOOLS = [
     ],
     "img": "https://wordcounter.net/images/wc-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Focus Booster",
@@ -7919,7 +8646,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.www.focusboosterapp.com/wsimages/fb-logo-2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cowriter",
@@ -7931,7 +8659,8 @@ const TOOLS = [
     ],
     "img": "https://ph-files.imgix.net/99755859-7374-4640-be6f-62daef5a58e4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&bg=0fff&dpr=2",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Craiyon",
@@ -7942,7 +8671,8 @@ const TOOLS = [
     ],
     "img": "https://i0.wp.com/techtips.eglibrary.org/wp-content/uploads/2022/07/craiyonlogo.png?fit=680%2C383&ssl=1",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Artlist",
@@ -7953,7 +8683,8 @@ const TOOLS = [
     ],
     "img": "https://asset.brandfetch.io/idk5Xla0C6/id9si0vDGc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "CSM",
@@ -7964,7 +8695,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/HSPpoI4TLeAVs2Lj9kAwhyVDN20.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Jingle.bio",
@@ -7976,7 +8708,8 @@ const TOOLS = [
     ],
     "img": "https://earlyshark.com/wp-content/uploads/2023/12/jingle-bio.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Designify",
@@ -7988,7 +8721,8 @@ const TOOLS = [
     ],
     "img": "https://www.designify.com/designify_logo_color_dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Designs.ai",
@@ -8000,7 +8734,8 @@ const TOOLS = [
     ],
     "img": "https://assets.designs.ai/images/logo.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Shottr",
@@ -8012,7 +8747,8 @@ const TOOLS = [
     ],
     "img": "https://shottr.cc/assets/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "DoNotPay",
@@ -8024,7 +8760,8 @@ const TOOLS = [
     ],
     "img": "https://images.prismic.io/contrary-research/0eaa3963-2a4e-4084-93e7-c56559a769ef_5.png?auto=compress,format",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Opal",
@@ -8035,7 +8772,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5ffc51a847b677701a3da52b/652f84c6fe757b639a50e0b2_Frame%20Antoine%20Design.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dream By Wombo",
@@ -8047,7 +8785,8 @@ const TOOLS = [
     ],
     "img": "https://dream.ai/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "getimg.ai",
@@ -8058,7 +8797,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/zkxQRNM.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Eightify",
@@ -8069,7 +8809,8 @@ const TOOLS = [
     ],
     "img": "https://eightify.app/landing/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Creator Genesis",
@@ -8080,7 +8821,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/lpJ8HrX.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TippTree",
@@ -8092,7 +8834,8 @@ const TOOLS = [
     ],
     "img": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3d29ad9fcf1a901427484e39d00ea8bd.cdn.bubble.io%2Ff1700844374495x720639609496512400%2FTipptree.png?w=256&h=86&auto=compress&dpr=2&fit=max",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Dream Up",
@@ -8103,7 +8846,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AhUjqN7.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dream.page",
@@ -8114,7 +8858,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/EJFxRHB.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fullscore",
@@ -8126,7 +8871,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/IlXaI1q.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dubverse",
@@ -8138,7 +8884,8 @@ const TOOLS = [
     ],
     "img": "https://dubverse.ai/wp-content/uploads/2021/02/Dubverse-Online-Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TagMango",
@@ -8151,7 +8898,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/63e9e777ca756dd1bcd0e4d1/63ea22d3057bfd64641683e8_tagmango-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ytjobs.co",
@@ -8162,7 +8910,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/63369e42a9242ed78a19381f/64c27b4fe41fd8cc855a3e0e_Group-3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Easy-Peasy.AI",
@@ -8173,7 +8922,8 @@ const TOOLS = [
     ],
     "img": "https://easy-peasy.ai/_next/image?url=%2Fimages%2Fmarky.png&w=640&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Elai.io",
@@ -8184,7 +8934,8 @@ const TOOLS = [
     ],
     "img": "https://seeklogo.com/images/E/elai-logo-519395CD5C-seeklogo.com.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sulico",
@@ -8197,7 +8948,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64ebc2fb0f9044a1a9171cdd/65085401b5f733c86fe9789d_Logo-p-500.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fathom",
@@ -8208,7 +8960,8 @@ const TOOLS = [
     ],
     "img": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/dsaldesiahl4j0vgdlga",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fliki",
@@ -8220,7 +8973,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GCcdxi7.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "FontJoy",
@@ -8231,7 +8985,8 @@ const TOOLS = [
     ],
     "img": "https://www.designupai.com/wp-content/uploads/2023/10/Fontjoy-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "For the Wall",
@@ -8244,7 +8999,8 @@ const TOOLS = [
     ],
     "img": "https://forthewall.art/facebook.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fotor",
@@ -8256,7 +9012,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/5/53/Fotor_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fronty",
@@ -8268,7 +9025,8 @@ const TOOLS = [
     ],
     "img": "https://fronty.com/static/img/fronty-logo-light.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Genei",
@@ -8280,7 +9038,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5fbbb0e57743e4306afe096a/5fbbb0e57743e40081fe09a2_genei-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Generated Photos",
@@ -8292,7 +9051,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/r18OTnV.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Getalpaca",
@@ -8304,7 +9064,8 @@ const TOOLS = [
     ],
     "img": "https://alpacaml.com/static/logo-lg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "GPT-Prompter",
@@ -8315,7 +9076,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/HvNf1xv.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Harmonai",
@@ -8327,7 +9089,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/62b318b33406753bcd6a17a5/42e81c45-42aa-4d0e-a385-0b9ae7685bc1/Transparent_Harmonai+Logo-02+%281%29.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Commenter",
@@ -8340,7 +9103,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/t8IX8sr.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HelloScribe",
@@ -8351,7 +9115,8 @@ const TOOLS = [
     ],
     "img": "https://res.cloudinary.com/usertake/image/upload/v1/logos/u0ayl1o5emqjwpsbx9q5g9dpe0nx",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Gleam",
@@ -8362,7 +9127,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:940/1*QghGDBroILvMIQUoXcYTqw.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HeroPack",
@@ -8373,7 +9139,8 @@ const TOOLS = [
     ],
     "img": "https://www.heropack.me/img/HeroPack%203D%20Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Heyday",
@@ -8385,7 +9152,8 @@ const TOOLS = [
     ],
     "img": "https://www.hootsuite.com/images/owly-symbol-saffron.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fast Reply",
@@ -8398,7 +9166,8 @@ const TOOLS = [
     ],
     "img": "https://fastreply.io/wp-content/uploads/2023/03/logo-FR-blackblue.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hotpot.ai",
@@ -8409,7 +9178,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:1156/0*hyUnhtj6lbGPas3Y",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hourone",
@@ -8421,7 +9191,8 @@ const TOOLS = [
     ],
     "img": "https://hourone.ai/wp-content/uploads/2023/08/Logo-White-footer.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HyperWrite",
@@ -8432,7 +9203,8 @@ const TOOLS = [
     ],
     "img": "https://venturebeat.com/wp-content/uploads/2023/04/Untitled-design-43.png?w=1200&strip=all",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hypotenuse AI",
@@ -8443,7 +9215,8 @@ const TOOLS = [
     ],
     "img": "https://protege.vc/wp-content/uploads/2021/01/Hypotenuse.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Jasper",
@@ -8454,7 +9227,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/60e5f2de011b86acebc30db7/64494a8998f3226445697d4b_Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kafkai",
@@ -8465,7 +9239,8 @@ const TOOLS = [
     ],
     "img": "https://kafkai.com/static/images/kai_logo_sm.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Katteb",
@@ -8476,7 +9251,8 @@ const TOOLS = [
     ],
     "img": "https://www.flat6labs.com/wp-content/uploads/2022/12/5-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Khroma",
@@ -8488,7 +9264,8 @@ const TOOLS = [
     ],
     "img": "https://aifor.marketing/wp-content/uploads/2023/06/52.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kive",
@@ -8500,7 +9277,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/HBPPUOe5Jl992WBpcDJh64zi7Q.png?scale-down-to=512",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Leawo PhotoIns",
@@ -8512,7 +9290,8 @@ const TOOLS = [
     ],
     "img": "https://www.leawo.org/images/icon/org-mobile/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Legal Robot",
@@ -8523,7 +9302,8 @@ const TOOLS = [
     ],
     "img": "https://www.artificiallawyer.com/wp-content/uploads/2016/11/screen-shot-2016-11-03-at-08-02-15.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lensa",
@@ -8535,7 +9315,8 @@ const TOOLS = [
     ],
     "img": "https://prisma-ai.com/images/logo-s.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Let’s Enhance",
@@ -8547,7 +9328,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Wciut4V.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lex",
@@ -8559,7 +9341,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/CprbmzV.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Luminar AI",
@@ -8571,7 +9354,8 @@ const TOOLS = [
     ],
     "img": "https://fotografieploegmv.b-cdn.net/wp-content/uploads/2020/11/Luminar-AI-logo-horizontal-black-1024x367.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Icons8 Lunacy",
@@ -8583,7 +9367,8 @@ const TOOLS = [
     ],
     "img": "https://blog.icons8.com/wp-content/uploads/2020/02/lunacy-design-software-1.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mage",
@@ -8594,7 +9379,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/cOnP5uz.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Magic AI Avatars",
@@ -8605,7 +9391,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/8hJxqaT.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Profile Picture Al",
@@ -8616,7 +9403,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/VgCfaYS.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Magic Eraser",
@@ -8627,7 +9415,8 @@ const TOOLS = [
     ],
     "img": "https://meta.magicstudio.com/assets/me-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "MakeLogo",
@@ -8638,7 +9427,8 @@ const TOOLS = [
     ],
     "img": "https://makelogo.ai/social-share.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Maverick",
@@ -8649,7 +9439,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61dfc899a471635beadca9b9/61e63088837e7fecd3de06aa_maverick-wordmark-new-large.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mention",
@@ -8660,7 +9451,8 @@ const TOOLS = [
     ],
     "img": "https://mention.com/wp-content/uploads/2022/07/mention-tutorials-cover-min.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Midjourney",
@@ -8671,7 +9463,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Manychat",
@@ -8684,7 +9477,8 @@ const TOOLS = [
     ],
     "img": "https://mccdn.me/martech/next-lp//_next/static/media/ManyChat_Color_Horizontal.274e5e81.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mirage",
@@ -8695,7 +9489,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/8r18U6GThOf6Okvqkbs9pFyxw5o.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Movavi Photo Editor 2024",
@@ -8706,7 +9501,8 @@ const TOOLS = [
     ],
     "img": "https://sm.pcmag.com/pcmag_me/review/m/movavi-vid/movavi-video-editor_5ygy.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LogoFast",
@@ -8719,7 +9515,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/dp4UYgI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Template",
@@ -8730,7 +9527,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.worldvectorlogo.com/logos/templatenet.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "PolitePost.net",
@@ -8741,7 +9539,8 @@ const TOOLS = [
     ],
     "img": "https://politepost.net/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Quasi",
@@ -8752,7 +9551,8 @@ const TOOLS = [
     ],
     "img": "https://storage.googleapis.com/quasi-a39a6.appspot.com/Market_Logo.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rayst Gradients",
@@ -8764,7 +9564,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/FNKDwJA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Replicastudios",
@@ -8775,7 +9576,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:1400/1*7rCh0BfBOMbv1-i2DvHq7g.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Rytr",
@@ -8786,7 +9588,8 @@ const TOOLS = [
     ],
     "img": "https://rytr.me/wp-content/uploads/2023/10/logo-1.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sidekick",
@@ -8797,7 +9600,8 @@ const TOOLS = [
     ],
     "img": "https://www.sidekickai.com/wp-content/uploads/2019/09/Sidekick_Logo-400x163.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Starryai",
@@ -8808,7 +9612,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/61554cf069663530fc823d21/64efaac1e072a738a527df45_starryai-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Subtxt",
@@ -8819,7 +9624,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/e8AchTT.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TeleportHQ",
@@ -8831,7 +9637,8 @@ const TOOLS = [
     ],
     "img": "https://teleporthq.io/ai-website-builder/assets/teleport-logo-dark-text.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Photoroom",
@@ -8842,7 +9649,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ueEd5rB.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Text Blaze",
@@ -8853,7 +9661,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Cl0y0Sn.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Jot",
@@ -8865,7 +9674,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/xStn4MA.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Canva",
@@ -8876,7 +9686,8 @@ const TOOLS = [
     ],
     "img": "https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Microsoft Designer",
@@ -8887,7 +9698,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/So992h2.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tome",
@@ -8898,7 +9710,8 @@ const TOOLS = [
     ],
     "img": "https://lucaswieringa.com/wp-content/uploads/2023/09/tome-app-logo.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Stable Diffusion Online",
@@ -8909,7 +9722,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/8wZBt2n.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "NVIDIA Canvas",
@@ -8920,7 +9734,8 @@ const TOOLS = [
     ],
     "img": "https://www.nvidia.com/content/dam/en-zz/Solutions/studio/canvas/nvidia-studio-canvas-app-icon-120-d.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "D-ID",
@@ -8931,7 +9746,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qYE5nqw.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Compress PNG",
@@ -8942,7 +9758,8 @@ const TOOLS = [
     ],
     "img": "https://compresspng.com/images/compresspng/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Palette",
@@ -8953,7 +9770,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ze170wS.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Remove.bg",
@@ -8964,7 +9782,8 @@ const TOOLS = [
     ],
     "img": "https://logovectorseek.com/wp-content/uploads/2020/10/remove-bg-logo-vector.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Scribble Diffusion",
@@ -8975,7 +9794,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:1200/0*YFwH4QFeUBjaHVCc.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Clipdrop",
@@ -8986,7 +9806,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/wo08a8j.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TinyWow",
@@ -8997,7 +9818,8 @@ const TOOLS = [
     ],
     "img": "https://tinywow.com/v3/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ChatPDF",
@@ -9008,7 +9830,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/i5Ku4Tu.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Image Cleaner",
@@ -9019,7 +9842,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/MjZl9Ai.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Profile Picture Maker",
@@ -9030,7 +9854,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qVRISP4.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LeiaPix",
@@ -9041,7 +9866,8 @@ const TOOLS = [
     ],
     "img": "https://global.discourse-cdn.com/business4/uploads/leialoft/original/1X/69280fff85e52369e613688d1c2674f6995c9baa.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Opus Clip",
@@ -9052,7 +9878,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/v1Y2IZT.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Any Summary",
@@ -9063,7 +9890,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/m4b0fFq.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Omniverse Audio2Face",
@@ -9074,7 +9902,8 @@ const TOOLS = [
     ],
     "img": "https://www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/omniverse/audio2face/nvidia-omniverse-audio2face-128@2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "EbSynth",
@@ -9085,7 +9914,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/vY97crT.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LiveReacting",
@@ -9096,7 +9926,8 @@ const TOOLS = [
     ],
     "img": "https://www.livereacting.com/landingNew/img/logotype-b@2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Listento",
@@ -9107,7 +9938,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/3Ai4Iwe.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cascadeur",
@@ -9119,7 +9951,8 @@ const TOOLS = [
     ],
     "img": "https://cascadeur.com/dist/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Movmi",
@@ -9130,7 +9963,8 @@ const TOOLS = [
     ],
     "img": "https://movmi.co/wp-content/uploads/2021/08/cropped-Movmi-Logo-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Teachable Machine",
@@ -9141,7 +9975,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/0ku4BJH.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Woofy",
@@ -9154,7 +9989,8 @@ const TOOLS = [
     ],
     "img": "https://hellowoofy.com/wp-content/uploads/2022/06/new-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Delphi.ai",
@@ -9166,7 +10002,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/yG6M6zS.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spline",
@@ -9177,7 +10014,8 @@ const TOOLS = [
     ],
     "img": "https://spline.design/_ipx/w_128,q_75/%2F_next%2Fstatic%2Fmedia%2Fspline_logo.647803e0.png?url=%2F_next%2Fstatic%2Fmedia%2Fspline_logo.647803e0.png&w=128&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Triller",
@@ -9188,7 +10026,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Triller_logo.svg/2560px-Triller_logo.svg.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Threads",
@@ -9199,7 +10038,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/d/db/Threads_%28app%29.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Godaddy",
@@ -9210,7 +10050,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/GoDaddy_logo.svg/2560px-GoDaddy_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Spinxo",
@@ -9221,7 +10062,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/VP8aFSk.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Usernamegenerator",
@@ -9232,7 +10074,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/bo0k9L3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Focusee",
@@ -9243,7 +10086,8 @@ const TOOLS = [
     ],
     "img": "https://www.gemoo-resource.com/focusee/img/focusee_mobanimg@2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hopp by Wix",
@@ -9254,7 +10098,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/RKto0Wq.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Obsidian",
@@ -9266,7 +10111,8 @@ const TOOLS = [
     ],
     "img": "https://obsidian.md/images/2023-06-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Biteable",
@@ -9277,7 +10123,8 @@ const TOOLS = [
     ],
     "img": "https://biteable.com/wp-content/uploads/2022/10/Biteable202102-TextOnly-Dark-2.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pexels",
@@ -9288,7 +10135,8 @@ const TOOLS = [
     ],
     "img": "https://i0.wp.com/www.interhacktives.com/wp-content/uploads/2020/11/Pexels-logo.jpg?ssl=1",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Freepik",
@@ -9299,7 +10147,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.worldvectorlogo.com/logos/freepik.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cinepacks",
@@ -9310,7 +10159,8 @@ const TOOLS = [
     ],
     "img": "https://cinepacks.store/cdn/shop/files/Social_Share_2_600x600.png?v=1632151240",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pixabay",
@@ -9321,7 +10171,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.worldvectorlogo.com/logos/pixabay.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mailchimp",
@@ -9332,7 +10183,8 @@ const TOOLS = [
     ],
     "img": "https://www.drupal.org/files/project-images/Mailchimp%20Logo%2050-50%20Black.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Brevo",
@@ -9343,7 +10195,8 @@ const TOOLS = [
     ],
     "img": "https://corp-backend.brevo.com/wp-content/uploads/2023/04/Brevo-Logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mailerlite",
@@ -9354,7 +10207,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/MailerLite_Logo.svg/1200px-MailerLite_Logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Storyblocks",
@@ -9365,7 +10219,8 @@ const TOOLS = [
     ],
     "img": "https://d3g7htsbjjywiv.cloudfront.net/assets/common/images/logos/unified/sb-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Jimpix",
@@ -9376,7 +10231,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/CD1luA7.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Shutterstock",
@@ -9387,7 +10243,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Shutterstock_logo.svg/1280px-Shutterstock_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Envato Elements",
@@ -9398,7 +10255,8 @@ const TOOLS = [
     ],
     "img": "https://logovectorseek.com/wp-content/uploads/2020/05/envato-elements-logo-vector.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Crowdstack",
@@ -9410,7 +10268,8 @@ const TOOLS = [
     ],
     "img": "https://pro.crowdstack.com/images/crowdstack-pro-logo-website-header.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Writecream",
@@ -9422,7 +10281,8 @@ const TOOLS = [
     ],
     "img": "https://www.writecream.com/wp-content/uploads/2021/05/va-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Twit-Vid",
@@ -9434,7 +10294,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/6386a7d6745e452c21c063ae/6440451ebce6bf42551d7c25_logotwitvid.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Submagic",
@@ -9446,7 +10307,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/6469e2294ac68c3d5caea327/649e98f880d73b35d8d12194_Main%20Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zubtitle",
@@ -9458,7 +10320,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/628f37915670b51c4608a234/629f5afbe7f970fa7b5e2884_Logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vidyo.ai",
@@ -9470,7 +10333,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/649330c3e40d813f90d8bb28/64e4ebe42de054f1f629f869_Layer_1%20(1).svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pictory",
@@ -9482,7 +10346,8 @@ const TOOLS = [
     ],
     "img": "https://pictory.ai/wp-content/uploads/2022/08/logo-new-font-TM.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TikTok",
@@ -9498,7 +10363,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mastodon",
@@ -9509,7 +10375,8 @@ const TOOLS = [
     ],
     "img": "https://joinmastodon.org/logos/wordmark-black-text.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Captions.AI",
@@ -9521,7 +10388,8 @@ const TOOLS = [
     ],
     "img": "https://app.ashbyhq.com/api/images/org-theme-wordmark/4c218235-09cf-4321-9819-462d4a039b7e/1bef5952-5e20-488c-b2dd-1fdd1c53fdab.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vyond",
@@ -9533,7 +10401,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Vyond_2018.svg/1200px-Vyond_2018.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Blender",
@@ -9545,7 +10414,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Logo_Blender.svg/2560px-Logo_Blender.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sketch",
@@ -9557,7 +10427,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sketch-logo-light.svg/2560px-Sketch-logo-light.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "PhotoAI",
@@ -9568,7 +10439,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/648969b49070ba7656c55a63/64ee11fe5554e5868f0148ef_PhotoAI.me-logo-p-500.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Meshy.ai",
@@ -9580,7 +10452,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Ocfai3p.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Clara.io",
@@ -9592,7 +10465,8 @@ const TOOLS = [
     ],
     "img": "https://clara.io/img/ClaraLogo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Listmonk",
@@ -9603,7 +10477,8 @@ const TOOLS = [
     ],
     "img": "https://listmonk.app/static/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Audienceful",
@@ -9614,7 +10489,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ErkNDzx.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Liberapay",
@@ -9625,7 +10501,8 @@ const TOOLS = [
     ],
     "img": "https://liberapay.com/assets/liberapay/icon-v2_black-on-yellow.svg?etag=._QLQJKsW7OwBQqn7ASPxRA~~",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bandcamp",
@@ -9637,7 +10514,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2021/05/Bandcamp-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bandzoogle",
@@ -9649,7 +10527,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bandzoogle_logo.png/800px-Bandzoogle_logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Coindrop",
@@ -9661,7 +10540,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/LfUUVbb.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mintme",
@@ -9673,7 +10553,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/vFj4Hu3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Calendly",
@@ -9685,7 +10566,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.mos.cms.futurecdn.net/W3yFiCjbmPia2u3qk9kKci.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cal",
@@ -9697,7 +10579,8 @@ const TOOLS = [
     ],
     "img": "https://3620107743-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FpmUOqZjfGqNkiPmqgnMv%2Flogo%2FFoi87pZD7AkAkSm67fpD%2Flogo.svg?alt=media&token=748d27ca-f254-44f3-b81f-d51cf6216d8a",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Grammarly",
@@ -9708,7 +10591,8 @@ const TOOLS = [
     ],
     "img": "https://getvectorlogo.com/wp-content/uploads/2023/08/grammarly-inc-vector-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Medium",
@@ -9719,7 +10603,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ZenPen",
@@ -9730,7 +10615,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/FCQnIdQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Hemmingway",
@@ -9741,7 +10627,8 @@ const TOOLS = [
     ],
     "img": "https://i.pcmag.com/imagery/reviews/048Kh8ndFw5JNuPIZwey46f-1..v1700502406.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Placeit",
@@ -9754,7 +10641,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2023/09/Placeit-Logo.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Streak",
@@ -9766,7 +10654,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5c06a15b95c700eebb7b9823_headerLockup_2x.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Humaaans",
@@ -9777,7 +10666,8 @@ const TOOLS = [
     ],
     "img": "https://blush.design/logo-lightmode.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Recite",
@@ -9788,7 +10678,8 @@ const TOOLS = [
     ],
     "img": "https://reciteworks.com/images/recite-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Easel.ly",
@@ -9799,7 +10690,8 @@ const TOOLS = [
     ],
     "img": "https://s3.amazonaws.com/easel.ly/assets/website/easelLogo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bitly",
@@ -9810,7 +10702,8 @@ const TOOLS = [
     ],
     "img": "https://docrdsfx76ssb.cloudfront.net/static/1707340006/pages/wp-content/uploads/2021/08/bitly_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Typeform",
@@ -9822,7 +10715,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/XYn8sP3.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tally",
@@ -9834,7 +10728,8 @@ const TOOLS = [
     ],
     "img": "https://tally.so/images/logo_v2.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Coolors",
@@ -9846,7 +10741,8 @@ const TOOLS = [
     ],
     "img": "https://coolors.co/assets/img/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SPlashbase",
@@ -9857,7 +10753,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/tHCYc1Q.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Typegenius",
@@ -9869,7 +10766,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ZiYkuRQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Fontello",
@@ -9880,7 +10778,8 @@ const TOOLS = [
     ],
     "img": "https://avatars.githubusercontent.com/u/1607867?s=280&v=4",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Flaticon",
@@ -9892,7 +10791,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flaticon.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Movio",
@@ -9903,7 +10803,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/649e4c3d5f0708ca6cd80bba_logoHorizonalLight.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Mubert",
@@ -9914,7 +10815,8 @@ const TOOLS = [
     ],
     "img": "https://mubert.com/static/media/logo-header.f3d24c31.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Namelix",
@@ -9925,7 +10827,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/Y6ecUBQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "NamingMagic",
@@ -9936,7 +10839,8 @@ const TOOLS = [
     ],
     "img": "https://www.namingmagic.com/NamingMagic.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "UIFaces",
@@ -9948,7 +10852,8 @@ const TOOLS = [
     ],
     "img": "https://uifaces.co/images/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "NeuralStudio",
@@ -9959,7 +10864,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/i4flu8q.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Neuronwriter",
@@ -9970,7 +10876,8 @@ const TOOLS = [
     ],
     "img": "https://neuronwriter.com/wp-content/uploads/2023/04/logo-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "NightCafe",
@@ -9981,7 +10888,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/4uFzFsk.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Openart",
@@ -9992,7 +10900,8 @@ const TOOLS = [
     ],
     "img": "https://openart.ai/logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Yaara",
@@ -10003,7 +10912,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:600/1*_3xLdaF1nMcPDErzyS5w9w.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Photoshot",
@@ -10014,7 +10924,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/OM7Qg2K.jpeg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Audioblocks",
@@ -10026,7 +10937,8 @@ const TOOLS = [
     ],
     "img": "https://d3g7htsbjjywiv.cloudfront.net/assets/common/images/logos/unified/sb-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Collabhouse",
@@ -10040,7 +10952,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64a6ab539eaa6037aed9e7b5/64edcae953bc14e5e1bc4754_CH_logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Evernote",
@@ -10051,7 +10964,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/srkSkzM.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wetransfer",
@@ -10062,7 +10976,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/XDx16uo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "VistaCreate",
@@ -10073,7 +10988,8 @@ const TOOLS = [
     ],
     "img": "https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2022/04/26/152524_1356213.png.1500x217_q95_crop-smart_upscale.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Figma",
@@ -10084,7 +11000,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.worldvectorlogo.com/logos/figma-5.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Playground AI",
@@ -10095,7 +11012,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/DaiFoZI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Sorare",
@@ -10106,7 +11024,8 @@ const TOOLS = [
     ],
     "img": "https://frontend-assets.sorare.com/meta/social-picture-2022.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ZiLink",
@@ -10117,7 +11036,8 @@ const TOOLS = [
     ],
     "img": "https://zil.ink/wp-content/uploads/2022/06/logo-zilink.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Classpro",
@@ -10128,7 +11048,8 @@ const TOOLS = [
     ],
     "img": "https://www.classpro.in/pages/classpro-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Twemex",
@@ -10140,7 +11061,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/TQwbqHc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "SocialPilot",
@@ -10151,7 +11073,8 @@ const TOOLS = [
     ],
     "img": "https://www.socialpilot.co/wp-content/uploads/2022/12/socialpilot.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Testimonial.to",
@@ -10163,7 +11086,8 @@ const TOOLS = [
     ],
     "img": "https://embed-v2.testimonial.to/images/logo-dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Thrivecart",
@@ -10177,7 +11101,8 @@ const TOOLS = [
     ],
     "img": "https://memberpress.com/wp-content/uploads/2017/10/ThriveCart-Integration.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Determ",
@@ -10189,7 +11114,8 @@ const TOOLS = [
     ],
     "img": "https://www.determ.com/wp-content/uploads/2023/01/logo-crni.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Birdy.so",
@@ -10202,7 +11128,8 @@ const TOOLS = [
     ],
     "img": "https://birdy.so/purple-bird-twemoji.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Mentorpass",
@@ -10214,7 +11141,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5HIaWyd.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "LogoAI",
@@ -10225,7 +11153,8 @@ const TOOLS = [
     ],
     "img": "https://www.logoai.com/img/logo-icons/logoai.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tribescaler",
@@ -10236,7 +11165,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JUGCG8U.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Foreplay",
@@ -10247,7 +11177,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/03KO0R0.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Timeshifter",
@@ -10258,7 +11189,8 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/58c1d0b2b8a79bc99bfe3a85/1527603736422-UU08HBL1JWXC6VYPGO3C/TS_Logo_Color.png?format=1500w",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Typeshare",
@@ -10270,7 +11202,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/cQGCzRb.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Userp",
@@ -10281,7 +11214,8 @@ const TOOLS = [
     ],
     "img": "https://media.designrush.com/agencies/218456/conversions/uSERP--LLC-logo-profile.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Blackmagic.so",
@@ -10293,7 +11227,8 @@ const TOOLS = [
     ],
     "img": "https://blackmagic.so/notion/d38863de-ae76-4b82-a68b-48c4678c0663-CleanShot_2022-05-03_at_11.59.212x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ilo.so",
@@ -10305,7 +11240,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/W9fSwnB.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stripe",
@@ -10316,7 +11252,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/2560px-Stripe_Logo%2C_revised_2016.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wise",
@@ -10327,7 +11264,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/New_Wise_%28formerly_TransferWise%29_logo.svg/2560px-New_Wise_%28formerly_TransferWise%29_logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Loom",
@@ -10339,7 +11277,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/YTjViBt.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Asana",
@@ -10350,7 +11289,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2021/05/Asana-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Growth Design",
@@ -10361,7 +11301,8 @@ const TOOLS = [
     ],
     "img": "https://growth.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdan_lx_waving.5e13e0de.png&w=750&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Apollo",
@@ -10372,7 +11313,8 @@ const TOOLS = [
     ],
     "img": "https://preccelerator.com/wp-content/uploads/2023/09/APO_Logo_Black_P1R1@2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HubSpot",
@@ -10386,7 +11328,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HubSpot_Logo.svg/2560px-HubSpot_Logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Airtable",
@@ -10397,7 +11340,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Airtable_Logo.svg/2560px-Airtable_Logo.svg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BetterSnapTool",
@@ -10408,7 +11352,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/IFEnlSD.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Super.so",
@@ -10419,7 +11364,8 @@ const TOOLS = [
     ],
     "img": "https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/uploads/logo/6ba0f265-0606-49b2-a4b0-04e85d15a81d.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Superhuman",
@@ -10430,7 +11376,8 @@ const TOOLS = [
     ],
     "img": "https://blog.superhuman.com/content/images/size/w1200/2021/01/Twitter-Card.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TextExpander",
@@ -10441,7 +11388,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/2B3Z80u.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Parity Deals",
@@ -10453,7 +11401,8 @@ const TOOLS = [
     ],
     "img": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_9c19f1da21b8395b585ecad18410c6af/paritydeals-paritydeals.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dumplink",
@@ -10464,7 +11413,8 @@ const TOOLS = [
     ],
     "img": "https://static.typecdn.com/b240dbd8-4dd7-4457-9772-b7c024a37932/2GR22ZKZ5Zbk94RQmgLadX0yQLH_logo-text-long.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Typedream",
@@ -10476,7 +11426,8 @@ const TOOLS = [
     ],
     "img": "https://typedream.com/_landing/assets/typedream-logo-navbar.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Bubble",
@@ -10487,7 +11438,8 @@ const TOOLS = [
     ],
     "img": "https://meta-q.cdn.bubble.io/f1531946819200x747478706762194600/Bubble%20logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Yat",
@@ -10498,7 +11450,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5erwEjb.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Editor X",
@@ -10509,7 +11462,8 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1200681/Editor_X_Logo.jpg?p=twitter",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Icon Mostr",
@@ -10521,7 +11475,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/5IF5lqL.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Magic Beans",
@@ -10532,7 +11487,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/N60oBn7.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ecwid",
@@ -10543,7 +11499,8 @@ const TOOLS = [
     ],
     "img": "https://logowik.com/content/uploads/images/ecwid-by-lightspeed5257.logowik.com.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "PayPal",
@@ -10554,7 +11511,8 @@ const TOOLS = [
     ],
     "img": "https://1000logos.net/wp-content/uploads/2021/04/Paypal-logo.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Copilot",
@@ -10565,7 +11523,8 @@ const TOOLS = [
     ],
     "img": "https://ppc.land/content/images/size/w1200/2023/12/Microsoft-Copilot-Logo.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "FlutterFlow",
@@ -10576,7 +11535,8 @@ const TOOLS = [
     ],
     "img": "https://flutterflow.io/images/logo_primary_color_onLight.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ProtoPie",
@@ -10587,7 +11547,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.protopie.io/web/ctfassets/MediaKit/img_logo02.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Godly",
@@ -10598,7 +11559,8 @@ const TOOLS = [
     ],
     "img": "https://www.hostarmada.com/blog/wp-content/uploads/2022/11/godly-1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Audiopen",
@@ -10610,7 +11572,8 @@ const TOOLS = [
     ],
     "img": "https://www.emiagic.com/posts/actualites-2023-10-31-intelligence-artificielle-outil-gain-de-temps.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Linearity",
@@ -10621,7 +11584,8 @@ const TOOLS = [
     ],
     "img": "https://linearity.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8cc60e39-0770-4040-a088-5bbe2389c86f%2FLinearity_Curve_Logo_Black_RGB_(3).svg?table=block&id=a8700305-c45c-4dbb-b12f-7295670a8732&spaceId=a29c2f6f-7bf3-40e9-bc87-563986327e50&userId=&cache=v2",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Vectorizer",
@@ -10633,7 +11597,8 @@ const TOOLS = [
     ],
     "img": "https://www.vectorizer.io/img/vectorizer-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "ImageOptim",
@@ -10644,7 +11609,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/pO4RWgF.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Optimage",
@@ -10655,7 +11621,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/D5yARqS.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Icônes",
@@ -10666,7 +11633,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/MY4kSHN.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Font Awesome",
@@ -10677,7 +11645,8 @@ const TOOLS = [
     ],
     "img": "https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2020/08/jSfmJLBr.png?resize=720%2C240&ssl=1",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Remix Icon",
@@ -10688,7 +11657,8 @@ const TOOLS = [
     ],
     "img": "https://remixicon.com/img/logo/light/text.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "CSS Icons",
@@ -10699,7 +11669,8 @@ const TOOLS = [
     ],
     "img": "https://i.pinimg.com/originals/62/53/57/62535766dde19e37e07321ba67ed8370.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "The Noun Project",
@@ -10710,7 +11681,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.icon-icons.com/icons2/2699/PNG/512/thenounproject_logo_icon_168582.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Linear",
@@ -10721,7 +11693,8 @@ const TOOLS = [
     ],
     "img": "https://asset.brandfetch.io/iduDa181eM/idOReMseAv.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Raindrop",
@@ -10732,7 +11705,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JPtCI48.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Amie",
@@ -10743,7 +11717,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qy8qSqz.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Cron",
@@ -10754,7 +11729,8 @@ const TOOLS = [
     ],
     "img": "https://cron.com/images/brand/cron-logotype-s@2x.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "HeyDaily",
@@ -10766,7 +11742,8 @@ const TOOLS = [
     ],
     "img": "https://d9hhrg4mnvzow.cloudfront.net/www.heydaily.co/e5e56f75-heydaily-logo_10bk08o000000000000000.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Raycast",
@@ -10777,7 +11754,8 @@ const TOOLS = [
     ],
     "img": "https://getlogovector.com/wp-content/uploads/2020/11/raycast-logo-vector.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Lens Studio",
@@ -10789,7 +11767,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/IOmzV6d.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pitch",
@@ -10800,7 +11779,8 @@ const TOOLS = [
     ],
     "img": "https://londontechweek.com/uploads/b5d38260-4979-4739-90cb-b906d84cf4f3-1652176537981.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Ahrefs",
@@ -10811,7 +11791,8 @@ const TOOLS = [
     ],
     "img": "https://asset.brandfetch.io/idxB1p5kuP/id4XvvhUCP.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Phantombuster",
@@ -10822,7 +11803,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AyAgKoI.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Textsniper",
@@ -10834,7 +11816,8 @@ const TOOLS = [
     ],
     "img": "https://cdnp1.stackassets.com/f1a4298c741389254c841dd48253436352e738b6/store/573f8a958e09230475d860a2f4bda3c7553cea9a15eb3a11adc945ca29be/sale_234866_primary_image.jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Teleprompter",
@@ -10845,7 +11828,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/2Xgc0Uf.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Indify",
@@ -10856,7 +11840,8 @@ const TOOLS = [
     ],
     "img": "https://indify.co/logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Widgetbox",
@@ -10867,7 +11852,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JfRi7Zq.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Apption",
@@ -10878,7 +11864,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/ss0EyxH.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Actions",
@@ -10889,7 +11876,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61ccaa76fc7ab37e02a428a2/62f23bb567ac32199d76648b_Actions.so%20Logo-p-500.webp",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Zaap",
@@ -10901,7 +11889,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/tJH4vpQ.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Kopier",
@@ -10912,7 +11901,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/DB7JyfV.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Depto",
@@ -10923,7 +11913,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/KPqsodk.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tubelink",
@@ -10934,7 +11925,8 @@ const TOOLS = [
     ],
     "img": "https://tubelink.netlify.app/Images/tubelink-logo-with-text-2.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Flarum",
@@ -10945,7 +11937,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GyGPwmg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Mindpal",
@@ -10956,7 +11949,8 @@ const TOOLS = [
     ],
     "img": "https://mindpal.space/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.22b41148.png&w=256&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Steve AI",
@@ -10969,7 +11963,8 @@ const TOOLS = [
     ],
     "img": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_997452893e087cec990dfabeb11e6c4b/steve-ai-steve-ai.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Repurposepie",
@@ -10982,7 +11977,8 @@ const TOOLS = [
     ],
     "img": "https://repurposepie.io/wp-content/uploads/2023/08/Pie-Logo22222.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Meltingspot",
@@ -10994,7 +11990,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/5fa123af5fda974597543c3b/624c50c56433b6c51274469d_Group%201929.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "AI Creator Hub",
@@ -11007,7 +12004,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/zbAIYjs.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Inkforall",
@@ -11019,7 +12017,8 @@ const TOOLS = [
     ],
     "img": "https://blog.inkforall.com/wp-content/uploads/2019/09/-1503933468.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Stori AI",
@@ -11030,7 +12029,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/dAXerCzl7P8oT5MgMqhlnSMmPY.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Boostbot",
@@ -11042,7 +12042,8 @@ const TOOLS = [
     ],
     "img": "https://boostbot.ai/images/logo-boostbot-dark.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Heepsy",
@@ -11053,7 +12054,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/6t22kc1.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Drope",
@@ -11065,7 +12067,8 @@ const TOOLS = [
     ],
     "img": "https://pbs.twimg.com/profile_banners/1308325814103142400/1686843401/1500x500",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Momento AI",
@@ -11076,7 +12079,8 @@ const TOOLS = [
     ],
     "img": "https://momentoai.com/assets/icons/logo-long.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Micro Influencer List",
@@ -11087,7 +12091,8 @@ const TOOLS = [
     ],
     "img": "https://ph-files.imgix.net/a117f183-ec18-4c32-af3b-ea7a98018520.png?auto=format",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Socialtalk",
@@ -11098,7 +12103,8 @@ const TOOLS = [
     ],
     "img": "https://socialtalk.io/assets/images/logo-flat.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Yourchamp",
@@ -11109,7 +12115,8 @@ const TOOLS = [
     ],
     "img": "https://www.yourchamp.io/assets/images/logo/ycLogo-multi.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Elink",
@@ -11120,7 +12127,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/5f1e541a2a6ad049c06f59fe/5f421380719b4f934ea1b8b2_elink-logo.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Weblium",
@@ -11131,7 +12139,8 @@ const TOOLS = [
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Logotype-padding-complete-blue.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Capte",
@@ -11143,7 +12152,8 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/646f3d8935393ff9e8ea8804/65aa4a09c5338ca2067af4a8_capte-content-creation-logocapte%20(1).jpg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Launchrender",
@@ -11156,7 +12166,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/R2JEy4N.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Remagine AI",
@@ -11168,7 +12179,8 @@ const TOOLS = [
     ],
     "img": "https://remagineai.com/_next/image?url=https%3A%2F%2Fremagineai-static-assets.s3.us-west-2.amazonaws.com%2Fremagineai-logo.png&w=3840&q=75",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Content Hub",
@@ -11179,7 +12191,8 @@ const TOOLS = [
     ],
     "img": "https://contenthub.app/images/logo.png",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Cutlabs",
@@ -11191,7 +12204,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/2cQcb9D.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Supasnap",
@@ -11202,7 +12216,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/qh9wSeY.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Medley",
@@ -11215,7 +12230,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/Qo6o0JzHHpevzh2CeK7piir0qU.svg",
     "pricing": "",
-    "dead": true
+    "dead": true,
+    "featuredOrder": 999
   },
   {
     "name": "Typeframes",
@@ -11227,7 +12243,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/0krZfSz.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Tidycal",
@@ -11238,7 +12255,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/KEr0DdN.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Powder.gg",
@@ -11250,7 +12268,8 @@ const TOOLS = [
     ],
     "img": "https://miro.medium.com/v2/resize:fit:2400/2*cIhOr97puJ6WNXB0P-UCOg.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Google Earth Studio",
@@ -11262,7 +12281,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/jqRzDxc.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Adobe Creative Cloud",
@@ -11275,7 +12295,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/TFAs6LE.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Formspark",
@@ -11286,7 +12307,8 @@ const TOOLS = [
     ],
     "img": "https://cdn.formspark.io/images/formspark/logos/formspark--1200x630.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Backspace",
@@ -11299,7 +12321,8 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61e5d986620ad059a04a1c6c/6285deb006f2da10f341187f_logo%20cutout%20perfectly%20black.svg",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Pay Me For My AI",
@@ -11311,7 +12334,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GFYJI1G.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Postli",
@@ -11323,7 +12347,8 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GP3m4J6.png",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "BlockSurvey",
@@ -11334,7 +12359,8 @@ const TOOLS = [
     ],
     "img": "",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "TapRefer",
@@ -11346,7 +12372,8 @@ const TOOLS = [
     ],
     "img": "",
     "pricing": "",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "F*** You Pay Me",
@@ -11357,7 +12384,8 @@ const TOOLS = [
     ],
     "img": "",
     "pricing": "Free,Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Dealflow",
@@ -11368,7 +12396,8 @@ const TOOLS = [
     ],
     "img": "",
     "pricing": "Free,Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "Wispr Flow",
@@ -11380,7 +12409,8 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/EWJX7HBQqKTRvXKMsf3eewrJM.png",
     "pricing": "Freemium",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 999
   },
   {
     "name": "GoHighLevel",
@@ -11392,7 +12422,9 @@ const TOOLS = [
     ],
     "img": "https://assets.gohighlevel.com/images/logo/hl-logo-colored.svg",
     "pricing": "Paid",
-    "dead": false
+    "dead": false,
+    "featuredOrder": 3,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "ClickFunnels",
@@ -11405,25 +12437,7 @@ const TOOLS = [
     "img": "clickfunnels-logo.png",
     "pricing": "Paid",
     "dead": false,
-    "deal": "🔥 3 Months for $99"
+    "deal": "🔥 3 Months for $99",
+    "featuredOrder": 2
   }
-];
-
-const ALL_CATEGORIES = [
-  "AI",
-  "Adult",
-  "All-in-one",
-  "Community & Engagement",
-  "Content Creation",
-  "Course Creator",
-  "E-commerce",
-  "Finance",
-  "Influencer Marketing/Brand Deals",
-  "Link in bio",
-  "Livestreaming",
-  "Monetization",
-  "Other",
-  "Social Media Management",
-  "Web3/NFT/Blockchain",
-  "Website Builder"
 ];

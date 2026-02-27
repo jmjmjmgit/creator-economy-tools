@@ -235,7 +235,11 @@ function getFiltered() {
         switch (state.sort) {
             case 'name-desc': return b.name.localeCompare(a.name);
             case 'category': return (a.categories[0] || '').localeCompare(b.categories[0] || '');
-            default: return a.name.localeCompare(b.name);
+            default:
+                if (a.featuredOrder !== b.featuredOrder) {
+                    return (a.featuredOrder || 999) - (b.featuredOrder || 999);
+                }
+                return a.name.localeCompare(b.name);
         }
     });
 
