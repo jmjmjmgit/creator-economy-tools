@@ -273,6 +273,143 @@
             font-weight: 500;
         }
 
+        /* ── Side Projects ───────────────────────────── */
+        .side-projects-wrap {
+            border-top: 1px solid var(--border);
+            padding-top: 60px;
+            margin-bottom: 60px;
+        }
+
+        .side-projects-header {
+            margin-bottom: 28px;
+        }
+
+        .side-projects-title {
+            font-size: clamp(22px, 3vw, 30px);
+            font-weight: 900;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+        }
+
+        .side-projects-sub {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .side-projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .project-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 22px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            transition: all 0.2s ease;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(168, 85, 247, .06), transparent 60%);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .project-card:hover {
+            border-color: rgba(168, 85, 247, .35);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(0, 0, 0, .35);
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .project-card-special {
+            border-color: rgba(239, 68, 68, .2);
+        }
+
+        .project-card-special::before {
+            background: linear-gradient(135deg, rgba(239, 68, 68, .06), transparent 60%);
+        }
+
+        .project-card-special:hover {
+            border-color: rgba(239, 68, 68, .4);
+        }
+
+        .project-icon {
+            font-size: 28px;
+            flex-shrink: 0;
+            line-height: 1;
+            margin-top: 2px;
+        }
+
+        .project-body {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .project-name {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 2px;
+        }
+
+        .project-url {
+            font-size: 11px;
+            color: var(--purple);
+            font-weight: 500;
+            margin-bottom: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .project-card-special .project-url {
+            color: #ef4444;
+        }
+
+        .project-desc {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .project-arrow {
+            font-size: 18px;
+            color: var(--text-muted);
+            flex-shrink: 0;
+            transition: transform 0.2s, color 0.2s;
+            align-self: flex-start;
+        }
+
+        .project-card:hover .project-arrow {
+            color: var(--purple);
+            transform: translate(2px, -2px);
+        }
+
+        .project-card-special:hover .project-arrow {
+            color: #ef4444;
+        }
+
+        @media (max-width: 640px) {
+            .side-projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         @media (max-width: 600px) {
             .stats-strip {
                 grid-template-columns: 1fr;
@@ -403,6 +540,58 @@
                 <h2>The Graveyard</h2>
                 <p>A unique section tracking creators-economy tools that have shut down, been acquired, or faded away. A
                     reminder of how fast this space moves — and a tribute to the builders who tried.</p>
+            </div>
+        </div>
+
+        <!-- Side Projects -->
+        <div class="side-projects-wrap">
+            <div class="side-projects-header">
+                <h2 class="side-projects-title">Check out my other side projects</h2>
+                <p class="side-projects-sub">Other things I've built alongside this directory</p>
+            </div>
+            <div class="side-projects-grid">
+                <a class="project-card" href="https://audiencemonetize.com" target="_blank" rel="noopener noreferrer">
+                    <span class="project-icon">💰</span>
+                    <div class="project-body">
+                        <div class="project-name">Audience Monetize</div>
+                        <div class="project-url">audiencemonetize.com</div>
+                        <p class="project-desc">Resources, guides, and tools for creators looking to turn their audience
+                            into a sustainable income stream.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+                <a class="project-card" href="https://audiencemonetize.com/creator-economy-market-map" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="project-icon">🗺️</span>
+                    <div class="project-body">
+                        <div class="project-name">Creator Economy Map</div>
+                        <div class="project-url">audiencemonetize.com/creator-economy-market-map</div>
+                        <p class="project-desc">A visual market map of the entire creator economy, organised by category
+                            and sector — perfect for investors and researchers.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+                <a class="project-card" href="https://creatoreconomyjobs.co/" target="_blank" rel="noopener noreferrer">
+                    <span class="project-icon">💼</span>
+                    <div class="project-body">
+                        <div class="project-name">Creator Economy Jobs</div>
+                        <div class="project-url">creatoreconomyjobs.co</div>
+                        <p class="project-desc">The job board dedicated to the creator economy — find roles at
+                            creator-focused startups and platforms.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+                <a class="project-card project-card-special" href="https://learn.mjartans.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="project-icon">🎬</span>
+                    <div class="project-body">
+                        <div class="project-name">That YouTube List</div>
+                        <div class="project-url">learn.mjartans.com</div>
+                        <p class="project-desc">My personal watchlist of high-quality YouTube documentaries — presented
+                            in a Netflix-style environment. Lean back and learn.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
             </div>
         </div>
 
