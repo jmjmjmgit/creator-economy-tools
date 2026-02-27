@@ -434,73 +434,108 @@ function bindEvents() {
     });
 
     // All tools button
-    const catAll = document.getElementById('cat-all');
-    if (catAll) catAll.addEventListener('click', () => setCategory('all'));
-    $viewList.classList.add('active'); $viewList.setAttribute('aria-pressed', 'true');
-    $viewGrid.classList.remove('active'); $viewGrid.setAttribute('aria-pressed', 'false');
-    renderAll();
-});
+    const $catAll = document.getElementById('cat-all');
+    if ($catAll) $catAll.addEventListener('click', () => setCategory('all'));
 
-// Load more
-$loadMoreBtn.addEventListener('click', () => {
-    state.page++;
-    renderAll();
-    // Scroll to newly added content
-    const cards = $toolsGrid.querySelectorAll('.tool-card');
-    const firstNew = cards[(state.page - 1) * state.perPage];
-    if (firstNew) firstNew.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-});
+    // Load more
+    $loadMoreBtn.addEventListener('click', () => {
+        state.page++;
+        renderAll();
+        const cards = $toolsGrid.querySelectorAll('.tool-card');
+        const firstNew = cards[(state.page - 1) * state.perPage];
+        if (firstNew) firstNew.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
 
-// Clear / reset
-$clearFilters.addEventListener('click', () => {
-    state.selectedCats.clear();
-    state.query = '';
-    state.page = 1;
-    $search.value = '';
-    updateActiveStates();
-    renderAll();
-    updateURL();
-});
-
-$resetSearch?.addEventListener('click', () => {
-    state.query = '';
-    $search.value = '';
-    state.page = 1;
-    renderAll();
-    updateURL();
-});
-
-// Modal
-$modalClose.addEventListener('click', closeModal);
-$modalOverlay.addEventListener('click', e => { if (e.target === $modalOverlay) closeModal(); });
-
-// Navbar scroll
-window.addEventListener('scroll', () => {
-    $navbar.classList.toggle('scrolled', window.scrollY > 20);
-}, { passive: true });
-
-// Multi-select toggle
-const $multiToggle = document.getElementById('multiSelectToggle');
-$multiToggle?.addEventListener('click', () => {
-    state.multiSelect = !state.multiSelect;
-    $multiToggle.classList.toggle('active', state.multiSelect);
-    $multiToggle.setAttribute('aria-checked', state.multiSelect);
-    // Reset to All when switching to single-select if multiple cats selected
-    if (!state.multiSelect && state.selectedCats.size > 1) {
+    // Clear / reset
+    $clearFilters.addEventListener('click', () => {
         state.selectedCats.clear();
+        state.query = '';
+        state.page = 1;
+        $search.value = '';
         updateActiveStates();
         renderAll();
         updateURL();
-    }
-});
+    });
 
-// Mobile nav toggle
-const navToggle = document.getElementById('navToggle');
-const navMobile = document.getElementById('navMobile');
-navToggle?.addEventListener('click', () => {
-    const isOpen = navMobile.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', isOpen);
-});
+    $resetSearch?.addEventListener('click', () => {
+        state.query = '';
+        $search.value = '';
+        state.page = 1;
+        renderAll();
+        updateURL();
+    });
+
+    // Modal
+    $modalClose.addEventListener('click', closeModal);
+    $modalOverlay.addEventListener('click', e => { if (e.target === $modalOverlay) closeModal(); });
+
+    // Navbar scroll
+    window.addEventListener('scroll', () => {
+        $navbar.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // Multi-select toggle
+
+    // Load more
+    $loadMoreBtn.addEventListener('click', () => {
+        state.page++;
+        renderAll();
+        // Scroll to newly added content
+        const cards = $toolsGrid.querySelectorAll('.tool-card');
+        const firstNew = cards[(state.page - 1) * state.perPage];
+        if (firstNew) firstNew.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+
+    // Clear / reset
+    $clearFilters.addEventListener('click', () => {
+        state.selectedCats.clear();
+        state.query = '';
+        state.page = 1;
+        $search.value = '';
+        updateActiveStates();
+        renderAll();
+        updateURL();
+    });
+
+    $resetSearch?.addEventListener('click', () => {
+        state.query = '';
+        $search.value = '';
+        state.page = 1;
+        renderAll();
+        updateURL();
+    });
+
+    // Modal
+    $modalClose.addEventListener('click', closeModal);
+    $modalOverlay.addEventListener('click', e => { if (e.target === $modalOverlay) closeModal(); });
+
+    // Navbar scroll
+    window.addEventListener('scroll', () => {
+        $navbar.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // Multi-select toggle
+    const $multiToggle = document.getElementById('multiSelectToggle');
+    $multiToggle?.addEventListener('click', () => {
+        state.multiSelect = !state.multiSelect;
+        $multiToggle.classList.toggle('active', state.multiSelect);
+        $multiToggle.setAttribute('aria-checked', state.multiSelect);
+        // Reset to All when switching to single-select if multiple cats selected
+        if (!state.multiSelect && state.selectedCats.size > 1) {
+            state.selectedCats.clear();
+            updateActiveStates();
+            renderAll();
+            updateURL();
+        }
+    });
+
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMobile = document.getElementById('navMobile');
+    navToggle?.addEventListener('click', () => {
+        const isOpen = navMobile.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', isOpen);
+    });
 }
 
 // ── Helpers ───────────────────────────────────
