@@ -11381,6 +11381,31 @@ const TOOLS = [
     "img": "https://framerusercontent.com/images/EWJX7HBQqKTRvXKMsf3eewrJM.png",
     "pricing": "Freemium",
     "dead": false
+  },
+  {
+    "name": "GoHighLevel",
+    "desc": "The all-in-one AI-powered sales & marketing platform built for agencies and creators. Includes funnels, websites, CRM, email/SMS automation, booking, memberships, reputation management, and white-labeling — all under one roof.",
+    "url": "https://www.gohighlevel.com/?fp_ref=ghljm",
+    "categories": [
+      "All-in-one",
+      "Monetization"
+    ],
+    "img": "https://assets.gohighlevel.com/images/logo/hl-logo-colored.svg",
+    "pricing": "Paid",
+    "dead": false
+  },
+  {
+    "name": "ClickFunnels",
+    "desc": "The #1 funnel builder for entrepreneurs and creators. Build high-converting sales funnels, membership sites, landing pages, and automated email sequences without coding. Special deal: 3 months for just $99.",
+    "url": "https://www.clickfunnels.com/3-months-for-99?aff=5d2fc404d027c6cf492aa2ca71b410a666abfa25fc24354845097acdd8446c71",
+    "categories": [
+      "All-in-one",
+      "Monetization"
+    ],
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/ClickFunnels_logo.png",
+    "pricing": "Paid",
+    "dead": false,
+    "deal": "🔥 3 Months for $99"
   }
 ];
 

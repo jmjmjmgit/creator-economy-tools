@@ -300,7 +300,7 @@ function renderCards(list) {
 
 function buildCard(tool, isListView) {
     const div = document.createElement('div');
-    div.className = 'tool-card' + (tool.dead ? ' dead-card' : '');
+    div.className = 'tool-card' + (tool.dead ? ' dead-card' : '') + (tool.deal ? ' deal-card' : '');
     div.setAttribute('role', 'listitem');
     div.setAttribute('tabindex', '0');
     div.setAttribute('aria-label', `${tool.name} – ${tool.categories.join(', ')}`);
@@ -316,6 +316,7 @@ function buildCard(tool, isListView) {
     const initials = tool.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
 
     div.innerHTML = `
+    ${tool.deal ? `<div class="deal-banner">${escHtml(tool.deal)}</div>` : ''}
     <div class="tool-header">
       <div class="tool-logo-wrap">
         ${tool.img
@@ -333,7 +334,9 @@ function buildCard(tool, isListView) {
     <div class="tool-footer">
       ${tool.dead
             ? `<span class="dead-badge">💀 Shut down</span>`
-            : `<span class="tool-visit">Visit →</span>`
+            : tool.deal
+                ? `<span class="tool-visit deal-visit">Grab deal →</span>`
+                : `<span class="tool-visit">Visit →</span>`
         }
       ${pricingHtml}
     </div>
@@ -372,7 +375,14 @@ function openModal(tool) {
              <span>💀</span>
              <span>This tool is no longer available — it shut down or was acquired.</span>
            </div>`
-            : `<a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn">
+            : tool.deal
+                ? `<div class="modal-deal-box">
+                     <span class="modal-deal-label">${escHtml(tool.deal)}</span>
+                     <a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn deal-btn">
+                       Grab this deal →
+                     </a>
+                   </div>`
+                : `<a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn">
              Visit ${escHtml(tool.name)} →
            </a>`
         }
