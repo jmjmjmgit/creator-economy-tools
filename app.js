@@ -451,6 +451,14 @@ function bindEvents() {
     const $catAll = document.getElementById('cat-all');
     if ($catAll) $catAll.addEventListener('click', () => setCategory('all'));
 
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMobile = document.getElementById('navMobile');
+    navToggle?.addEventListener('click', () => {
+        const isOpen = navMobile.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', isOpen);
+    });
+
     // Load more
     $loadMoreBtn.addEventListener('click', () => {
         state.page++;
@@ -503,13 +511,6 @@ function bindEvents() {
         }
     });
 
-    // Mobile nav toggle
-    const navToggle = document.getElementById('navToggle');
-    const navMobile = document.getElementById('navMobile');
-    navToggle?.addEventListener('click', () => {
-        const isOpen = navMobile.classList.toggle('open');
-        navToggle.setAttribute('aria-expanded', isOpen);
-    });
 }
 
 // ── Helpers ───────────────────────────────────
