@@ -1,0 +1,4915 @@
+{
+  "ok": [
+    {
+      "name": "The Influencer Marketing Factory",
+      "url": "https://theinfluencermarketingfactory.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Hafi by HypeAuditor",
+      "url": "https://hafi.pro/",
+      "detail": "200"
+    },
+    {
+      "name": "Crayo.AI",
+      "url": "https://crayo.ai/?ref=janis",
+      "detail": "200"
+    },
+    {
+      "name": "Substack",
+      "url": "https://substack.com/",
+      "detail": "200"
+    },
+    {
+      "name": "F*** You Pay Me",
+      "url": "https://www.fypm.vip/",
+      "detail": "200"
+    },
+    {
+      "name": "Passes",
+      "url": "https://www.passes.com/signup?r=42e0ead8",
+      "detail": "200"
+    },
+    {
+      "name": "Gumroad",
+      "url": "https://gumroad.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Kajabi",
+      "url": "https://kajabi.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Ghost",
+      "url": "https://ghost.org/",
+      "detail": "200"
+    },
+    {
+      "name": "Patreon",
+      "url": "https://www.patreon.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Fangage",
+      "url": "https://www.fangage.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Ko-Fi",
+      "url": "https://ko-fi.com/",
+      "detail": "403"
+    },
+    {
+      "name": "OnlyFans",
+      "url": "https://onlyfans.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Komi",
+      "url": "https://komi.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Brandarmy",
+      "url": "https://brandarmy.com/",
+      "detail": "429"
+    },
+    {
+      "name": "Creatorstack",
+      "url": "https://creatorstack.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Linktree",
+      "url": "https://linktree.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Later",
+      "url": "https://later.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Shorby",
+      "url": "https://shorby.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Chirpley",
+      "url": "https://chirpley.ai/",
+      "detail": "403"
+    },
+    {
+      "name": "MyVocal.ai",
+      "url": "https://myvocal.ai/",
+      "detail": "405"
+    },
+    {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Stck",
+      "url": "https://stck.me/",
+      "detail": "200"
+    },
+    {
+      "name": "iFans",
+      "url": "https://www.ifans.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Link in Profile",
+      "url": "https://www.linkinprofile.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Modelcentro",
+      "url": "https://modelcentro.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Fourthwall",
+      "url": "https://fourthwall.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bettermode",
+      "url": "https://bettermode.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Clara",
+      "url": "https://claraforcreators.com/",
+      "detail": "200"
+    },
+    {
+      "name": "HiTide",
+      "url": "https://gohitide.com/#",
+      "detail": "200"
+    },
+    {
+      "name": "Influenswer",
+      "url": "https://influenswer.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Hivebrite",
+      "url": "https://hivebrite.com/",
+      "detail": "200"
+    },
+    {
+      "name": "MYM",
+      "url": "https://mym.fans/",
+      "detail": "200"
+    },
+    {
+      "name": "SoClose",
+      "url": "https://www.soclose.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Slushy",
+      "url": "https://www.slushy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Loyalfans",
+      "url": "https://www.loyalfans.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Admireme",
+      "url": "https://admireme.vip/",
+      "detail": "200"
+    },
+    {
+      "name": "TipSnaps",
+      "url": "https://tipsnaps.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Geneva",
+      "url": "https://www.geneva.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bevy",
+      "url": "https://www.bevy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "GetCourse",
+      "url": "https://getcourse.ru/",
+      "detail": "200"
+    },
+    {
+      "name": "Lnk.bio",
+      "url": "https://lnk.bio/",
+      "detail": "403"
+    },
+    {
+      "name": "Sked Social",
+      "url": "https://skedsocial.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Loomly",
+      "url": "https://www.loomly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Feedlink",
+      "url": "https://feed.link/",
+      "detail": "200"
+    },
+    {
+      "name": "Sponsr",
+      "url": "https://sponsr.ru/",
+      "detail": "200"
+    },
+    {
+      "name": "Boosty",
+      "url": "https://boosty.to/",
+      "detail": "200"
+    },
+    {
+      "name": "Upfluence",
+      "url": "https://www.upfluence.com/creators",
+      "detail": "200"
+    },
+    {
+      "name": "Julius",
+      "url": "https://www.juliusworks.com/for-influencers/",
+      "detail": "200"
+    },
+    {
+      "name": "Hopin",
+      "url": "https://hopin.com",
+      "detail": "200"
+    },
+    {
+      "name": "Payhip",
+      "url": "https://payhip.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Launchpass",
+      "url": "https://launchpass.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Jemi",
+      "url": "https://jemi.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Sutra",
+      "url": "https://sutra.co/",
+      "detail": "200"
+    },
+    {
+      "name": "LYNX",
+      "url": "https://www.lynxinbio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Moment",
+      "url": "https://www.moment.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Run The World",
+      "url": "https://www.runtheworld.today",
+      "detail": "405"
+    },
+    {
+      "name": "Venu",
+      "url": "https://www.venu3d.com",
+      "detail": "200"
+    },
+    {
+      "name": "Convertkit",
+      "url": "https://convertkit.com",
+      "detail": "403"
+    },
+    {
+      "name": "Mirror",
+      "url": "https://mirror.xyz",
+      "detail": "403"
+    },
+    {
+      "name": "#Paid",
+      "url": "https://hashtagpaid.com",
+      "detail": "200"
+    },
+    {
+      "name": "Hecto",
+      "url": "https://www.hecto.io",
+      "detail": "200"
+    },
+    {
+      "name": "Lumanu",
+      "url": "https://www.lumanu.com",
+      "detail": "200"
+    },
+    {
+      "name": "Podcorn",
+      "url": "https://podcorn.com",
+      "detail": "200"
+    },
+    {
+      "name": "Pico",
+      "url": "https://trypico.com",
+      "detail": "403"
+    },
+    {
+      "name": "Spin",
+      "url": "https://spin.live/influencer",
+      "detail": "200"
+    },
+    {
+      "name": "Whatnot",
+      "url": "https://www.whatnot.com",
+      "detail": "403"
+    },
+    {
+      "name": "Cameo",
+      "url": "https://www.cameo.com",
+      "detail": "403"
+    },
+    {
+      "name": "Huddles",
+      "url": "https://www.clashapp.co",
+      "detail": "200"
+    },
+    {
+      "name": "Hoo.be",
+      "url": "https://www.hoo.be/",
+      "detail": "200"
+    },
+    {
+      "name": "Fanvue",
+      "url": "https://www.fanvue.com",
+      "detail": "200"
+    },
+    {
+      "name": "Memmo",
+      "url": "https://memmo.me",
+      "detail": "200"
+    },
+    {
+      "name": "MyFanPark",
+      "url": "https://myfanpark.com",
+      "detail": "200"
+    },
+    {
+      "name": "Qoohoo",
+      "url": "https://www.qoohoo.in",
+      "detail": "405"
+    },
+    {
+      "name": "Super.fans",
+      "url": "https://super.fans/",
+      "detail": "200"
+    },
+    {
+      "name": "Spoon",
+      "url": "https://www.spooncast.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Tap.Bio",
+      "url": "https://www.tap.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Streamloots",
+      "url": "https://www.streamloots.com",
+      "detail": "200"
+    },
+    {
+      "name": "Adobe Speech Enhancer",
+      "url": "https://podcast.adobe.com/enhance",
+      "detail": "200"
+    },
+    {
+      "name": "Superpeer",
+      "url": "https://superpeer.com",
+      "detail": "403"
+    },
+    {
+      "name": "Wr1",
+      "url": "https://www.wr1.com",
+      "detail": "200"
+    },
+    {
+      "name": "Audius",
+      "url": "https://audius.co",
+      "detail": "200"
+    },
+    {
+      "name": "Locals",
+      "url": "https://www.locals.com",
+      "detail": "200"
+    },
+    {
+      "name": "SubscribeStar",
+      "url": "https://www.subscribestar.com",
+      "detail": "200"
+    },
+    {
+      "name": "Supercast",
+      "url": "https://supercast.com",
+      "detail": "200"
+    },
+    {
+      "name": "Playbook",
+      "url": "https://playbookapp.io",
+      "detail": "200"
+    },
+    {
+      "name": "Arketa",
+      "url": "https://www.arketa.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Trybe",
+      "url": "https://trybe.fit",
+      "detail": "200"
+    },
+    {
+      "name": "Dukaan",
+      "url": "https://mydukaan.io",
+      "detail": "200"
+    },
+    {
+      "name": "Easol",
+      "url": "https://www.easol.com",
+      "detail": "200"
+    },
+    {
+      "name": "Samcart",
+      "url": "https://www.samcart.com",
+      "detail": "200"
+    },
+    {
+      "name": "Nexus",
+      "url": "https://www.nexus.gg",
+      "detail": "200"
+    },
+    {
+      "name": "Clubhouse",
+      "url": "https://www.joinclubhouse.com",
+      "detail": "200"
+    },
+    {
+      "name": "Comradery",
+      "url": "https://comradery.com",
+      "detail": "200"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com",
+      "detail": "200"
+    },
+    {
+      "name": "Discourse",
+      "url": "https://www.discourse.org",
+      "detail": "200"
+    },
+    {
+      "name": "Guild",
+      "url": "https://guild.co",
+      "detail": "200"
+    },
+    {
+      "name": "Mighty Networks",
+      "url": "https://www.mightynetworks.com",
+      "detail": "200"
+    },
+    {
+      "name": "Gump",
+      "url": "https://gump.gg",
+      "detail": "200"
+    },
+    {
+      "name": "Kunstmatrix",
+      "url": "https://www.kunstmatrix.com/en",
+      "detail": "200"
+    },
+    {
+      "name": "Liinks",
+      "url": "https://www.liinks.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Stage Ten",
+      "url": "https://stageten.tv",
+      "detail": "200"
+    },
+    {
+      "name": "StreamElements",
+      "url": "https://streamelements.com",
+      "detail": "200"
+    },
+    {
+      "name": "Streamlabs",
+      "url": "https://streamlabs.com",
+      "detail": "200"
+    },
+    {
+      "name": "XSplit",
+      "url": "https://www.xsplit.com",
+      "detail": "200"
+    },
+    {
+      "name": "Earnr",
+      "url": "https://www.earnr.co.uk",
+      "detail": "200"
+    },
+    {
+      "name": "Fairmint",
+      "url": "https://fairmint.co",
+      "detail": "200"
+    },
+    {
+      "name": "Tap.Link",
+      "url": "https://one.link/",
+      "detail": "200"
+    },
+    {
+      "name": "Karat",
+      "url": "https://www.trykarat.com",
+      "detail": "200"
+    },
+    {
+      "name": "Lance",
+      "url": "https://www.lance.app/",
+      "detail": "405"
+    },
+    {
+      "name": "Disco",
+      "url": "https://www.disco.co",
+      "detail": "200"
+    },
+    {
+      "name": "Ensemble",
+      "url": "https://www.ensemble.chat/",
+      "detail": "405"
+    },
+    {
+      "name": "Laylo",
+      "url": "https://laylo.com",
+      "detail": "200"
+    },
+    {
+      "name": "Luma",
+      "url": "https://lu.ma/home",
+      "detail": "200"
+    },
+    {
+      "name": "Omnilink",
+      "url": "https://omnilink.iconosquare.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mixily",
+      "url": "https://www.mixily.com",
+      "detail": "200"
+    },
+    {
+      "name": "Oooh Tv",
+      "url": "https://www.oooh.tv",
+      "detail": "405"
+    },
+    {
+      "name": "The Labz",
+      "url": "https://thelabz.com",
+      "detail": "405"
+    },
+    {
+      "name": "Vocal Remover",
+      "url": "https://vocalremover.org/",
+      "detail": "403"
+    },
+    {
+      "name": "ToneDen",
+      "url": "https://www.toneden.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Avid",
+      "url": "https://www.avid.fm",
+      "detail": "405"
+    },
+    {
+      "name": "Mana",
+      "url": "https://www.withmana.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Maven",
+      "url": "https://maven.com",
+      "detail": "200"
+    },
+    {
+      "name": "Podia",
+      "url": "https://www.podia.com",
+      "detail": "200"
+    },
+    {
+      "name": "Teachable",
+      "url": "https://teachable.com",
+      "detail": "200"
+    },
+    {
+      "name": "Thinkific",
+      "url": "https://www.thinkific.com",
+      "detail": "403"
+    },
+    {
+      "name": "Virtually",
+      "url": "https://www.tryvirtually.com",
+      "detail": "200"
+    },
+    {
+      "name": "About.me",
+      "url": "https://www.about.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Bio.fm",
+      "url": "https://www.bio.fm/",
+      "detail": "200"
+    },
+    {
+      "name": "Urlbio",
+      "url": "https://www.url.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Castbox",
+      "url": "https://castbox.fm",
+      "detail": "200"
+    },
+    {
+      "name": "Castup",
+      "url": "https://www.usecastup.com",
+      "detail": "200"
+    },
+    {
+      "name": "Restream",
+      "url": "https://restream.io",
+      "detail": "200"
+    },
+    {
+      "name": "Glow",
+      "url": "https://www.glow.fm",
+      "detail": "200"
+    },
+    {
+      "name": "Hubhopper",
+      "url": "https://studio.hubhopper.com",
+      "detail": "200"
+    },
+    {
+      "name": "RedCircle",
+      "url": "https://redcircle.com",
+      "detail": "200"
+    },
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com",
+      "detail": "200"
+    },
+    {
+      "name": "Waveformer",
+      "url": "https://waveformer.replicate.dev/",
+      "detail": "200"
+    },
+    {
+      "name": "InVideo",
+      "url": "https://invideo.io",
+      "detail": "200"
+    },
+    {
+      "name": "Kapwing",
+      "url": "https://www.kapwing.com",
+      "detail": "200"
+    },
+    {
+      "name": "Litelink",
+      "url": "https://www.litelink.at/",
+      "detail": "200"
+    },
+    {
+      "name": "Milk",
+      "url": "https://milkvideo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mojo",
+      "url": "https://mojo.video",
+      "detail": "200"
+    },
+    {
+      "name": "PicsArt",
+      "url": "https://picsart.com",
+      "detail": "200"
+    },
+    {
+      "name": "Spext",
+      "url": "https://www.spext.co",
+      "detail": "200"
+    },
+    {
+      "name": "Tella",
+      "url": "https://www.tella.tv",
+      "detail": "200"
+    },
+    {
+      "name": "WhatTheBeat",
+      "url": "https://whatthebeat.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Podsift",
+      "url": "https://www.podsift.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Voice.ai",
+      "url": "https://voice.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "PlaylistAI",
+      "url": "https://www.playlistai.app/",
+      "detail": "200"
+    },
+    {
+      "name": "On24",
+      "url": "https://www.on24.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Voicemod",
+      "url": "https://www.voicemod.net",
+      "detail": "200"
+    },
+    {
+      "name": "AI-Coustics",
+      "url": "https://ai-coustics.com/",
+      "detail": "200"
+    },
+    {
+      "name": "FlyFin",
+      "url": "https://flyfin.tax/",
+      "detail": "200"
+    },
+    {
+      "name": "Voila",
+      "url": "https://www.voila.love/#/",
+      "detail": "200"
+    },
+    {
+      "name": "The Stack",
+      "url": "https://thestack.world/",
+      "detail": "200"
+    },
+    {
+      "name": "Pex",
+      "url": "https://pex.com/",
+      "detail": "200"
+    },
+    {
+      "name": "FilmHub",
+      "url": "https://filmhub.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Quantum Pigeon",
+      "url": "https://www.qp.me/",
+      "detail": "405"
+    },
+    {
+      "name": "Teespring",
+      "url": "https://teespring.com",
+      "detail": "403"
+    },
+    {
+      "name": "Issuu",
+      "url": "https://issuu.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Topia",
+      "url": "https://topia.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Adventr",
+      "url": "https://adventr.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Compiled",
+      "url": "https://www.compiled.social",
+      "detail": "200"
+    },
+    {
+      "name": "Unlock",
+      "url": "https://unlock-protocol.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bubblehouse",
+      "url": "https://www.bubblehouse.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mayk.it",
+      "url": "https://www.mayk.it/",
+      "detail": "200"
+    },
+    {
+      "name": "MakersPlace",
+      "url": "https://makersplace.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Ongo",
+      "url": "https://www.ongolabs.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Passionfroot",
+      "url": "https://www.passionfroot.xyz/",
+      "detail": "200"
+    },
+    {
+      "name": "The Luupe",
+      "url": "https://theluupe.com/",
+      "detail": "200"
+    },
+    {
+      "name": "ZenBusiness",
+      "url": "https://www.zenbusiness.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Printful",
+      "url": "https://www.printful.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Display Social",
+      "url": "https://www.displaysocial.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Maestro",
+      "url": "https://www.maestro.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Catch",
+      "url": "https://catch.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Keeper Tax",
+      "url": "https://www.keepertax.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mixcloud",
+      "url": "https://www.mixcloud.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Turnip",
+      "url": "https://turnip.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "Lickd",
+      "url": "https://lickd.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Humanz",
+      "url": "https://www.humanz.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Obviously",
+      "url": "https://www.obvious.ly/",
+      "detail": "200"
+    },
+    {
+      "name": "Lili",
+      "url": "https://lili.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Hifi",
+      "url": "https://hi.fi/",
+      "detail": "200"
+    },
+    {
+      "name": "RareCircles",
+      "url": "https://www.rarecircles.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Cohley",
+      "url": "https://www.cohley.com/",
+      "detail": "403"
+    },
+    {
+      "name": "NTWRK",
+      "url": "https://thentwrk.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Music Breakr",
+      "url": "https://musicbreakr.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Jellysmack",
+      "url": "https://jellysmack.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Popchew",
+      "url": "https://popchew.com/",
+      "detail": "200"
+    },
+    {
+      "name": "EnTribe",
+      "url": "https://www.entribe.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Key",
+      "url": "https://mykeylive.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Impact",
+      "url": "https://impact.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Willa",
+      "url": "https://www.willapay.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Community",
+      "url": "https://www.community.com",
+      "detail": "200"
+    },
+    {
+      "name": "Curastory",
+      "url": "https://curastory.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Grin",
+      "url": "https://grin.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Eluvio",
+      "url": "https://live.eluv.io/",
+      "detail": "200"
+    },
+    {
+      "name": "StreamAlive",
+      "url": "https://www.streamalive.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Rosebud AI",
+      "url": "https://www.rosebud.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Spotter",
+      "url": "https://spotter.la/",
+      "detail": "200"
+    },
+    {
+      "name": "Spring",
+      "url": "https://www.spri.ng/",
+      "detail": "200"
+    },
+    {
+      "name": "Profi",
+      "url": "https://www.profi.io/",
+      "detail": "200"
+    },
+    {
+      "name": "BandLab",
+      "url": "https://www.bandlab.com/?lang=en",
+      "detail": "200"
+    },
+    {
+      "name": "Thatch",
+      "url": "https://www.thatch.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Stan",
+      "url": "https://www.stan.store/",
+      "detail": "200"
+    },
+    {
+      "name": "Rapchat",
+      "url": "https://rapchat.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Outseta",
+      "url": "https://outseta.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Sunroom",
+      "url": "https://sunroom.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Fanbase.com",
+      "url": "https://fanbase.com/?r=ZlWPB",
+      "detail": "200"
+    },
+    {
+      "name": "Fanbase.app",
+      "url": "https://fanbase.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Afterparty",
+      "url": "https://afterparty.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "SageSpot",
+      "url": "https://sagespot.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Collective",
+      "url": "https://www.collective.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Oxygen",
+      "url": "https://oxygen.us/",
+      "detail": "200"
+    },
+    {
+      "name": "Beehiiv",
+      "url": "https://www.beehiiv.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Fave",
+      "url": "https://faveforfans.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Millions.co",
+      "url": "https://millions.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Wordpress",
+      "url": "https://wordpress.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Fanfix",
+      "url": "https://www.fanfix.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Sketchar",
+      "url": "https://sketchar.io/",
+      "detail": "200"
+    },
+    {
+      "name": "BitanGO",
+      "url": "https://bintango.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Rella",
+      "url": "https://getrella.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Notch",
+      "url": "https://www.get-notch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mavely",
+      "url": "https://www.joinmavely.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Zezam",
+      "url": "https://www.zezam.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Thematic",
+      "url": "https://hellothematic.com/",
+      "detail": "200"
+    },
+    {
+      "name": "TapeReal",
+      "url": "https://web.tapereal.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Squarespace",
+      "url": "https://squarespace.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Direct.me",
+      "url": "https://www.direct.me/",
+      "detail": "403"
+    },
+    {
+      "name": "Zaiko",
+      "url": "https://zaiko.business/",
+      "detail": "200"
+    },
+    {
+      "name": "Howdy",
+      "url": "https://sayhowdy.co/",
+      "detail": "200"
+    },
+    {
+      "name": "GoFundMe",
+      "url": "https://gofundme.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Indiegogo",
+      "url": "https://indiegogo.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Kickstarter",
+      "url": "https://www.kickstarter.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Fanjoy",
+      "url": "https://fanjoy.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Framer",
+      "url": "https://www.framer.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Webflow",
+      "url": "https://webflow.com/",
+      "detail": "200"
+    },
+    {
+      "name": "SimpleInk",
+      "url": "https://www.simple.ink/",
+      "detail": "200"
+    },
+    {
+      "name": "Wix",
+      "url": "https://wix.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Dorik",
+      "url": "https://dorik.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Unstack",
+      "url": "https://www.unstack.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Carrd",
+      "url": "https://www.carrd.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Weebly",
+      "url": "https://www.weebly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Universe",
+      "url": "https://onuniverse.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Tilda",
+      "url": "https://tilda.cc/",
+      "detail": "200"
+    },
+    {
+      "name": "Bio Link",
+      "url": "https://bio.link",
+      "detail": "403"
+    },
+    {
+      "name": "Webydo",
+      "url": "https://www.webydo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Shopify",
+      "url": "https://www.shopify.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Strikingly",
+      "url": "https://www.strikingly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Biosites",
+      "url": "https://biosites.com/",
+      "detail": "200"
+    },
+    {
+      "name": "LinkFire",
+      "url": "https://www.lnk.to/",
+      "detail": "200"
+    },
+    {
+      "name": "Pixpa",
+      "url": "https://www.pixpa.com/",
+      "detail": "200"
+    },
+    {
+      "name": "ReadyMag",
+      "url": "https://readymag.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Berta",
+      "url": "https://www.berta.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Tapmybio",
+      "url": "https://www.tapmybio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Popshop Live",
+      "url": "https://join.popshop.live/",
+      "detail": "200"
+    },
+    {
+      "name": "Big Cartel",
+      "url": "https://www.bigcartel.com",
+      "detail": "200"
+    },
+    {
+      "name": "Cala",
+      "url": "https://www.ca.la",
+      "detail": "200"
+    },
+    {
+      "name": "Spreadshirt",
+      "url": "https://www.spreadshirt.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Sellfy",
+      "url": "https://sellfy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "AllMyLinks",
+      "url": "https://www.allmylinks.com",
+      "detail": "200"
+    },
+    {
+      "name": "Pietra",
+      "url": "https://www.pietrastudio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Moteefe",
+      "url": "https://assets-global.website-files.com/63bebb6111e9470a3698d1de/642ab6a1ad4f8e7984ed2eda_logo.png",
+      "detail": "200"
+    },
+    {
+      "name": "Beacons",
+      "url": "https://www.beacons.ai/",
+      "detail": "403"
+    },
+    {
+      "name": "OffScript",
+      "url": "https://offscript.io",
+      "detail": "200"
+    },
+    {
+      "name": "MMM",
+      "url": "https://mmm.page/",
+      "detail": "200"
+    },
+    {
+      "name": "DistroKid",
+      "url": "https://www.distrokid.com/",
+      "detail": "403"
+    },
+    {
+      "name": "FlowPage",
+      "url": "https://www.flowcode.com/page",
+      "detail": "200"
+    },
+    {
+      "name": "Artflow",
+      "url": "https://app.artflow.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Recast",
+      "url": "https://www.letsrecast.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Durable",
+      "url": "https://durable.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Instabio",
+      "url": "https://www.instabio.cc/",
+      "detail": "403"
+    },
+    {
+      "name": "Longshot AI",
+      "url": "https://www.longshot.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Murf",
+      "url": "https://murf.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Super Meme",
+      "url": "https://www.supermeme.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Campsite.Bio",
+      "url": "https://www.campsite.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Supernormal",
+      "url": "https://supernormal.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Surfer",
+      "url": "https://surferseo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Feature.FM",
+      "url": "https://www.feature.fm/",
+      "detail": "200"
+    },
+    {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Fansly",
+      "url": "https://fansly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Fancentro",
+      "url": "https://fancentro.com/",
+      "detail": "200"
+    },
+    {
+      "name": "It'sMyBio",
+      "url": "https://www.itsmy.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Unlockd",
+      "url": "https://unlockd.me/",
+      "detail": "403"
+    },
+    {
+      "name": "AdultNode",
+      "url": "https://adultnode.com/",
+      "detail": "200"
+    },
+    {
+      "name": "AllMyBio",
+      "url": "https://www.allmy.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Scrile",
+      "url": "https://www.scrile.com/connect",
+      "detail": "200"
+    },
+    {
+      "name": "Hypage",
+      "url": "https://hypage.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Renown",
+      "url": "https://renownapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Ton.Place",
+      "url": "https://ton.place/",
+      "detail": "200"
+    },
+    {
+      "name": "Stampfans",
+      "url": "https://stampfans.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Studio",
+      "url": "https://studio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "KROWD",
+      "url": "https://yourkrowd.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Attentive",
+      "url": "https://attentive.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Memberful",
+      "url": "https://memberful.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Fanize",
+      "url": "https://fanize.it/en/",
+      "detail": "200"
+    },
+    {
+      "name": "Getnext",
+      "url": "https://getnext.to/",
+      "detail": "200"
+    },
+    {
+      "name": "Honeycommb",
+      "url": "https://www.honeycommb.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Opensocial",
+      "url": "https://www.getopensocial.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Linkr",
+      "url": "https://linkr.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Supapass",
+      "url": "https://www.supapass.com/",
+      "detail": "200"
+    },
+    {
+      "name": "LTX Bio",
+      "url": "https://ltx.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Pineapple Builder",
+      "url": "https://www.pineapplebuilder.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Pagy",
+      "url": "https://pagy.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Bullet",
+      "url": "https://bullet.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Bodyguard",
+      "url": "https://www.bodyguard.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "LinkList",
+      "url": "https://www.linklist.bio/",
+      "detail": "403"
+    },
+    {
+      "name": "My PT Hub",
+      "url": "https://www.mypthub.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Fanalytics",
+      "url": "https://www.fanalytics.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "OhMyBio",
+      "url": "https://www.ohmy.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Animoto",
+      "url": "https://animoto.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Acast",
+      "url": "https://www.acast.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Buzzsprout",
+      "url": "https://www.buzzsprout.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Hype",
+      "url": "https://hype.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Autograph",
+      "url": "https://autograph.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Gronda",
+      "url": "https://gronda.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Paved",
+      "url": "https://www.paved.com/",
+      "detail": "403"
+    },
+    {
+      "name": "ManyVids",
+      "url": "https://manyvids.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Capiche FM",
+      "url": "https://capiche.fm/",
+      "detail": "200"
+    },
+    {
+      "name": "Foundation",
+      "url": "https://foundation.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Cent",
+      "url": "https://www.cent.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Roll",
+      "url": "https://joinroll.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Zora",
+      "url": "https://zora.co/",
+      "detail": "200"
+    },
+    {
+      "name": "LinkInProfile",
+      "url": "https://linkinprofile.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Biolinky",
+      "url": "https://biolinky.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Bronto",
+      "url": "https://www.bronto.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Creator Metrics",
+      "url": "https://creatormetrics.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Para",
+      "url": "https://para.co/",
+      "detail": "200"
+    },
+    {
+      "name": "DFTBA",
+      "url": "https://store.dftba.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Instaco",
+      "url": "https://instaco.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Podbean",
+      "url": "https://www.podbean.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Squadcast",
+      "url": "https://squadcast.fm/",
+      "detail": "200"
+    },
+    {
+      "name": "Megaphone",
+      "url": "https://megaphone.fm/",
+      "detail": "200"
+    },
+    {
+      "name": "Tales",
+      "url": "https://talescreator.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wattpad",
+      "url": "https://www.wattpad.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Solo.To",
+      "url": "https://www.solo.to/",
+      "detail": "403"
+    },
+    {
+      "name": "Manticore Games",
+      "url": "https://www.manticoregames.com/",
+      "detail": "200"
+    },
+    {
+      "name": "E-pal",
+      "url": "https://www.epal.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "Metafy",
+      "url": "https://metafy.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "1v1Me",
+      "url": "https://www.1v1me.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Loots",
+      "url": "https://loots.com/",
+      "detail": "200"
+    },
+    {
+      "name": "VEEPS",
+      "url": "https://veeps.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Stage 10",
+      "url": "https://stageten.tv/",
+      "detail": "200"
+    },
+    {
+      "name": "Beatstarts",
+      "url": "https://www.beatstars.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Createsafe",
+      "url": "https://createsafe.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Landr",
+      "url": "https://www.landr.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Xperiencify",
+      "url": "https://xperiencify.com/",
+      "detail": "200"
+    },
+    {
+      "name": "OpenSea",
+      "url": "https://opensea.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Instasize",
+      "url": "https://instasize.com/",
+      "detail": "429"
+    },
+    {
+      "name": "Pry",
+      "url": "https://pry.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Mentorcam",
+      "url": "https://mentor.cam/",
+      "detail": "200"
+    },
+    {
+      "name": "Splash",
+      "url": "https://www.splashmusic.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Creators Legal",
+      "url": "https://creatorslegal.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Anytype",
+      "url": "https://anytype.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Throne",
+      "url": "https://throne.com/",
+      "detail": "200"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Vu Technologies",
+      "url": "https://www.vu.network/",
+      "detail": "200"
+    },
+    {
+      "name": "SuperRare",
+      "url": "https://superrare.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://twitch.tv/",
+      "detail": "200"
+    },
+    {
+      "name": "Agora",
+      "url": "https://www.agora.io/en/",
+      "detail": "200"
+    },
+    {
+      "name": "Amplifidor",
+      "url": "https://www.amplifidor.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Launch House",
+      "url": "https://www.launchhouse.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Upstream",
+      "url": "https://upstream.so/",
+      "detail": "200"
+    },
+    {
+      "name": "The Leap",
+      "url": "https://www.theleap.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Airmeet",
+      "url": "https://www.airmeet.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Listium",
+      "url": "https://listium.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Articulate",
+      "url": "https://www.articulate.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Doing Things Media",
+      "url": "https://www.doingthings.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Per Diem",
+      "url": "https://www.tryperdiem.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Snapchat",
+      "url": "https://www.snapchat.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Splice",
+      "url": "https://splice.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Soundcloud",
+      "url": "https://soundcloud.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Faceit",
+      "url": "https://www.faceit.com/",
+      "detail": "403"
+    },
+    {
+      "name": "VersusGame",
+      "url": "https://www.versusgame.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Nas Academy",
+      "url": "https://nasacademy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Hubla",
+      "url": "https://hub.la/",
+      "detail": "200"
+    },
+    {
+      "name": "Nifty Gateway",
+      "url": "https://www.niftygateway.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Creator Economy NYC",
+      "url": "https://creatoreconomynyc.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Unscreen",
+      "url": "https://www.unscreen.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Snappa",
+      "url": "https://snappa.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Dispo",
+      "url": "https://dispo.fun/",
+      "detail": "200"
+    },
+    {
+      "name": "LTK",
+      "url": "https://www.shopltk.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Chord",
+      "url": "https://chord.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Courses.so",
+      "url": "https://courses.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Captiv8",
+      "url": "https://captiv8.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Workweek",
+      "url": "https://workweek.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Rarible",
+      "url": "https://rarible.com/",
+      "detail": "200"
+    },
+    {
+      "name": "SnapMotion",
+      "url": "https://neededapps.com/snapmotion/",
+      "detail": "200"
+    },
+    {
+      "name": "Creative Fabrica",
+      "url": "https://www.creativefabrica.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Milkshake",
+      "url": "https://milkshake.app/",
+      "detail": "200"
+    },
+    {
+      "name": "United Masters",
+      "url": "https://unitedmasters.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Allstar",
+      "url": "https://allstar.gg/clips",
+      "detail": "200"
+    },
+    {
+      "name": "Kobalt",
+      "url": "https://www.kobaltmusic.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Cargo",
+      "url": "https://cargo.site/",
+      "detail": "200"
+    },
+    {
+      "name": "Slashpage",
+      "url": "https://slashpage.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Gatheround",
+      "url": "https://gatheround.com/",
+      "detail": "200"
+    },
+    {
+      "name": "4D Sight",
+      "url": "https://4dsight.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Domestika",
+      "url": "https://www.domestika.org/en",
+      "detail": "200"
+    },
+    {
+      "name": "CommonRoom",
+      "url": "https://www.commonroom.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Toonsutra",
+      "url": "https://www.toonsutra.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Breeze",
+      "url": "https://www.breeze.inc/",
+      "detail": "200"
+    },
+    {
+      "name": "MasterClass",
+      "url": "https://www.masterclass.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Moonbounce",
+      "url": "https://www.getmoonbounce.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Songfinch",
+      "url": "https://www.songfinch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Passion",
+      "url": "https://passion.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Guestio",
+      "url": "https://guestio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Genies",
+      "url": "https://genies.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Curtsy",
+      "url": "https://curtsyapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bunches",
+      "url": "https://onbunches.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Bitski",
+      "url": "https://www.bitski.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Rec Room",
+      "url": "https://recroom.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Thunder Content",
+      "url": "https://thundercontent.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Takle.io",
+      "url": "https://takle.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Talkshoplive",
+      "url": "https://talkshop.live/",
+      "detail": "200"
+    },
+    {
+      "name": "Wos",
+      "url": "https://www.getwos.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Slack",
+      "url": "https://slack.com/intl/en-gb/",
+      "detail": "200"
+    },
+    {
+      "name": "BuddyBoss",
+      "url": "https://www.buddyboss.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Pixlr",
+      "url": "https://pixlr.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Jitter.Video",
+      "url": "https://jitter.video/",
+      "detail": "200"
+    },
+    {
+      "name": "Tubebuddy",
+      "url": "https://www.tubebuddy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Unfold",
+      "url": "https://unfold.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Afterlight",
+      "url": "https://www.afterlight.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Facetune",
+      "url": "https://www.facetuneapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "VSCO",
+      "url": "https://www.vsco.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Huji",
+      "url": "https://apps.apple.com/us/app/huji-cam/id781383622",
+      "detail": "200"
+    },
+    {
+      "name": "Afluencer",
+      "url": "https://afluencer.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Exly",
+      "url": "https://exlyapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "EzyCourse",
+      "url": "https://ezycourse.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Taplio",
+      "url": "https://taplio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "HypeFury",
+      "url": "https://hypefury.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Tweepsmap",
+      "url": "https://fedica.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Twitonomy",
+      "url": "https://www.twitonomy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Buffer",
+      "url": "https://buffer.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Typefully",
+      "url": "https://typefully.com/",
+      "detail": "200"
+    },
+    {
+      "name": "SocialBee",
+      "url": "https://socialbee.com/",
+      "detail": "200"
+    },
+    {
+      "name": "CreatorIQ",
+      "url": "https://www.creatoriq.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Audience Republic",
+      "url": "https://www.audiencerepublic.com/",
+      "detail": "200"
+    },
+    {
+      "name": "E-Junkie",
+      "url": "https://www.e-junkie.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Lemonsqueezy",
+      "url": "https://www.lemonsqueezy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "TextCortex",
+      "url": "https://textcortex.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Whop",
+      "url": "https://whop.com",
+      "detail": "200"
+    },
+    {
+      "name": "Printify",
+      "url": "https://printify.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Cosmofeed",
+      "url": "https://cosmofeed.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wellsaidlabs",
+      "url": "https://wellsaidlabs.com/",
+      "detail": "200"
+    },
+    {
+      "name": "HYPD",
+      "url": "https://www.hypd.store/",
+      "detail": "200"
+    },
+    {
+      "name": "MintGate",
+      "url": "https://www.mintgate.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Tweet Hunter",
+      "url": "https://tweethunter.io/",
+      "detail": "200"
+    },
+    {
+      "name": "VanceAI",
+      "url": "https://vanceai.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Voicemaker",
+      "url": "https://voicemaker.in/",
+      "detail": "200"
+    },
+    {
+      "name": "Website Planet",
+      "url": "https://www.websiteplanet.com/webtools/dummy-images-generator/",
+      "detail": "200"
+    },
+    {
+      "name": "xpression camera",
+      "url": "https://xpressioncamera.com/",
+      "detail": "200"
+    },
+    {
+      "name": "YouTube Summary with ChatGPT",
+      "url": "https://glasp.co/youtube-summary",
+      "detail": "403"
+    },
+    {
+      "name": "OnJuno",
+      "url": "https://juno.finance/",
+      "detail": "200"
+    },
+    {
+      "name": "Sonomo",
+      "url": "https://www.sonomo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Trubify",
+      "url": "https://trubify.com/",
+      "detail": "200"
+    },
+    {
+      "name": "WordAi",
+      "url": "https://wordai.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wepik",
+      "url": "https://wepik.com/ai",
+      "detail": "403"
+    },
+    {
+      "name": "VersoView",
+      "url": "https://versoview.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Caffeine",
+      "url": "https://www.caffeine.tv/",
+      "detail": "200"
+    },
+    {
+      "name": "Livepeer",
+      "url": "https://livepeer.org/",
+      "detail": "200"
+    },
+    {
+      "name": "PopularPays",
+      "url": "https://popularpays.com/",
+      "detail": "200"
+    },
+    {
+      "name": "WebCopilot",
+      "url": "https://www.webcopilot.co",
+      "detail": "200"
+    },
+    {
+      "name": "Bonfire",
+      "url": "https://www.bonfire.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Looka",
+      "url": "https://looka.com/logo-maker/",
+      "detail": "403"
+    },
+    {
+      "name": "Compose.ai",
+      "url": "https://www.compose.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Flowrite",
+      "url": "https://www.flowrite.com",
+      "detail": "200"
+    },
+    {
+      "name": "Portaly",
+      "url": "https://portaly.cc/en",
+      "detail": "200"
+    },
+    {
+      "name": "Bambuser",
+      "url": "https://bambuser.com",
+      "detail": "200"
+    },
+    {
+      "name": "Lalabox",
+      "url": "https://lalabox.io",
+      "detail": "200"
+    },
+    {
+      "name": "10 Web",
+      "url": "https://10web.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Brandwatch",
+      "url": "https://www.brandwatch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Creator.co",
+      "url": "https://creator.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Influencity",
+      "url": "https://influencity.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Klear",
+      "url": "https://klear.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Rapidely",
+      "url": "https://rapidely.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Tagger Media",
+      "url": "https://www.taggermedia.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Softr",
+      "url": "https://www.softr.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Glide",
+      "url": "https://www.glideapps.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Adalo",
+      "url": "https://www.adalo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Feedly",
+      "url": "https://feedly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Buzzsumo",
+      "url": "https://buzzsumo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "RunwayML",
+      "url": "https://app.runwayml.com/",
+      "detail": "200"
+    },
+    {
+      "name": "MixKit",
+      "url": "https://mixkit.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Zyro",
+      "url": "https://zyro.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Writesonic",
+      "url": "https://writesonic.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wordtune",
+      "url": "https://wordtune.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wordplay.ai",
+      "url": "https://wordplay.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Motom",
+      "url": "https://www.motom.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Makeship",
+      "url": "https://www.makeship.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Elopage",
+      "url": "https://elopage.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Textomap",
+      "url": "https://www.textomap.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Digistore24",
+      "url": "https://www.digistore24.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Veed",
+      "url": "https://www.veed.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Notion4teachers",
+      "url": "https://www.notion4teachers.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wistia",
+      "url": "https://wistia.com/",
+      "detail": "200"
+    },
+    {
+      "name": "WebinarJam",
+      "url": "https://home.webinarjam.com/index",
+      "detail": "200"
+    },
+    {
+      "name": "Convosight",
+      "url": "https://www.convosight.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Memberup",
+      "url": "https://memberup.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Frond",
+      "url": "https://frond.com/",
+      "detail": "200"
+    },
+    {
+      "name": "HeySummit",
+      "url": "https://heysummit.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Livestorm",
+      "url": "https://livestorm.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Mentimeter",
+      "url": "https://www.mentimeter.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Remo",
+      "url": "https://remo.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Streamyard",
+      "url": "https://streamyard.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Kick",
+      "url": "https://kick.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Brella",
+      "url": "https://www.brella.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Keyhole",
+      "url": "https://keyhole.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Amity",
+      "url": "https://www.amity.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Gradual",
+      "url": "https://www.gradual.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Heartbeat",
+      "url": "https://www.heartbeat.chat/",
+      "detail": "200"
+    },
+    {
+      "name": "Hall",
+      "url": "https://usehall.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Pensil",
+      "url": "https://www.pensil.in/",
+      "detail": "200"
+    },
+    {
+      "name": "Vito",
+      "url": "https://vi.to/",
+      "detail": "200"
+    },
+    {
+      "name": "Habitate",
+      "url": "https://www.habitate.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Ramen Life",
+      "url": "https://www.ramenlife.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Haaartland",
+      "url": "https://www.haaartland.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Hylo",
+      "url": "https://www.hylo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Beam",
+      "url": "https://www.beam.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "Kartra",
+      "url": "https://home.kartra.com/",
+      "detail": "200"
+    },
+    {
+      "name": "GroupApp",
+      "url": "https://www.group.app/",
+      "detail": "200"
+    },
+    {
+      "name": "GroupSite",
+      "url": "https://www.groupsite.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Guilded",
+      "url": "https://www.guilded.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "Nas.io",
+      "url": "https://nas.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Brandmark",
+      "url": "https://brandmark.io/tools",
+      "detail": "200"
+    },
+    {
+      "name": "Movement",
+      "url": "https://movement.so/",
+      "detail": "200"
+    },
+    {
+      "name": "TheHuddle",
+      "url": "https://www.thehuddle.nl/",
+      "detail": "200"
+    },
+    {
+      "name": "Aluminati",
+      "url": "https://www.aluminati.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Dazzlink",
+      "url": "https://dazzl.ink/",
+      "detail": "200"
+    },
+    {
+      "name": "Mesh",
+      "url": "https://www.mymesh.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Kommunity",
+      "url": "https://kommunity.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Andi",
+      "url": "https://andisearch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "LikeMinds",
+      "url": "https://likeminds.community/",
+      "detail": "200"
+    },
+    {
+      "name": "UnaCMS",
+      "url": "https://unacms.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Eventbrite",
+      "url": "https://www.eventbrite.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Pory",
+      "url": "https://pory.io/",
+      "detail": "200"
+    },
+    {
+      "name": "WooCommerce",
+      "url": "https://woo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Adobe Podcast",
+      "url": "https://podcast.adobe.com/enhance",
+      "detail": "200"
+    },
+    {
+      "name": "Linklab",
+      "url": "https://linklab.site/",
+      "detail": "200"
+    },
+    {
+      "name": "FansMine",
+      "url": "https://fansmine.com/",
+      "detail": "200"
+    },
+    {
+      "name": "AI Image Enlarger",
+      "url": "https://imglarger.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Indiepage",
+      "url": "https://indiepa.ge/",
+      "detail": "200"
+    },
+    {
+      "name": "AI Social Bio",
+      "url": "https://aisocialbio.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Predis.ai",
+      "url": "https://predis.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "AI-Writer",
+      "url": "https://ai-writer.com/",
+      "detail": "200"
+    },
+    {
+      "name": "AI2image",
+      "url": "https://www.ai2image.com/",
+      "detail": "200"
+    },
+    {
+      "name": "AI SEO",
+      "url": "https://aiseo.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Quintly",
+      "url": "https://www.quintly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "AI SEO Art",
+      "url": "https://art.aiseo.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Aiva",
+      "url": "https://www.aiva.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Anonymizer",
+      "url": "https://generated.photos/anonymizer",
+      "detail": "200"
+    },
+    {
+      "name": "AppyPie",
+      "url": "https://www.appypie.com/ai-website-builder",
+      "detail": "200"
+    },
+    {
+      "name": "Artbreeder",
+      "url": "https://www.artbreeder.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Artistator",
+      "url": "https://artistator.com",
+      "detail": "200"
+    },
+    {
+      "name": "ArtroomAI",
+      "url": "https://artroom.ai/download-app",
+      "detail": "200"
+    },
+    {
+      "name": "Astria",
+      "url": "https://www.astria.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Audio Strip",
+      "url": "https://www.audiostrip.co.uk/",
+      "detail": "200"
+    },
+    {
+      "name": "AutoRetouch",
+      "url": "https://www.autoretouch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Avatar AI",
+      "url": "https://avatarai.me/",
+      "detail": "200"
+    },
+    {
+      "name": "AVC AI",
+      "url": "https://avc.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "BlogNLP",
+      "url": "https://www.blognlp.com",
+      "detail": "200"
+    },
+    {
+      "name": "Boomy",
+      "url": "https://boomy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bearly.ai",
+      "url": "https://bearly.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Beautiful AI",
+      "url": "https://www.beautiful.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Tiles",
+      "url": "https://tiles.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Bertha.ai",
+      "url": "https://bertha.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Absorb",
+      "url": "https://www.absorblms.com/",
+      "detail": "200"
+    },
+    {
+      "name": "BHuman",
+      "url": "https://www.bhuman.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "MONET",
+      "url": "https://www.monet.money/",
+      "detail": "200"
+    },
+    {
+      "name": "BrandMentions",
+      "url": "https://brandmentions.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "detail": "403"
+    },
+    {
+      "name": "Browse AI",
+      "url": "https://www.browse.ai/",
+      "detail": "405"
+    },
+    {
+      "name": "Bruqi",
+      "url": "https://www.bruqi.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Claid.ai",
+      "url": "https://claid.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Cleanvoice AI",
+      "url": "https://cleanvoice.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Fundmates",
+      "url": "https://www.fundmates.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Viralmoment",
+      "url": "https://viralmoment.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Closers Copy",
+      "url": "https://www.closerscopy.com",
+      "detail": "200"
+    },
+    {
+      "name": "Cogniflow",
+      "url": "https://www.cogniflow.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Viral Nation",
+      "url": "https://www.viralnation.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Consensus",
+      "url": "https://consensus.app/",
+      "detail": "403"
+    },
+    {
+      "name": "Kortex",
+      "url": "https://www.kortex.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Classplus",
+      "url": "https://classplusapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Copy AI",
+      "url": "http://www.copy.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Pillar",
+      "url": "https://get.pillar.io/",
+      "detail": "200"
+    },
+    {
+      "name": "TopMate",
+      "url": "https://topmate.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Word Counter",
+      "url": "https://wordcounter.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Focus Booster",
+      "url": "https://www.focusboosterapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Cowriter",
+      "url": "https://cowriter.org",
+      "detail": "200"
+    },
+    {
+      "name": "Craiyon",
+      "url": "https://www.craiyon.com",
+      "detail": "403"
+    },
+    {
+      "name": "Artlist",
+      "url": "https://artlist.io/",
+      "detail": "403"
+    },
+    {
+      "name": "Jingle.bio",
+      "url": "https://jingle.bio/",
+      "detail": "200"
+    },
+    {
+      "name": "Designify",
+      "url": "https://www.designify.com",
+      "detail": "200"
+    },
+    {
+      "name": "Shottr",
+      "url": "https://shottr.cc/",
+      "detail": "200"
+    },
+    {
+      "name": "DoNotPay",
+      "url": "https://donotpay.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Opal",
+      "url": "https://www.opal.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Dream By Wombo",
+      "url": "https://www.wombo.art/",
+      "detail": "200"
+    },
+    {
+      "name": "getimg.ai",
+      "url": "https://getimg.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Eightify",
+      "url": "https://www.eightify.app/",
+      "detail": "403"
+    },
+    {
+      "name": "Creator Genesis",
+      "url": "https://www.creatorgenesis.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Dream Up",
+      "url": "https://www.dreamup.com",
+      "detail": "200"
+    },
+    {
+      "name": "Dream.page",
+      "url": "https://dream.page",
+      "detail": "200"
+    },
+    {
+      "name": "Fullscore",
+      "url": "https://fullscore.digital/",
+      "detail": "200"
+    },
+    {
+      "name": "Dubverse",
+      "url": "https://dubverse.ai",
+      "detail": "200"
+    },
+    {
+      "name": "TagMango",
+      "url": "https://tagmango.com/",
+      "detail": "200"
+    },
+    {
+      "name": "ytjobs.co",
+      "url": "https://ytjobs.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Easy-Peasy.AI",
+      "url": "https://easy-peasy.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Elai.io",
+      "url": "https://elai.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Sulico",
+      "url": "https://www.sulico.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Fathom",
+      "url": "https://fathom.video/",
+      "detail": "200"
+    },
+    {
+      "name": "Fliki",
+      "url": "https://fliki.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "FontJoy",
+      "url": "https://fontjoy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "For the Wall",
+      "url": "https://forthewall.art/",
+      "detail": "200"
+    },
+    {
+      "name": "Fotor",
+      "url": "https://www.fotor.com/features/ai-art-generator/",
+      "detail": "200"
+    },
+    {
+      "name": "Fronty",
+      "url": "https://fronty.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Genei",
+      "url": "https://www.genei.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Generated Photos",
+      "url": "https://generated.photos/",
+      "detail": "200"
+    },
+    {
+      "name": "Getalpaca",
+      "url": "https://www.getalpaca.io",
+      "detail": "200"
+    },
+    {
+      "name": "GPT-Prompter",
+      "url": "https://gptprompter.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Harmonai",
+      "url": "https://www.harmonai.org/",
+      "detail": "200"
+    },
+    {
+      "name": "Commenter",
+      "url": "https://commenter.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "HelloScribe",
+      "url": "https://helloscribe.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Gleam",
+      "url": "https://gleam.io/",
+      "detail": "403"
+    },
+    {
+      "name": "HeroPack",
+      "url": "https://www.heropack.me",
+      "detail": "200"
+    },
+    {
+      "name": "Heyday",
+      "url": "https://heyday.hootsuite.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Hotpot.ai",
+      "url": "https://hotpot.ai",
+      "detail": "200"
+    },
+    {
+      "name": "HyperWrite",
+      "url": "https://hyperwriteai.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Hypotenuse AI",
+      "url": "https://www.hypotenuse.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Jasper",
+      "url": "https://www.jasper.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Kafkai",
+      "url": "https://kafkai.com",
+      "detail": "200"
+    },
+    {
+      "name": "Katteb",
+      "url": "https://katteb.com/en",
+      "detail": "200"
+    },
+    {
+      "name": "Leawo PhotoIns",
+      "url": "https://www.leawo.org/photoins/",
+      "detail": "403"
+    },
+    {
+      "name": "Legal Robot",
+      "url": "https://legalrobot.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Lensa",
+      "url": "https://prisma-ai.com/lensa",
+      "detail": "200"
+    },
+    {
+      "name": "Let\u2019s Enhance",
+      "url": "https://letsenhance.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Lex",
+      "url": "https://lex.page",
+      "detail": "200"
+    },
+    {
+      "name": "Luminar AI",
+      "url": "https://skylum.com/luminar-ai",
+      "detail": "200"
+    },
+    {
+      "name": "Icons8 Lunacy",
+      "url": "https://icons8.com/lunacy",
+      "detail": "200"
+    },
+    {
+      "name": "Mage",
+      "url": "https://www.mage.space",
+      "detail": "200"
+    },
+    {
+      "name": "Magic AI Avatars",
+      "url": "https://magicaiavatars.com",
+      "detail": "200"
+    },
+    {
+      "name": "Profile Picture Al",
+      "url": "https://www.profilepicture.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Maverick",
+      "url": "https://www.trymaverick.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mention",
+      "url": "https://mention.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://midjourney.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Manychat",
+      "url": "https://manychat.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Movavi Photo Editor 2024",
+      "url": "https://www.movavi.com/photo-editor",
+      "detail": "200"
+    },
+    {
+      "name": "LogoFast",
+      "url": "https://logofa.st/",
+      "detail": "200"
+    },
+    {
+      "name": "Template",
+      "url": "https://www.template.net/",
+      "detail": "200"
+    },
+    {
+      "name": "PolitePost.net",
+      "url": "https://politepost.net",
+      "detail": "200"
+    },
+    {
+      "name": "Quasi",
+      "url": "https://quasi.market",
+      "detail": "200"
+    },
+    {
+      "name": "Replicastudios",
+      "url": "https://www.replicastudios.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Rytr",
+      "url": "https://rytr.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Sidekick",
+      "url": "https://sidekickai.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Starryai",
+      "url": "https://www.starryai.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Subtxt",
+      "url": "https://subtxt.app",
+      "detail": "200"
+    },
+    {
+      "name": "TeleportHQ",
+      "url": "https://teleporthq.io/ai-website-builder",
+      "detail": "200"
+    },
+    {
+      "name": "Photoroom",
+      "url": "https://www.photoroom.com",
+      "detail": "200"
+    },
+    {
+      "name": "Text Blaze",
+      "url": "https://blaze.today/",
+      "detail": "200"
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Microsoft Designer",
+      "url": "https://designer.microsoft.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Stable Diffusion Online",
+      "url": "https://stablediffusionweb.com/",
+      "detail": "403"
+    },
+    {
+      "name": "NVIDIA Canvas",
+      "url": "https://www.nvidia.com/en-us/studio/canvas/",
+      "detail": "200"
+    },
+    {
+      "name": "D-ID",
+      "url": "https://www.d-id.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Compress PNG",
+      "url": "https://compresspng.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Palette",
+      "url": "https://palette.fm/",
+      "detail": "200"
+    },
+    {
+      "name": "Remove.bg",
+      "url": "https://www.remove.bg/",
+      "detail": "200"
+    },
+    {
+      "name": "TinyWow",
+      "url": "https://tinywow.com/",
+      "detail": "200"
+    },
+    {
+      "name": "ChatPDF",
+      "url": "https://www.chatpdf.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Image Cleaner",
+      "url": "https://objectremover.com/image-cleaner",
+      "detail": "200"
+    },
+    {
+      "name": "Profile Picture Maker",
+      "url": "https://pfpmaker.com/",
+      "detail": "200"
+    },
+    {
+      "name": "LeiaPix",
+      "url": "https://convert.leiapix.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Opus Clip",
+      "url": "https://www.opus.pro/",
+      "detail": "200"
+    },
+    {
+      "name": "Any Summary",
+      "url": "https://www.anysummary.app/",
+      "detail": "200"
+    },
+    {
+      "name": "EbSynth",
+      "url": "https://ebsynth.com/",
+      "detail": "200"
+    },
+    {
+      "name": "LiveReacting",
+      "url": "https://www.livereacting.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Listento",
+      "url": "https://li.sten.to/",
+      "detail": "403"
+    },
+    {
+      "name": "Cascadeur",
+      "url": "https://cascadeur.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Movmi",
+      "url": "https://movmi.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Teachable Machine",
+      "url": "https://teachablemachine.withgoogle.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Woofy",
+      "url": "https://hellowoofy.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Delphi.ai",
+      "url": "https://www.delphi.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Spline",
+      "url": "https://spline.design/",
+      "detail": "200"
+    },
+    {
+      "name": "Threads",
+      "url": "https://www.threads.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Godaddy",
+      "url": "https://www.godaddy.com",
+      "detail": "403"
+    },
+    {
+      "name": "Spinxo",
+      "url": "https://www.spinxo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Usernamegenerator",
+      "url": "https://usernamegenerator.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Focusee",
+      "url": "https://gemoo.com/focusee/index.htm",
+      "detail": "200"
+    },
+    {
+      "name": "Hopp by Wix",
+      "url": "https://www.hopp.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "detail": "200"
+    },
+    {
+      "name": "Biteable",
+      "url": "https://biteable.com",
+      "detail": "200"
+    },
+    {
+      "name": "Pexels",
+      "url": "https://www.pexels.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Freepik",
+      "url": "https://www.freepik.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Cinepacks",
+      "url": "https://cinepacks.store/",
+      "detail": "200"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://pixabay.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Mailchimp",
+      "url": "https://mailchimp.com/?currency=EUR",
+      "detail": "200"
+    },
+    {
+      "name": "Brevo",
+      "url": "https://www.brevo.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mailerlite",
+      "url": "https://www.mailerlite.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Storyblocks",
+      "url": "https://www.storyblocks.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Jimpix",
+      "url": "https://jimpix.co.uk/words/username-generator.asp",
+      "detail": "200"
+    },
+    {
+      "name": "Shutterstock",
+      "url": "https://www.shutterstock.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Envato Elements",
+      "url": "https://elements.envato.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Crowdstack",
+      "url": "https://pro.crowdstack.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Writecream",
+      "url": "https://www.writecream.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Twit-Vid",
+      "url": "https://www.twit-vid.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Submagic",
+      "url": "https://www.submagic.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Zubtitle",
+      "url": "https://zubtitle.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Vidyo.ai",
+      "url": "https://vidyo.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Pictory",
+      "url": "https://pictory.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://joinmastodon.org/",
+      "detail": "200"
+    },
+    {
+      "name": "Captions.AI",
+      "url": "https://www.captions.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Vyond",
+      "url": "https://www.vyond.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Blender",
+      "url": "https://www.blender.org/",
+      "detail": "200"
+    },
+    {
+      "name": "Sketch",
+      "url": "https://www.sketch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "PhotoAI",
+      "url": "https://photoai.me",
+      "detail": "200"
+    },
+    {
+      "name": "Meshy.ai",
+      "url": "https://www.meshy.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Clara.io",
+      "url": "https://clara.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Listmonk",
+      "url": "https://listmonk.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Audienceful",
+      "url": "https://www.audienceful.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Liberapay",
+      "url": "https://en.liberapay.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bandcamp",
+      "url": "https://bandcamp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bandzoogle",
+      "url": "https://bandzoogle.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Coindrop",
+      "url": "https://coindrop.to/",
+      "detail": "200"
+    },
+    {
+      "name": "Mintme",
+      "url": "https://www.mintme.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Calendly",
+      "url": "https://calendly.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Cal",
+      "url": "https://cal.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/",
+      "detail": "403"
+    },
+    {
+      "name": "ZenPen",
+      "url": "https://zenpen.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Hemmingway",
+      "url": "https://hemingwayapp.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Placeit",
+      "url": "https://placeit.net/",
+      "detail": "200"
+    },
+    {
+      "name": "Streak",
+      "url": "https://www.streak.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Humaaans",
+      "url": "https://blush.design/collections/humaaans/humaaans/scene-2-characters/h6HV6UBWu0tMUsSi?c=Bottom_0%7E89c5cc-0.1%7E89c5cc-0.2%7E393f82_Hair_0%7E181658-0.1%7Ee8e1e1-0.2%7E2c1b18_Skin_0%7Edcae92-0.1%7E57331f-0.2%7E57331f_Top_0%7Eff4133-0.1%7Ef2f2f2-0.2%7Ef2f2f2",
+      "detail": "200"
+    },
+    {
+      "name": "Recite",
+      "url": "https://reciteworks.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Easel.ly",
+      "url": "https://easel.ly/",
+      "detail": "200"
+    },
+    {
+      "name": "Bitly",
+      "url": "https://bitly.com/",
+      "detail": "405"
+    },
+    {
+      "name": "Typeform",
+      "url": "https://www.typeform.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Tally",
+      "url": "https://tally.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "detail": "200"
+    },
+    {
+      "name": "SPlashbase",
+      "url": "https://splashbase.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Typegenius",
+      "url": "https://chromewebstore.google.com/detail/type-genius/ejokcdmbiifiagicppiakpneifaofghh",
+      "detail": "200"
+    },
+    {
+      "name": "Fontello",
+      "url": "https://fontello.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Flaticon",
+      "url": "https://www.flaticon.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Mubert",
+      "url": "https://mubert.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Namelix",
+      "url": "https://namelix.com/",
+      "detail": "200"
+    },
+    {
+      "name": "NamingMagic",
+      "url": "https://www.namingmagic.com/",
+      "detail": "200"
+    },
+    {
+      "name": "UIFaces",
+      "url": "https://uifaces.co/",
+      "detail": "200"
+    },
+    {
+      "name": "NeuralStudio",
+      "url": "https://neural.cam/studio",
+      "detail": "200"
+    },
+    {
+      "name": "Neuronwriter",
+      "url": "https://www.neuronwriter.com",
+      "detail": "200"
+    },
+    {
+      "name": "NightCafe",
+      "url": "https://creator.nightcafe.studio/",
+      "detail": "403"
+    },
+    {
+      "name": "Openart",
+      "url": "https://openart.ai",
+      "detail": "200"
+    },
+    {
+      "name": "Yaara",
+      "url": "https://app.yaara.ai/paraphraser",
+      "detail": "200"
+    },
+    {
+      "name": "Photoshot",
+      "url": "https://photoshot.app",
+      "detail": "200"
+    },
+    {
+      "name": "Audioblocks",
+      "url": "https://www.storyblocks.com/audio",
+      "detail": "200"
+    },
+    {
+      "name": "Collabhouse",
+      "url": "https://www.collabhouse.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Evernote",
+      "url": "https://evernote.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wetransfer",
+      "url": "https://wetransfer.com/",
+      "detail": "200"
+    },
+    {
+      "name": "VistaCreate",
+      "url": "https://create.vista.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "detail": "200"
+    },
+    {
+      "name": "Playground AI",
+      "url": "https://playgroundai.com",
+      "detail": "200"
+    },
+    {
+      "name": "Sorare",
+      "url": "https://sorare.com",
+      "detail": "200"
+    },
+    {
+      "name": "ZiLink",
+      "url": "https://www.zil.ink",
+      "detail": "200"
+    },
+    {
+      "name": "Classpro",
+      "url": "https://www.classpro.in",
+      "detail": "403"
+    },
+    {
+      "name": "Twemex",
+      "url": "https://tweethunter.io/twemex",
+      "detail": "200"
+    },
+    {
+      "name": "SocialPilot",
+      "url": "https://www.socialpilot.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Testimonial.to",
+      "url": "https://testimonial.to/",
+      "detail": "200"
+    },
+    {
+      "name": "Thrivecart",
+      "url": "https://thrivecart.com",
+      "detail": "200"
+    },
+    {
+      "name": "Determ",
+      "url": "https://www.determ.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Mentorpass",
+      "url": "https://www.mentorpass.co/",
+      "detail": "200"
+    },
+    {
+      "name": "LogoAI",
+      "url": "https://www.logoai.com/make",
+      "detail": "200"
+    },
+    {
+      "name": "Foreplay",
+      "url": "https://www.foreplay.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Timeshifter",
+      "url": "https://www.timeshifter.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Typeshare",
+      "url": "https://typeshare.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Userp",
+      "url": "https://userp.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Blackmagic.so",
+      "url": "https://blackmagic.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Ilo.so",
+      "url": "https://ilo.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Stripe",
+      "url": "https://stripe.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Wise",
+      "url": "https://wise.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Loom",
+      "url": "https://www.loom.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Asana",
+      "url": "https://asana.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Growth Design",
+      "url": "https://growth.design/",
+      "detail": "429"
+    },
+    {
+      "name": "Apollo",
+      "url": "https://www.apollo.io/",
+      "detail": "200"
+    },
+    {
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Airtable",
+      "url": "https://airtable.com/",
+      "detail": "200"
+    },
+    {
+      "name": "BetterSnapTool",
+      "url": "https://apps.apple.com/us/app/bettersnaptool/id417375580?mt=12",
+      "detail": "200"
+    },
+    {
+      "name": "Super.so",
+      "url": "https://super.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Superhuman",
+      "url": "https://superhuman.com/",
+      "detail": "200"
+    },
+    {
+      "name": "TextExpander",
+      "url": "https://textexpander.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Parity Deals",
+      "url": "https://www.paritydeals.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Dumplink",
+      "url": "https://dumpl.ink/",
+      "detail": "405"
+    },
+    {
+      "name": "Typedream",
+      "url": "https://typedream.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Bubble",
+      "url": "https://bubble.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Yat",
+      "url": "https://y.at/",
+      "detail": "200"
+    },
+    {
+      "name": "Editor X",
+      "url": "https://www.editorx.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Icon Mostr",
+      "url": "https://iconmonstr.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Magic Beans",
+      "url": "https://magicbeans.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Ecwid",
+      "url": "https://www.ecwid.com/",
+      "detail": "200"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://www.paypal.com",
+      "detail": "200"
+    },
+    {
+      "name": "Copilot",
+      "url": "https://copilot.microsoft.com/",
+      "detail": "200"
+    },
+    {
+      "name": "FlutterFlow",
+      "url": "https://flutterflow.io/",
+      "detail": "200"
+    },
+    {
+      "name": "ProtoPie",
+      "url": "https://www.protopie.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Godly",
+      "url": "https://godly.website/",
+      "detail": "200"
+    },
+    {
+      "name": "Audiopen",
+      "url": "https://audiopen.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Linearity",
+      "url": "https://www.linearity.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Vectorizer",
+      "url": "https://www.vectorizer.io/",
+      "detail": "200"
+    },
+    {
+      "name": "ImageOptim",
+      "url": "https://imageoptim.com/mac",
+      "detail": "200"
+    },
+    {
+      "name": "Optimage",
+      "url": "https://optimage.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Ic\u00f4nes",
+      "url": "https://icones.js.org/",
+      "detail": "200"
+    },
+    {
+      "name": "Font Awesome",
+      "url": "https://fontawesome.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Remix Icon",
+      "url": "https://remixicon.com/",
+      "detail": "200"
+    },
+    {
+      "name": "CSS Icons",
+      "url": "https://css.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "The Noun Project",
+      "url": "https://thenounproject.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Linear",
+      "url": "https://linear.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Raindrop",
+      "url": "https://raindrop.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Amie",
+      "url": "https://www.amie.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Cron",
+      "url": "https://cron.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Raycast",
+      "url": "https://www.raycast.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Lens Studio",
+      "url": "https://ar.snap.com/lens-studio",
+      "detail": "200"
+    },
+    {
+      "name": "Pitch",
+      "url": "https://pitch.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Phantombuster",
+      "url": "https://phantombuster.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Textsniper",
+      "url": "https://textsniper.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Teleprompter",
+      "url": "https://www.teleprompter.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Indify",
+      "url": "https://indify.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Apption",
+      "url": "https://apption.co/",
+      "detail": "200"
+    },
+    {
+      "name": "Actions",
+      "url": "https://www.actions.so/",
+      "detail": "200"
+    },
+    {
+      "name": "Zaap",
+      "url": "https://www.zaap.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Kopier",
+      "url": "https://www.kopier.xyz/",
+      "detail": "200"
+    },
+    {
+      "name": "Depto",
+      "url": "https://depto.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Tubelink",
+      "url": "https://tubelink.netlify.app/",
+      "detail": "200"
+    },
+    {
+      "name": "Flarum",
+      "url": "https://flarum.org/",
+      "detail": "200"
+    },
+    {
+      "name": "Mindpal",
+      "url": "https://mindpal.space/",
+      "detail": "200"
+    },
+    {
+      "name": "Steve AI",
+      "url": "https://www.steve.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Repurposepie",
+      "url": "https://repurposepie.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Meltingspot",
+      "url": "https://www.meltingspot.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Inkforall",
+      "url": "https://inkforall.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Boostbot",
+      "url": "https://boostbot.ai/",
+      "detail": "200"
+    },
+    {
+      "name": "Heepsy",
+      "url": "https://www.heepsy.com/",
+      "detail": "403"
+    },
+    {
+      "name": "Drope",
+      "url": "https://drope.me/",
+      "detail": "200"
+    },
+    {
+      "name": "Socialtalk",
+      "url": "https://socialtalk.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Elink",
+      "url": "https://elink.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Weblium",
+      "url": "https://weblium.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Capte",
+      "url": "https://www.getcapte.com/en",
+      "detail": "200"
+    },
+    {
+      "name": "Remagine AI",
+      "url": "https://remagineai.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Supasnap",
+      "url": "https://supasnap.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Typeframes",
+      "url": "https://www.typeframes.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Tidycal",
+      "url": "https://tidycal.com/",
+      "detail": "200"
+    },
+    {
+      "name": "Powder.gg",
+      "url": "https://powder.gg/",
+      "detail": "200"
+    },
+    {
+      "name": "Google Earth Studio",
+      "url": "https://www.google.com/earth/studio/",
+      "detail": "200"
+    },
+    {
+      "name": "Formspark",
+      "url": "https://formspark.io/",
+      "detail": "200"
+    },
+    {
+      "name": "Postli",
+      "url": "https://www.postli.co/",
+      "detail": "200"
+    },
+    {
+      "name": "BlockSurvey",
+      "url": "https://blocksurvey.io",
+      "detail": "200"
+    },
+    {
+      "name": "TapRefer",
+      "url": "https://TapRefer.com",
+      "detail": "200"
+    },
+    {
+      "name": "F*** You Pay Me",
+      "url": "https://www.fypm.vip",
+      "detail": "200"
+    }
+  ],
+  "broken": [
+    {
+      "name": "Skool",
+      "url": "https://www.skool.com/refer?ref=7b29eefcfd4a40c4a6b5837554b10dd6",
+      "detail": "308"
+    },
+    {
+      "name": "Moosend",
+      "url": "https://trymoo.moosend.com/zplfmbesfwnq",
+      "detail": "404"
+    },
+    {
+      "name": "Circle",
+      "url": "https://try.circle.so/61p65qqh3jp1",
+      "detail": "404"
+    },
+    {
+      "name": "Notion",
+      "url": "https://affiliate.notion.so/fub7e8buix33",
+      "detail": "404"
+    },
+    {
+      "name": "LearnWorlds",
+      "url": "https://get.learnworlds.com/04h1ih03el2q",
+      "detail": "404"
+    },
+    {
+      "name": "Subify",
+      "url": "https://subify.vip/",
+      "detail": "404"
+    },
+    {
+      "name": "Notion AI",
+      "url": "https://affiliate.notion.so/wtr73dzl22w1-4y5a7",
+      "detail": "404"
+    },
+    {
+      "name": "Pearpop",
+      "url": "https://pearpop.com/",
+      "detail": "308"
+    },
+    {
+      "name": "Disciple",
+      "url": "https://www.disciplemedia.com/",
+      "detail": "308"
+    },
+    {
+      "name": "Hubilo",
+      "url": "https://hubilo.com",
+      "detail": "308"
+    },
+    {
+      "name": "NoSpace",
+      "url": "https://nospace.app/",
+      "detail": "308"
+    },
+    {
+      "name": "Pipeline",
+      "url": "https://pipeline.gg",
+      "detail": "404"
+    },
+    {
+      "name": "Orbit",
+      "url": "https://www.orbit.love",
+      "detail": "530"
+    },
+    {
+      "name": "Pianity",
+      "url": "https://pianity.com/",
+      "detail": "530"
+    },
+    {
+      "name": "Kale",
+      "url": "https://kalecard.com/",
+      "detail": "308"
+    },
+    {
+      "name": "Creator+",
+      "url": "https://www.creatorplus.com/",
+      "detail": "402"
+    },
+    {
+      "name": "Songwhip",
+      "url": "https://www.songwhip.com",
+      "detail": "302"
+    },
+    {
+      "name": "Infinite Canvas",
+      "url": "https://www.infinitecanvas.gg/",
+      "detail": "404"
+    },
+    {
+      "name": "MediaKits",
+      "url": "https://www.mediakits.com/",
+      "detail": "404"
+    },
+    {
+      "name": "Snipfeed",
+      "url": "https://snipfeed.co/",
+      "detail": "308"
+    },
+    {
+      "name": "LinkPop",
+      "url": "https://linkpop.com",
+      "detail": "400"
+    },
+    {
+      "name": "SteadyHQ",
+      "url": "https://steadyhq.com/en",
+      "detail": "308"
+    },
+    {
+      "name": "Magisto",
+      "url": "https://www.magisto.com/didit",
+      "detail": "404"
+    },
+    {
+      "name": "Flagship",
+      "url": "https://flagship.shop/",
+      "detail": "530"
+    },
+    {
+      "name": "Crowdcast",
+      "url": "https://crowdcast.io/",
+      "detail": "308"
+    },
+    {
+      "name": "Fireside Chat",
+      "url": "https://firesidechat.com/",
+      "detail": "308"
+    },
+    {
+      "name": "LinksUp",
+      "url": "https://linksup.io/",
+      "detail": "404"
+    },
+    {
+      "name": "Mintable",
+      "url": "https://mintable.com/",
+      "detail": "500"
+    },
+    {
+      "name": "Anyone",
+      "url": "https://www.callinganyone.com/",
+      "detail": "402"
+    },
+    {
+      "name": "Hustle Engine",
+      "url": "https://hustle.amplify.ai/",
+      "detail": "503"
+    },
+    {
+      "name": "Vizcom",
+      "url": "https://www.vizcom.ai",
+      "detail": "308"
+    },
+    {
+      "name": "Theoasis",
+      "url": "https://theoasis.com",
+      "detail": "308"
+    },
+    {
+      "name": "Typli.ai",
+      "url": "https://www.typli.ai/",
+      "detail": "308"
+    },
+    {
+      "name": "Webullar",
+      "url": "https://webullar.com/",
+      "detail": "402"
+    },
+    {
+      "name": "Revue",
+      "url": "https://www.therevueapp.com/",
+      "detail": "404"
+    },
+    {
+      "name": "Collab.Land",
+      "url": "https://www.collab.land/",
+      "detail": "308"
+    },
+    {
+      "name": "Bullieverse",
+      "url": "https://bullyverse.io/",
+      "detail": "404"
+    },
+    {
+      "name": "Vimma",
+      "url": "https://www.vimma.ai",
+      "detail": "404"
+    },
+    {
+      "name": "Slip Stream",
+      "url": "https://slip.stream/",
+      "detail": "502"
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://unsplash.com/",
+      "detail": "401"
+    },
+    {
+      "name": "Graphy",
+      "url": "https://graphy.com/community-platform/",
+      "detail": "404"
+    },
+    {
+      "name": "Cloutdesk",
+      "url": "https://www.cloutdesk.com/creators",
+      "detail": "404"
+    },
+    {
+      "name": "Daily",
+      "url": "https://daily.so/",
+      "detail": "404"
+    },
+    {
+      "name": "Bildr",
+      "url": "https://www.bildr.com/",
+      "detail": "404"
+    },
+    {
+      "name": "AssetsAI",
+      "url": "https://www.assetsai.art/",
+      "detail": "526"
+    },
+    {
+      "name": "Podcastle",
+      "url": "https://podcastle.ai/",
+      "detail": "308"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com/",
+      "detail": "308"
+    },
+    {
+      "name": "Clickable",
+      "url": "https://www.clickable.so",
+      "detail": "526"
+    },
+    {
+      "name": "Enterpix",
+      "url": "https://enterpix.app",
+      "detail": "308"
+    },
+    {
+      "name": "CSM",
+      "url": "https://csm.ai",
+      "detail": "404"
+    },
+    {
+      "name": "Designs.ai",
+      "url": "https://designs.ai",
+      "detail": "308"
+    },
+    {
+      "name": "Khroma",
+      "url": "http://khroma.co/",
+      "detail": "308"
+    },
+    {
+      "name": "Kive",
+      "url": "https://www.kive.ai/",
+      "detail": "500"
+    },
+    {
+      "name": "Magic Eraser",
+      "url": "https://magicstudio.com/magiceraser",
+      "detail": "308"
+    },
+    {
+      "name": "MakeLogo",
+      "url": "https://makelogo.ai/",
+      "detail": "404"
+    },
+    {
+      "name": "Rayst Gradients",
+      "url": "https://gradients.ray.st/",
+      "detail": "402"
+    },
+    {
+      "name": "Tome",
+      "url": "https://tome.app/",
+      "detail": "404"
+    },
+    {
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co/stable-diffusion-reimagine",
+      "detail": "308"
+    },
+    {
+      "name": "Omniverse Audio2Face",
+      "url": "https://www.nvidia.com/en-us/omniverse/apps/audio2face/",
+      "detail": "308"
+    },
+    {
+      "name": "Triller",
+      "url": "https://triller.co/",
+      "detail": "404"
+    },
+    {
+      "name": "Widgetbox",
+      "url": "https://widgetbox.app/",
+      "detail": "410"
+    },
+    {
+      "name": "AI Creator Hub",
+      "url": "https://kajabi.com/aicreatorhub",
+      "detail": "404"
+    },
+    {
+      "name": "Stori AI",
+      "url": "https://storiai.com/",
+      "detail": "308"
+    },
+    {
+      "name": "Yourchamp",
+      "url": "https://www.yourchamp.io/",
+      "detail": "502"
+    },
+    {
+      "name": "Content Hub",
+      "url": "https://contenthub.app/",
+      "detail": "404"
+    },
+    {
+      "name": "Dealflow",
+      "url": "https://dealflow.live",
+      "detail": "308"
+    }
+  ],
+  "timeout": [
+    {
+      "name": "Aria",
+      "url": "https://aria.fm/",
+      "detail": "timed out"
+    },
+    {
+      "name": "AdZis App",
+      "url": "https://app.adzis.com/",
+      "detail": "timed out"
+    },
+    {
+      "name": "Fast Reply",
+      "url": "https://fastreply.io/",
+      "detail": "timed out"
+    },
+    {
+      "name": "Hourone",
+      "url": "https://hourone.ai/",
+      "detail": "timed out"
+    },
+    {
+      "name": "Mirage",
+      "url": "https://www.mirageml.com",
+      "detail": "timed out"
+    },
+    {
+      "name": "Pay Me For My AI",
+      "url": "https://paymeformyai.com/",
+      "detail": "timed out"
+    }
+  ],
+  "error": [
+    {
+      "name": "Creatorpad",
+      "url": "https://www.creatorpad.io/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Zora",
+      "url": "https://shopify.pxf.io/creator-economy-tools",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Uscreen",
+      "url": "https://www.uscreen.tv/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Nuum",
+      "url": "https://nuum.ru/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Rally",
+      "url": "https://rally.io/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Moe",
+      "url": "https://www.moeassist.com",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Dropd",
+      "url": "https://dropd.live",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Livescale",
+      "url": "https://www.livescale.tv",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Olekoo",
+      "url": "https://olekoo.com",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Cliqz",
+      "url": "https://www.cliqz.ai/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "OnJam",
+      "url": "https://www.onjam.tv",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Friz",
+      "url": "https://usefriz.com",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    },
+    {
+      "name": "Stir",
+      "url": "https://usestir.com",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    },
+    {
+      "name": "StreamBee",
+      "url": "https://streambee.io",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Sounder",
+      "url": "https://sounder.fm",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    },
+    {
+      "name": "iLink",
+      "url": "https://www.il.ink/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Dequency",
+      "url": "https://dequency.io/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Uncut.fm",
+      "url": "https://uncut.fm/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "DNABlock",
+      "url": "https://www.dnablock.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Creative Juice",
+      "url": "https://www.getjuice.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Norby",
+      "url": "https://www.norby.live/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Wonder Dynamics",
+      "url": "https://www.wonderdynamics.com/",
+      "detail": "The read operation timed out"
+    },
+    {
+      "name": "CatchScan",
+      "url": "https://catchscan.com/",
+      "detail": "[Errno 61] Connection refused"
+    },
+    {
+      "name": "Just For Fans",
+      "url": "https://justforfans.app/",
+      "detail": "The read operation timed out"
+    },
+    {
+      "name": "Linksom",
+      "url": "https://linksome.me/s/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Heights",
+      "url": "https://height.app/",
+      "detail": "[Errno 54] Connection reset by peer"
+    },
+    {
+      "name": "BigRoom",
+      "url": "https://www.bigroom.tv/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Claimd",
+      "url": "https://www.claimd.app/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Drakula",
+      "url": "https://drakula.app/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "The Landing",
+      "url": "https://landing.space/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Beloga",
+      "url": "https://www.beloga.xyz/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Screen.Studio",
+      "url": "https://screen.studio/",
+      "detail": "[Errno 61] Connection refused"
+    },
+    {
+      "name": "Elenas",
+      "url": "https://www.elenas.co/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "The Plug",
+      "url": "https://plugco.in/",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    },
+    {
+      "name": "Backspace",
+      "url": "https://www.backspacethat.com/",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    },
+    {
+      "name": "Superwave",
+      "url": "https://www.superwave.com/",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    },
+    {
+      "name": "Matcha",
+      "url": "https://matcha.so/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Namy AI",
+      "url": "https://namy.ai/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "TippTree",
+      "url": "https://tipptree.com/",
+      "detail": "[Errno 61] Connection refused"
+    },
+    {
+      "name": "Jot",
+      "url": "https://www.jotapp.tech/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Scribble Diffusion",
+      "url": "https://scribblediffusion.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Movio",
+      "url": "https://www.movio.la/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Birdy.so",
+      "url": "https://birdy.so/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Tribescaler",
+      "url": "https://tribescaler.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "HeyDaily",
+      "url": "https://www.heydaily.co/",
+      "detail": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:997)"
+    },
+    {
+      "name": "Momento AI",
+      "url": "https://momentoai.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Micro Influencer List",
+      "url": "https://microinfluencerslist.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Launchrender",
+      "url": "https://www.launchrender.com/",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Cutlabs",
+      "url": "https://cutlabs.ai/",
+      "detail": "EOF occurred in violation of protocol (_ssl.c:997)"
+    },
+    {
+      "name": "Medley",
+      "url": "https://www.medley.gg/i/about",
+      "detail": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "url": "https://www.adobe.com/creativecloud.html",
+      "detail": "The read operation timed out"
+    },
+    {
+      "name": "Backspace",
+      "url": "https://www.backspacethat.com/",
+      "detail": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)"
+    }
+  ]
+}
