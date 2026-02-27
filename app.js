@@ -66,8 +66,25 @@ function init() {
     buildSidebar();
     buildMobileFilters();
     parseURLParams();
+    initTheme();
     renderAll();
     bindEvents();
+}
+
+// ── Theme toggle ──────────────────────────────
+function initTheme() {
+    const $themeToggleDesk = document.getElementById('themeToggleDesk');
+    const $themeToggleMob = document.getElementById('themeToggleMob');
+
+    function toggleTheme() {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    }
+
+    if ($themeToggleDesk) $themeToggleDesk.addEventListener('click', toggleTheme);
+    if ($themeToggleMob) $themeToggleMob.addEventListener('click', toggleTheme);
 }
 
 // ── URL params ────────────────────────────────
