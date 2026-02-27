@@ -489,46 +489,6 @@ function bindEvents() {
     }, { passive: true });
 
     // Multi-select toggle
-
-    // Load more
-    $loadMoreBtn.addEventListener('click', () => {
-        state.page++;
-        renderAll();
-        // Scroll to newly added content
-        const cards = $toolsGrid.querySelectorAll('.tool-card');
-        const firstNew = cards[(state.page - 1) * state.perPage];
-        if (firstNew) firstNew.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-    });
-
-    // Clear / reset
-    $clearFilters.addEventListener('click', () => {
-        state.selectedCats.clear();
-        state.query = '';
-        state.page = 1;
-        $search.value = '';
-        updateActiveStates();
-        renderAll();
-        updateURL();
-    });
-
-    $resetSearch?.addEventListener('click', () => {
-        state.query = '';
-        $search.value = '';
-        state.page = 1;
-        renderAll();
-        updateURL();
-    });
-
-    // Modal
-    $modalClose.addEventListener('click', closeModal);
-    $modalOverlay.addEventListener('click', e => { if (e.target === $modalOverlay) closeModal(); });
-
-    // Navbar scroll
-    window.addEventListener('scroll', () => {
-        $navbar.classList.toggle('scrolled', window.scrollY > 20);
-    }, { passive: true });
-
-    // Multi-select toggle
     const $multiToggle = document.getElementById('multiSelectToggle');
     $multiToggle?.addEventListener('click', () => {
         state.multiSelect = !state.multiSelect;

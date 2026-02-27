@@ -52,10 +52,22 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-}
 
-.sr-only {
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
     position: absolute;
     width: 1px;
     height: 1px;
@@ -239,6 +251,16 @@ body {
 
     .nav-toggle {
         display: flex;
+        z-index: 101;
+    }
+
+    .nav-mobile {
+        position: absolute;
+        top: var(--nav-h);
+        left: 0;
+        right: 0;
+        z-index: 100;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 
     .nav-mobile.open {
@@ -467,7 +489,6 @@ body {
     letter-spacing: -1.5px;
     color: var(--text-primary);
     margin-bottom: 24px;
-    white-space: nowrap;
 }
 
 .gradient-text {
