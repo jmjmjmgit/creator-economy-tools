@@ -909,16 +909,16 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, var(--card-hover-glow) 0%, transparent 60%);
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.2) 0%, transparent 80%);
     opacity: 0;
     transition: opacity var(--transition);
 }
 
 .tool-card:hover {
-    border-color: rgba(168, 85, 247, 0.6);
-    background: var(--bg-card-hover);
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(168, 85, 247, 0.25), inset 0 0 0 1px rgba(168, 85, 247, 0.3);
+    border-color: var(--purple);
+    background: linear-gradient(to bottom, var(--bg-card-hover), rgba(168, 85, 247, 0.05));
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(168, 85, 247, 0.4), inset 0 0 0 1.5px var(--purple);
 }
 
 .tool-card:hover::before {
