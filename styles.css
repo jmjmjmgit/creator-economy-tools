@@ -896,7 +896,7 @@ body {
     border-radius: var(--radius-lg);
     padding: 18px;
     cursor: pointer;
-    transition: all var(--transition);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     position: relative;
     overflow: hidden;
     text-decoration: none;
@@ -915,10 +915,10 @@ body {
 }
 
 .tool-card:hover {
-    border-color: rgba(168, 85, 247, 0.3);
+    border-color: rgba(168, 85, 247, 0.6);
     background: var(--bg-card-hover);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(168, 85, 247, 0.1);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(168, 85, 247, 0.25), inset 0 0 0 1px rgba(168, 85, 247, 0.3);
 }
 
 .tool-card:hover::before {

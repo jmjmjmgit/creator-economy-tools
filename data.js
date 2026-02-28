@@ -7052,7 +7052,7 @@ const TOOLS = [
     ],
     "img": "https://imtb.org.uk/wp-content/uploads/2023/08/tagger-by-sprout-social-horizontal-dark.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
