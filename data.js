@@ -337,7 +337,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=creatorstack.com&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -583,7 +583,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/eMoCfjd.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -1755,7 +1755,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/mpRnxVY.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -2064,7 +2064,7 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/60945ba55138b4f2adad0961/6097ad4b15e2220a65060ae7_logo_stir_purple.svg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -2126,7 +2126,7 @@ const TOOLS = [
     ],
     "img": "https://assets.website-files.com/5ccc82f437a19df3b2dd50e8/61d752eb71d16cc66d8dc8d5_Libsyn_Glow-01%5B23%5D.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -2163,7 +2163,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/AwnumsB.jpg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -4063,7 +4063,7 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/62a1d5337c2a860b919132f8/62a8d225affe049f2bea5549_ls-svg.svg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -5099,7 +5099,7 @@ const TOOLS = [
     ],
     "img": "https://june-changelog.s3.eu-central-1.amazonaws.com/og_image_df9c294d41.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -5968,7 +5968,7 @@ const TOOLS = [
     ],
     "img": "https://images.squarespace-cdn.com/content/v1/57851af46b8f5bfd16e9b270/8e1adc89-759f-4861-84fe-3409df421719/SF-Logo-Transparent.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -6803,7 +6803,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=plugco.in&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -7040,7 +7040,7 @@ const TOOLS = [
     ],
     "img": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F70b2ba838de3a7fc80fc15675915abad.cdn.bubble.io%2Ff1697881007103x938085505351135000%2Fsparklrapidely_black_big.png?w=192&h=54&auto=compress&dpr=2&fit=max",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -7142,7 +7142,7 @@ const TOOLS = [
     ],
     "img": "https://d2l2bio4w79xfz.cloudfront.net/assets/metatags_default_image.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -7494,7 +7494,7 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61e5d986620ad059a04a1c6c/6285deb006f2da10f341187f_logo%20cutout%20perfectly%20black.svg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -7672,7 +7672,7 @@ const TOOLS = [
     ],
     "img": "https://i.pcmag.com/imagery/reviews/05z8OSQvG8PugS27YqTfDki-1..v1632333643.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -7686,7 +7686,7 @@ const TOOLS = [
     ],
     "img": "https://assets-global.website-files.com/64542b3da5b3595f86809d34/645bf63495abf924b35c8b58_logo.svg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -11742,7 +11742,7 @@ const TOOLS = [
     ],
     "img": "https://d9hhrg4mnvzow.cloudfront.net/www.heydaily.co/e5e56f75-heydaily-logo_10bk08o000000000000000.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -12042,7 +12042,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=boostbot.ai&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -12204,7 +12204,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/2cQcb9D.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -12321,7 +12321,7 @@ const TOOLS = [
     ],
     "img": "https://uploads-ssl.webflow.com/61e5d986620ad059a04a1c6c/6285deb006f2da10f341187f_logo%20cutout%20perfectly%20black.svg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
