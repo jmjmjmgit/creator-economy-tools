@@ -7906,7 +7906,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=app.adzis.com&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -11036,7 +11036,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=www.zil.ink&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -12407,10 +12407,10 @@ const TOOLS = [
       "AI",
       "Content Creation"
     ],
-    "img": "https://www.google.com/s2/favicons?domain=ref.wisprflow.ai&sz=256",
+    "img": "wisprflow-logo.png",
     "pricing": "Freemium",
     "dead": false,
-    "featuredOrder": 999
+    "featuredOrder": 1
   },
   {
     "name": "GoHighLevel",
