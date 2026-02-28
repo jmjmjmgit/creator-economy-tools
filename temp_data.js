@@ -1,5 +1,5 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
-const TOOLS = [
+module.exports = [
   {
     "name": "Scripe",
     "desc": "An AI-powered content platform that repurposes your audio and video into blogs, threads, and linkedIn posts.",
