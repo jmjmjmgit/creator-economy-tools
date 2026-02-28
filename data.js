@@ -1136,7 +1136,7 @@ const TOOLS = [
     ],
     "img": "https://cdn.dribbble.com/users/9727/screenshots/11209066/spin_logo_spin_logo_4x.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
