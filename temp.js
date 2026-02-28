@@ -1,5 +1,5 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
-const TOOLS = [
+module.exports = [
   {
     "name": "Scripe",
     "desc": "An AI-powered content platform that repurposes your audio and video into blogs, threads, and linkedIn posts.",
@@ -12410,7 +12410,7 @@ const TOOLS = [
     "img": "wisprflow-logo.png",
     "pricing": "Freemium",
     "dead": false,
-    "featuredOrder": 12
+    "featuredOrder": 1
   },
   {
     "name": "GoHighLevel",
@@ -12442,21 +12442,3 @@ const TOOLS = [
   }
 ];
 
-const ALL_CATEGORIES = [
-  "AI",
-  "Adult",
-  "All-in-one",
-  "Community & Engagement",
-  "Content Creation",
-  "Course Creator",
-  "E-commerce",
-  "Finance",
-  "Influencer Marketing/Brand Deals",
-  "Link in bio",
-  "Livestreaming",
-  "Monetization",
-  "Other",
-  "Social Media Management",
-  "Web3/NFT/Blockchain",
-  "Website Builder"
-];
