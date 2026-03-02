@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "node generate_pages.js"
+    "build": "node generate_pages.js && mkdir -p public && cp index.html about.html app.js data.js styles.css sitemap.xml robots.txt *.png public/ && cp -r tool public/"
   },
   "dependencies": {
     "jsdom": "^28.1.0"
