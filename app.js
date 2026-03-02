@@ -67,6 +67,7 @@ function init() {
     buildMobileFilters();
     parseURLParams();
     initTheme();
+    updateActiveStates();
     renderAll();
     bindEvents();
 }
