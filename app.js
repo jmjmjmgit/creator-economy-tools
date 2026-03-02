@@ -319,12 +319,23 @@ function renderCards(list) {
     $toolsGrid.appendChild(frag);
 }
 
+function createSlug(name) {
+    return name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric chars with hyphens
+        .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
+}
+
 function buildCard(tool, isListView) {
-    const div = document.createElement('div');
-    div.className = 'tool-card' + (tool.dead ? ' dead-card' : '') + (tool.deal ? ' deal-card' : '');
-    div.setAttribute('role', 'listitem');
-    div.setAttribute('tabindex', '0');
-    div.setAttribute('aria-label', `${tool.name} – ${tool.categories.join(', ')}`);
+    const a = document.createElement('a');
+    a.className = 'tool-card' + (tool.dead ? ' dead-card' : '') + (tool.deal ? ' deal-card' : '');
+    a.setAttribute('role', 'listitem');
+    a.setAttribute('tabindex', '0');
+    a.setAttribute('aria-label', `${tool.name} – ${tool.categories.join(', ')}`);
+    a.href = `/tool/${createSlug(tool.name)}`; // For SEO crawler!
+    a.style.textDecoration = 'none';
+    a.style.color = 'inherit';
+    a.style.display = 'block';
 
     const catTags = tool.categories.slice(0, 2).map(c =>
         `<span class="category-tag">${c}</span>`
@@ -336,7 +347,7 @@ function buildCard(tool, isListView) {
 
     const initials = tool.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
 
-    div.innerHTML = `
+    a.innerHTML = `
     ${tool.deal ? `<div class="deal-banner">${escHtml(tool.deal)}</div>` : ''}
     <div class="tool-header">
       <div class="tool-logo-wrap">
@@ -363,9 +374,22 @@ function buildCard(tool, isListView) {
     </div>
   `;
 
-    div.addEventListener('click', () => openModal(tool));
-    div.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(tool); } });
-    return div;
+    a.addEventListener('click', (e) => {
+        // Only prevent default if we're not middle-clicking or ctrl/cmd clicking
+        if (!e.ctrlKey && !e.metaKey && e.button !== 1) {
+            e.preventDefault();
+            openModal(tool);
+        }
+    });
+
+    a.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openModal(tool);
+        }
+    });
+
+    return a;
 }
 
 // ── Modal ─────────────────────────────────────

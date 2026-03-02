@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "node generate_pages.js"
+  },
   "dependencies": {
     "jsdom": "^28.1.0"
   }
