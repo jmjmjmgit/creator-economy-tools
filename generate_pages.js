@@ -133,13 +133,57 @@ tools.forEach(tool => {
         '    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%2220%22 y2=%2220%22><stop offset=%220%25%22 stop-color=%22%23a855f7%22/><stop offset=%22100%25%22 stop-color=%22%23ec4899%22/></linearGradient></defs><circle cx=%2210%22 cy=%2210%22 r=%228%22 stroke=%22url(%23g)%22 stroke-width=%222%22 fill=%22none%22/><circle cx=%2210%22 cy=%2210%22 r=%224%22 fill=%22url(%23g)%22/></svg>">\n' +
         '    <link rel="stylesheet" href="../styles.css" />\n' +
         '    <style>\n' +
-        '        /* Premium Hover Effects */\n' +
+        '        /* Premium Hover Effects & Layout */\n' +
         '        .tool-hero {\n' +
+        '            background: var(--surface);\n' +
+        '            border: 1px solid var(--border);\n' +
+        '            border-radius: 24px;\n' +
+        '            padding: 48px;\n' +
+        '            display: flex;\n' +
+        '            gap: 40px;\n' +
+        '            align-items: flex-start;\n' +
+        '            position: relative;\n' +
+        '            overflow: hidden;\n' +
+        '            box-shadow: 0 30px 60px rgba(0,0,0,0.12);\n' +
         '            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n' +
+        '        }\n' +
+        '        .tool-hero-gradient {\n' +
+        '            position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--purple), var(--pink));\n' +
         '        }\n' +
         '        .tool-hero:hover {\n' +
         '            transform: translateY(-4px);\n' +
         '            box-shadow: 0 40px 80px rgba(0,0,0,0.2), 0 0 40px rgba(168, 85, 247, 0.15);\n' +
+        '        }\n' +
+        '        .tool-logo-large {\n' +
+        '            flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);\n' +
+        '        }\n' +
+        '        .tool-logo-large img {\n' +
+        '            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);\n' +
+        '            width: 100%; height: 100%; object-fit: cover;\n' +
+        '        }\n' +
+        '        .tool-hero:hover .tool-logo-large img {\n' +
+        '            transform: scale(1.08);\n' +
+        '        }\n' +
+        '        .tool-info {\n' +
+        '            flex: 1;\n' +
+        '        }\n' +
+        '        .tool-title-row {\n' +
+        '            display: flex; align-items: center; gap: 16px; margin-bottom: 20px; flex-wrap: wrap;\n' +
+        '        }\n' +
+        '        .tool-title {\n' +
+        '            margin: 0; font-size: 42px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; word-break: break-word;\n' +
+        '        }\n' +
+        '        .tool-tags-row {\n' +
+        '            display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap;\n' +
+        '        }\n' +
+        '        .tool-description {\n' +
+        '            font-size: 18px; line-height: 1.6; color: var(--text-muted); margin-bottom: 40px; max-width: 800px;\n' +
+        '        }\n' +
+        '        .related-header {\n' +
+        '            font-size: 28px; font-weight: 800; margin-bottom: 32px; display: flex; align-items: center; gap: 16px;\n' +
+        '        }\n' +
+        '        .related-badge {\n' +
+        '            font-size: 15px; font-weight: 500; color: var(--text-muted); background: var(--surface); padding: 6px 16px; border-radius: 100px; border: 1px solid var(--border);\n' +
         '        }\n' +
         '        .related-tools .tool-card {\n' +
         '            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;\n' +
@@ -165,11 +209,53 @@ tools.forEach(tool => {
         '        .deal-btn:hover {\n' +
         '            box-shadow: 0 8px 24px rgba(236, 72, 153, 0.35);\n' +
         '        }\n' +
-        '        .tool-logo-large img {\n' +
-        '            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);\n' +
-        '        }\n' +
-        '        .tool-hero:hover .tool-logo-large img {\n' +
-        '            transform: scale(1.08);\n' +
+        '        @media (max-width: 768px) {\n' +
+        '            .tool-hero {\n' +
+        '                flex-direction: column;\n' +
+        '                align-items: center;\n' +
+        '                padding: 32px 20px;\n' +
+        '                gap: 24px;\n' +
+        '                text-align: center;\n' +
+        '            }\n' +
+        '            .tool-logo-large {\n' +
+        '                width: 80px;\n' +
+        '                height: 80px;\n' +
+        '                border-radius: 20px;\n' +
+        '                font-size: 32px;\n' +
+        '                margin: 0 auto;\n' +
+        '            }\n' +
+        '            .tool-info {\n' +
+        '                display: flex;\n' +
+        '                flex-direction: column;\n' +
+        '                align-items: center;\n' +
+        '                width: 100%;\n' +
+        '            }\n' +
+        '            .tool-title-row {\n' +
+        '                justify-content: center;\n' +
+        '            }\n' +
+        '            .tool-title {\n' +
+        '                font-size: 32px;\n' +
+        '            }\n' +
+        '            .tool-tags-row {\n' +
+        '                justify-content: center;\n' +
+        '            }\n' +
+        '            .tool-description {\n' +
+        '                font-size: 16px;\n' +
+        '                margin-bottom: 28px;\n' +
+        '            }\n' +
+        '            .tool-actions-wrap {\n' +
+        '                display: flex;\n' +
+        '                justify-content: center;\n' +
+        '                width: 100%;\n' +
+        '            }\n' +
+        '            .related-header {\n' +
+        '                flex-direction: column;\n' +
+        '                align-items: flex-start;\n' +
+        '                gap: 12px;\n' +
+        '            }\n' +
+        '            .tools-grid {\n' +
+        '                grid-template-columns: 1fr !important;\n' +
+        '            }\n' +
         '        }\n' +
         '    </style>\n' +
         '\n' +
@@ -291,23 +377,23 @@ tools.forEach(tool => {
         '                </ol>\n' +
         '            </nav>\n' +
         '\n' +
-        '            <article class="tool-hero" style="background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 48px; display: flex; gap: 40px; align-items: flex-start; position: relative; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.12);">\n' +
-        '                <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #a855f7, #ec4899);"></div>\n' +
+        '            <article class="tool-hero">\n' +
+        '                <div class="tool-hero-gradient"></div>\n' +
         '                \n' +
-        '                <div class="tool-logo-large" style="flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);">\n' +
-        '                    ' + (tool.img ? '<img src="' + escapeHtml(tool.img) + '" alt="' + escapeHtml(tool.name) + ' logo" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' : '') + '\n' +
+        '                <div class="tool-logo-large">\n' +
+        '                    ' + (tool.img ? '<img src="' + escapeHtml(tool.img) + '" alt="' + escapeHtml(tool.name) + ' logo" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' : '') + '\n' +
         '                    <div class="tool-logo-fallback" ' + (tool.img ? 'style="display:none"' : '') + '>' + initials + '</div>\n' +
         '                </div>\n' +
         '\n' +
-        '                <div class="tool-info" style="flex: 1;">\n' +
-        '                    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px; flex-wrap: wrap;">\n' +
-        '                        <h1 style="margin: 0; font-size: 42px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; word-break: break-word;">' + escapeHtml(tool.name) + '</h1>\n' +
+        '                <div class="tool-info">\n' +
+        '                    <div class="tool-title-row">\n' +
+        '                        <h1 class="tool-title">' + escapeHtml(tool.name) + '</h1>\n' +
         '                        ' + pricingHtml + '\n' +
         '                    </div>\n' +
-        '                    <div style="display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap;">\n' +
+        '                    <div class="tool-tags-row">\n' +
         '                        ' + catTags + '\n' +
         '                    </div>\n' +
-        '                    <p style="font-size: 18px; line-height: 1.6; color: var(--text-muted); margin-bottom: 40px; max-width: 800px;">\n' +
+        '                    <p class="tool-description">\n' +
         '                        ' + escapeHtml(tool.desc).replace(/\n/g, '<br />') + '\n' +
         '                    </p>\n' +
         '                    \n' +
@@ -317,7 +403,37 @@ tools.forEach(tool => {
         '                </div>\n' +
         '            </article>\n' +
         '            \n' +
-        '            ' + relatedHtml + '\n' +
+        '            ' + (relatedTools.length > 0 ?
+            '<div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;">' +
+            '<h2 class="related-header">Related Tools <span class="related-badge">More in ' + escapeHtml(toolCat) + '</span></h2>' +
+            '<div class="tools-grid">' +
+            relatedTools.map(t => {
+                let innerPricing = '';
+                if (t.deal) {
+                    innerPricing = '<div class="deal-banner">' + escapeHtml(t.deal) + '</div>';
+                }
+                return '<a href="/tool/' + escapeHtml(t.id) + '" class="tool-card ' + (t.deal ? 'deal-card' : '') + '" style="text-decoration: none; color: inherit; display: block;">' +
+                    innerPricing +
+                    '<div class="tool-header">' +
+                    '<div class="tool-logo-wrap">' +
+                    (t.img ? '<img src="' + escapeHtml(t.img) + '" alt="' + escapeHtml(t.name) + ' logo" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' : '') +
+                    '<div class="tool-logo-fallback" ' + (t.img ? 'style="display:none"' : '') + '>' + (t.name ? t.name.substring(0, 2).toUpperCase() : '??') + '</div>' +
+                    '</div>' +
+                    '<div class="tool-meta">' +
+                    '<div class="tool-name">' + escapeHtml(t.name) + '</div>' +
+                    '<div class="tool-categories">' +
+                    (t.categories || []).slice(0, 2).map(c => '<span class="category-tag">' + escapeHtml(c) + '</span>').join('') +
+                    '</div>' +
+                    '</div>' +
+                    '</div>' +
+                    '<p class="tool-desc">' + escapeHtml(t.desc) + '</p>' +
+                    '<div class="tool-footer">' +
+                    '<span class="tool-visit' + (t.deal ? ' deal-visit' : '') + '">' + (t.deal ? 'Grab deal &rarr;' : 'Visit &rarr;') + '</span>' +
+                    '</div>' +
+                    '</a>';
+            }).join('') +
+            '</div>' +
+            '</div>' : '') + '\n' +
         '        </div>\n' +
         '    </main>\n' +
         '    \n' +
