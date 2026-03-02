@@ -236,7 +236,7 @@ tools.forEach(tool => {
         + '    </nav>\n'
         +
         '    <main class="main" style="padding-top: 120px;">\n' +
-        '        <div class="main-container" style="max-width: 1000px; margin: 0 auto; padding: 0 20px;">\n' +
+        '        <div style="max-width: 1000px; margin: 0 auto; padding: 0 20px;">\n' +
         '            <nav aria-label="breadcrumb" style="margin-bottom: 32px;">\n' +
         '                <ol style="list-style: none; padding: 0; display: flex; align-items: center; justify-content: flex-start; gap: 8px; color: var(--text-muted); font-size: 14px; margin: 0; flex-wrap: wrap;">\n' +
         '                    <li><a href="/" style="color: inherit; text-decoration: none; transition: color 0.2s;">Directory</a></li>\n' +
