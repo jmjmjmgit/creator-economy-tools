@@ -57,8 +57,9 @@ tools.forEach(tool => {
     const pricingHtml = tool.pricing ? '<span class="tool-pricing ' + (tool.pricing.toLowerCase() === 'paid' ? 'paid' : '') + '">' + escapeHtml(tool.pricing) + '</span>' : '';
 
     const ogImg = tool.img ? escapeHtml(tool.img) : 'https://creatoreconomytools.com/og-image.png';
-    const toolCat = tool.categories.length > 0 ? escapeHtml(tool.categories[0]).replace(/"/g, "\\\"") : 'Utility';
-    const catSlug = tool.categories.length > 0 ? createSlug(tool.categories[0]) : 'all';
+    const toolCat = tool.categories.length > 0 ? tool.categories[0] : 'Utility';
+    const catParam = encodeURIComponent(toolCat);
+    const catSlug = createSlug(toolCat);
 
     // Find related tools (same first category, not dead, not the current tool)
     const relatedTools = tools
@@ -68,7 +69,7 @@ tools.forEach(tool => {
 
     let relatedHtml = '';
     if (relatedTools.length > 0) {
-        relatedHtml = '<div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;"><h2 style="font-size: 28px; font-weight: 800; margin-bottom: 32px; display: flex; align-items: center; gap: 16px;">Related Tools <span style="font-size: 15px; font-weight: 500; color: var(--text-muted); background: var(--surface); padding: 6px 16px; border-radius: 100px; border: 1px solid var(--border);">More in ' + escapeHtml(tool.categories[0] || '') + '</span></h2><div class="tools-grid">';
+        relatedHtml = '<div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;"><h2 class="related-header">Related Tools <a href="/?category=' + catParam + '" style="text-decoration:none;"><span class="related-badge">More in ' + escapeHtml(toolCat) + ' &rarr;</span></a></h2><div class="tools-grid">';
 
         relatedTools.forEach(rt => {
             const rtSlug = createSlug(rt.name);
@@ -371,7 +372,7 @@ tools.forEach(tool => {
         '                <ol style="list-style: none; padding: 0; display: flex; align-items: center; justify-content: flex-start; gap: 8px; color: var(--text-muted); font-size: 14px; margin: 0; flex-wrap: wrap;">\n' +
         '                    <li><a href="/" style="color: inherit; text-decoration: none; transition: color 0.2s;">Directory</a></li>\n' +
         '                    <li style="opacity: 0.5;">/</li>\n' +
-        '                    <li><a href="/?category=' + catSlug + '" style="color: inherit; text-decoration: none; transition: color 0.2s;">' + escapeHtml(tool.categories[0] || 'Uncategorized') + '</a></li>\n' +
+        '                    <li><a href="/?category=' + catParam + '" style="color: inherit; text-decoration: none; transition: color 0.2s;">' + escapeHtml(toolCat) + '</a></li>\n' +
         '                    <li style="opacity: 0.5;">/</li>\n' +
         '                    <li aria-current="page" style="color: var(--text-primary); font-weight: 500;">' + escapeHtml(tool.name) + '</li>\n' +
         '                </ol>\n' +
@@ -405,7 +406,7 @@ tools.forEach(tool => {
         '            \n' +
         '            ' + (relatedTools.length > 0 ?
             '<div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;">' +
-            '<h2 class="related-header">Related Tools <span class="related-badge">More in ' + escapeHtml(toolCat) + '</span></h2>' +
+            '<h2 class="related-header">Related Tools <a href="/?category=' + catParam + '" style="text-decoration:none;"><span class="related-badge">More in ' + escapeHtml(toolCat) + ' &rarr;</span></a></h2>' +
             '<div class="tools-grid">' +
             relatedTools.map(t => {
                 let innerPricing = '';
