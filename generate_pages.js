@@ -235,22 +235,26 @@ tools.forEach(tool => {
         + '        </div>\n'
         + '    </nav>\n'
         +
-        '    <main class="main" style="padding-top: 120px;">\n' +
-        '        <div style="max-width: 1000px; margin: 0 auto; padding: 0 20px;">\n' +
+        '    <main class="main" style="padding-top: 120px; position: relative;">\n' +
+        '        <div class="hero-bg" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; pointer-events: none; z-index: 0;">\n' +
+        '            <div class="hero-orb hero-orb-1" style="top: 0px; left: 30%; width: 400px; height: 400px; opacity: 0.3;"></div>\n' +
+        '            <div class="hero-orb hero-orb-2" style="top: 200px; right: 20%; width: 300px; height: 300px; opacity: 0.2;"></div>\n' +
+        '        </div>\n' +
+        '        <div style="max-width: 800px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 1;">\n' +
         '            <nav aria-label="breadcrumb" style="margin-bottom: 32px;">\n' +
         '                <ol style="list-style: none; padding: 0; display: flex; align-items: center; justify-content: flex-start; gap: 8px; color: var(--text-muted); font-size: 14px; margin: 0; flex-wrap: wrap;">\n' +
         '                    <li><a href="/" style="color: inherit; text-decoration: none; transition: color 0.2s;">Directory</a></li>\n' +
         '                    <li style="opacity: 0.5;">/</li>\n' +
         '                    <li><a href="/?category=' + catSlug + '" style="color: inherit; text-decoration: none; transition: color 0.2s;">' + escapeHtml(tool.categories[0] || 'Uncategorized') + '</a></li>\n' +
         '                    <li style="opacity: 0.5;">/</li>\n' +
-        '                    <li aria-current="page" style="color: var(--text); font-weight: 500;">' + escapeHtml(tool.name) + '</li>\n' +
+        '                    <li aria-current="page" style="color: var(--text-primary); font-weight: 500;">' + escapeHtml(tool.name) + '</li>\n' +
         '                </ol>\n' +
         '            </nav>\n' +
         '\n' +
-        '            <article class="tool-hero" style="background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 48px; display: flex; gap: 40px; align-items: flex-start; position: relative; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">\n' +
+        '            <article class="tool-hero" style="background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 48px; display: flex; gap: 40px; align-items: flex-start; position: relative; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.12);">\n' +
         '                <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #a855f7, #ec4899);"></div>\n' +
         '                \n' +
-        '                <div class="tool-logo-large" style="flex-shrink: 0; width: 140px; height: 140px; border-radius: 32px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 56px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);">\n' +
+        '                <div class="tool-logo-large" style="flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);">\n' +
         '                    ' + (tool.img ? '<img src="' + escapeHtml(tool.img) + '" alt="' + escapeHtml(tool.name) + ' logo" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' : '') + '\n' +
         '                    <div class="tool-logo-fallback" ' + (tool.img ? 'style="display:none"' : '') + '>' + initials + '</div>\n' +
         '                </div>\n' +
