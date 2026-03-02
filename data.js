@@ -6383,7 +6383,7 @@ const TOOLS = [
   {
     "name": "Buffer",
     "desc": "Grow your audience on social and beyond",
-    "url": "https://buffer.com/",
+    "url": "https://join.buffer.com/janis-m",
     "categories": [
       "Social Media Management",
       "Content Creation",
@@ -6392,7 +6392,8 @@ const TOOLS = [
     "img": "https://1000logos.net/wp-content/uploads/2022/05/Buffer-Logo.png",
     "pricing": "",
     "dead": false,
-    "featuredOrder": 999
+    "featuredOrder": 12,
+    "deal": "Featured ⭐️"
   },
   {
     "name": "Vizcom",
@@ -12410,7 +12411,7 @@ const TOOLS = [
     "img": "wisprflow-logo.png",
     "pricing": "Freemium",
     "dead": false,
-    "featuredOrder": 12
+    "featuredOrder": 999
   },
   {
     "name": "GoHighLevel",
@@ -12440,23 +12441,4 @@ const TOOLS = [
     "deal": "🔥 3 Months for $99",
     "featuredOrder": 2
   }
-];
-
-const ALL_CATEGORIES = [
-  "AI",
-  "Adult",
-  "All-in-one",
-  "Community & Engagement",
-  "Content Creation",
-  "Course Creator",
-  "E-commerce",
-  "Finance",
-  "Influencer Marketing/Brand Deals",
-  "Link in bio",
-  "Livestreaming",
-  "Monetization",
-  "Other",
-  "Social Media Management",
-  "Web3/NFT/Blockchain",
-  "Website Builder"
 ];

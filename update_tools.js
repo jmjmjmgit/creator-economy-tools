@@ -92,6 +92,7 @@ updateTool(/Crayo\.?AI/i, { url: "https://crayo.ai/?ref=janis" });
 updateTool(/Circle/i, { url: "https://try.circle.so/61p65qqh3jp1" });
 updateTool(/Moosend/i, { url: "https://trymoo.moosend.com/zplfmbesfwnq" });
 updateTool(/^Notion$/i, { url: "https://affiliate.notion.so/fub7e8buix33" });
+updateTool(/^Buffer$/i, { url: "https://join.buffer.com/janis-m" });
 
 // 3. Setup Featured Order
 const orderNames = [
@@ -105,7 +106,8 @@ const orderNames = [
     /Crayo\.?AI/i,
     /Circle/i,
     /Moosend/i,
-    /^Notion$/i
+    /^Notion$/i,
+    /^Buffer$/i
 ];
 
 // Reset all featuredOrder to 999 to start fresh
