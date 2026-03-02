@@ -132,6 +132,46 @@ tools.forEach(tool => {
         '    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />\n' +
         '    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%2220%22 y2=%2220%22><stop offset=%220%25%22 stop-color=%22%23a855f7%22/><stop offset=%22100%25%22 stop-color=%22%23ec4899%22/></linearGradient></defs><circle cx=%2210%22 cy=%2210%22 r=%228%22 stroke=%22url(%23g)%22 stroke-width=%222%22 fill=%22none%22/><circle cx=%2210%22 cy=%2210%22 r=%224%22 fill=%22url(%23g)%22/></svg>">\n' +
         '    <link rel="stylesheet" href="../styles.css" />\n' +
+        '    <style>\n' +
+        '        /* Premium Hover Effects */\n' +
+        '        .tool-hero {\n' +
+        '            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n' +
+        '        }\n' +
+        '        .tool-hero:hover {\n' +
+        '            transform: translateY(-4px);\n' +
+        '            box-shadow: 0 40px 80px rgba(0,0,0,0.2), 0 0 40px rgba(168, 85, 247, 0.15);\n' +
+        '        }\n' +
+        '        .related-tools .tool-card {\n' +
+        '            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;\n' +
+        '            background: var(--surface);\n' +
+        '            border: 1px solid var(--border);\n' +
+        '            border-radius: 16px;\n' +
+        '            padding: 24px;\n' +
+        '            display: flex;\n' +
+        '            flex-direction: column;\n' +
+        '        }\n' +
+        '        .related-tools .tool-card:hover {\n' +
+        '            transform: translateY(-4px) scale(1.01);\n' +
+        '            box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 0 20px rgba(236, 72, 153, 0.1);\n' +
+        '            border-color: rgba(168, 85, 247, 0.3);\n' +
+        '        }\n' +
+        '        .modal-visit-btn {\n' +
+        '            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;\n' +
+        '        }\n' +
+        '        .modal-visit-btn:hover {\n' +
+        '            transform: translateY(-2px);\n' +
+        '            box-shadow: 0 8px 24px rgba(168, 85, 247, 0.25);\n' +
+        '        }\n' +
+        '        .deal-btn:hover {\n' +
+        '            box-shadow: 0 8px 24px rgba(236, 72, 153, 0.35);\n' +
+        '        }\n' +
+        '        .tool-logo-large img {\n' +
+        '            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);\n' +
+        '        }\n' +
+        '        .tool-hero:hover .tool-logo-large img {\n' +
+        '            transform: scale(1.08);\n' +
+        '        }\n' +
+        '    </style>\n' +
         '\n' +
         '    <!-- Structured Data -->\n' +
         '    <script type="application/ld+json">\n' +
