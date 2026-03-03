@@ -103,42 +103,19 @@ tools.forEach(tool => {
     const catSlug = createSlug(toolCat);
     const catUrl = '/?category=' + encodeURIComponent(toolCat);
 
-    // Find related tools (same first category, not dead, not the current tool)
+    // Find related tools (rank by number of shared categories)
     const relatedTools = tools
-        .filter(t => !t.dead && t.name !== tool.name && t.categories.includes(tool.categories[0]))
-        .sort((a, b) => (a.featuredOrder || 999) - (b.featuredOrder || 999))
+        .filter(t => !t.dead && t.name !== tool.name)
+        .map(t => {
+            const overlap = t.categories.filter(c => tool.categories.includes(c)).length;
+            return { ...t, relevanceScore: overlap };
+        })
+        .filter(t => t.relevanceScore > 0)
+        .sort((a, b) => {
+            if (b.relevanceScore !== a.relevanceScore) return b.relevanceScore - a.relevanceScore;
+            return (a.featuredOrder || 999) - (b.featuredOrder || 999);
+        })
         .slice(0, 3);
-
-    let relatedHtml = '';
-    if (relatedTools.length > 0) {
-        relatedHtml = '<div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;"><h2 class="related-header">Related Tools <a href="/?category=' + catParam + '" style="text-decoration:none;"><span class="related-badge">More in ' + escapeHtml(toolCat) + ' &rarr;</span></a></h2><div class="tools-grid">';
-
-        relatedTools.forEach(rt => {
-            const rtSlug = createSlug(rt.name);
-            const rtInitials = rt.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
-            const rtCatTags = rt.categories.slice(0, 2).map(c => '<a href="/?category=' + encodeURIComponent(c) + '" class="category-tag">' + escapeHtml(c) + '</a>').join('');
-            const rtPricingHtml = rt.pricing ? '<span class="tool-pricing ' + (rt.pricing.toLowerCase() === 'paid' ? 'paid' : '') + '">' + escapeHtml(rt.pricing) + '</span>' : '';
-
-            let cardHtml = '<a href="/tool/' + rtSlug + '" class="tool-card ' + (rt.deal ? 'deal-card' : '') + '" style="text-decoration: none; color: inherit; display: block;">';
-            if (rt.deal) cardHtml += '<div class="deal-banner">' + escapeHtml(rt.deal) + '</div>';
-            cardHtml += '<div class="tool-header"><div class="tool-logo-wrap">';
-            if (rt.img) {
-                cardHtml += '<img src="' + escapeHtml(rt.img) + '" alt="' + escapeHtml(rt.name) + ' logo" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">';
-            }
-            cardHtml += '<div class="tool-logo-fallback" ' + (rt.img ? 'style="display:none"' : '') + '>' + rtInitials + '</div></div>';
-            cardHtml += '<div class="tool-meta"><div class="tool-name">' + escapeHtml(rt.name) + '</div><div class="tool-categories">' + rtCatTags + '</div></div></div>';
-            cardHtml += '<p class="tool-desc">' + (escapeHtml(rt.desc) || 'No description available.') + '</p>';
-            cardHtml += '<div class="tool-footer">';
-            if (rt.deal) cardHtml += '<span class="tool-visit deal-visit">Grab deal &rarr;</span>';
-            else cardHtml += '<span class="tool-visit">Visit &rarr;</span>';
-            cardHtml += rtPricingHtml;
-            cardHtml += '</div></a>';
-
-            relatedHtml += cardHtml;
-        });
-
-        relatedHtml += '</div></div>';
-    }
 
     const escName = escapeHtml(tool.name).replace(/"/g, "\\\"");
     const escDesc = escapeHtml(tool.desc).replace(/"/g, "\\\"");
@@ -150,7 +127,7 @@ tools.forEach(tool => {
     } else if (tool.deal) {
         actionsHtml = '<div class="modal-deal-box" style="width: auto; display: inline-flex;"><span class="modal-deal-label">' + escapeHtml(tool.deal) + '</span><a href="' + escapeHtml(tool.url) + '" target="_blank" rel="noopener noreferrer" class="modal-visit-btn deal-btn" style="text-align: center;">Grab this deal &rarr;</a></div>';
     } else {
-        actionsHtml = '<a href="' + escapeHtml(tool.url) + '" target="_blank" rel="noopener noreferrer" class="modal-visit-btn" style="width: auto; display: inline-flex; text-align: center;">Visit ' + escapeHtml(tool.name) + ' &rarr;</a>';
+        actionsHtml = '<a href="' + escapeHtml(tool.url) + '" target="_blank" rel="noopener noreferrer" class="modal-visit-btn" style="width: auto; display: inline-flex; text-align: center;">Go to ' + escapeHtml(tool.name) + ' &rarr;</a>';
     }
 
     const htmlContent = '<!DOCTYPE html>\n' +
@@ -470,9 +447,9 @@ tools.forEach(tool => {
                     '</div>' +
                     '</div>' +
                     '</div>' +
-                    '<p class="tool-desc">' + linkToolNames(escapeHtml(t.desc), tool.name) + '</p>' +
+                    '<p class="tool-desc">' + escapeHtml(t.desc) + '</p>' +
                     '<div class="tool-footer">' +
-                    '<span class="tool-visit' + (t.deal ? ' deal-visit' : '') + '">' + (t.deal ? 'Grab deal &rarr;' : 'Visit &rarr;') + '</span>' +
+                    '<span class="tool-visit' + (t.deal ? ' deal-visit' : '') + '">' + (t.deal ? 'Grab deal &rarr;' : 'Learn more &rarr;') + '</span>' +
                     '</div>' +
                     '</a>';
             }).join('') +

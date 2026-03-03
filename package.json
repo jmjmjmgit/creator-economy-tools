@@ -3,6 +3,8 @@
     "build": "node generate_pages.js && mkdir -p public && cp index.html about.html app.js data.js styles.css sitemap.xml robots.txt *.png public/ && cp -r tool public/"
   },
   "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
     "jsdom": "^28.1.0"
   }
 }
