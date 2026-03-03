@@ -5798,16 +5798,15 @@ const TOOLS = [
   },
   {
     "name": "Aria",
-    "desc": "Produce professional narrative videos 10x faster. Aria is a powerful audio/video editor that works like a doc. It includes automatic transcription, speakers detection, transcript export, useful AI tools, and more than one hundred captioning templates.",
     "url": "https://aria.fm/",
+    "img": "https://www.google.com/s2/favicons?domain=aria.fm&sz=256",
+    "desc": "Produce professional narrative videos 10x faster. Aria is a powerful audio/video editor that works like a doc. It includes automatic transcription, speakers detection, transcript export, useful AI tools, and more than one hundred captioning templates.",
     "categories": [
       "Content Creation",
       "AI"
     ],
-    "img": "https://www.google.com/s2/favicons?domain=aria.fm&sz=256",
     "pricing": "",
-    "dead": false,
-    "featuredOrder": 999
+    "dead": true
   },
   {
     "name": "Slashpage",

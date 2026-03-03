@@ -197,7 +197,7 @@ tools.forEach(tool => {
         '            display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap;\n' +
         '        }\n' +
         '        .tool-description {\n' +
-        '            font-size: 18px; line-height: 1.6; color: var(--text-muted); margin-bottom: 40px; max-width: 800px;\n' +
+        '            font-size: 18px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 40px; max-width: 800px;\n' +
         '        }\n' +
         '        .related-header {\n' +
         '            font-size: 28px; font-weight: 800; margin-bottom: 32px; display: flex; align-items: center; gap: 16px;\n' +
@@ -213,6 +213,7 @@ tools.forEach(tool => {
         '            padding: 24px;\n' +
         '            display: flex;\n' +
         '            flex-direction: column;\n' +
+        '            gap: 18px;\n' +
         '        }\n' +
         '        .related-tools .tool-card:hover {\n' +
         '            transform: translateY(-4px) scale(1.01);\n' +
