@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About – Creator Economy Tools</title>
+    <meta name="description"
+        content="Learn about Creator Economy Tools, the largest mapping project of the creator economy with 1,000+ tools, platforms, and startups curated by Janis Mjartans." />
+    <meta property="og:title" content="About – Creator Economy Tools" />
+    <meta property="og:description"
+        content="The largest mapping project of the creator economy. 1,000+ tools, platforms, and startups curated over 5+ years." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://creatoreconomytools.com/about" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://creatoreconomytools.com/about" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        /* ── About-page specific styles ─────────────── */
+        .about-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 24px 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-hero .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+
+        .about-hero .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 760px;
+        }
+
+        .about-hero-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(168, 85, 247, .1);
+            border: 1px solid rgba(168, 85, 247, .25);
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--purple);
+            margin-bottom: 28px;
+        }
+
+        .about-hero h1 {
+            font-size: clamp(32px, 5vw, 60px);
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -1.5px;
+            margin-bottom: 20px;
+        }
+
+        .about-hero p {
+            font-size: clamp(15px, 2vw, 18px);
+            color: var(--text-secondary);
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto 36px;
+        }
+
+        .about-ph-badge {
+            margin-top: 8px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* ── Feature cards ───────────────────────────── */
+        .about-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 24px 100px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            padding: 32px 28px;
+            position: relative;
+            overflow: hidden;
+            transition: all var(--transition);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(168, 85, 247, .05), transparent 60%);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .feature-card:hover {
+            border-color: rgba(168, 85, 247, .3);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, .4);
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 20px;
+            display: block;
+            line-height: 1;
+        }
+
+        .feature-card h2 {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .feature-card p {
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        /* ── Creator profile ─────────────────────────── */
+        .creator-section {
+            border-top: 1px solid var(--border);
+            padding-top: 60px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        @media (max-width: 700px) {
+            .creator-section {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .creator-avatar-wrap {
+                margin: 0 auto;
+            }
+        }
+
+        .creator-avatar-wrap {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(168, 85, 247, .3), rgba(236, 72, 153, .2));
+            border: 2px solid rgba(168, 85, 247, .3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 72px;
+            flex-shrink: 0;
+        }
+
+        .creator-info h2 {
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 8px;
+        }
+
+        .creator-subtitle {
+            font-size: 14px;
+            color: var(--purple);
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .creator-info p {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .creator-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .creator-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            border-radius: var(--radius-md);
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all var(--transition);
+        }
+
+        .creator-link.primary {
+            background: linear-gradient(135deg, var(--purple), var(--pink));
+            color: #fff;
+        }
+
+        .creator-link.primary:hover {
+            opacity: .85;
+            transform: translateY(-1px);
+        }
+
+        .creator-link.secondary {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .creator-link.secondary:hover {
+            border-color: rgba(168, 85, 247, .4);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        /* ── Stats strip ─────────────────────────────── */
+        .stats-strip {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            margin-bottom: 64px;
+        }
+
+        .strip-stat {
+            background: var(--bg-card);
+            padding: 28px 24px;
+            text-align: center;
+        }
+
+        .strip-stat-number {
+            font-size: 40px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--purple), var(--pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            margin-bottom: 6px;
+        }
+
+        .strip-stat-label {
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* ── Side Projects ───────────────────────────── */
+        .side-projects-wrap {
+            border-top: 1px solid var(--border);
+            padding-top: 60px;
+            margin-bottom: 60px;
+        }
+
+        .side-projects-header {
+            margin-bottom: 28px;
+        }
+
+        .side-projects-title {
+            font-size: clamp(22px, 3vw, 30px);
+            font-weight: 900;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+        }
+
+        .side-projects-sub {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .side-projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .project-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 22px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            transition: all 0.2s ease;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(168, 85, 247, .06), transparent 60%);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .project-card:hover {
+            border-color: rgba(168, 85, 247, .35);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(0, 0, 0, .35);
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .project-card-special {
+            border-color: rgba(239, 68, 68, .2);
+        }
+
+        .project-card-special::before {
+            background: linear-gradient(135deg, rgba(239, 68, 68, .06), transparent 60%);
+        }
+
+        .project-card-special:hover {
+            border-color: rgba(239, 68, 68, .4);
+        }
+
+        .project-icon {
+            font-size: 28px;
+            flex-shrink: 0;
+            line-height: 1;
+            margin-top: 2px;
+        }
+
+        .project-body {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .project-name {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 2px;
+        }
+
+        .project-url {
+            font-size: 11px;
+            color: var(--purple);
+            font-weight: 500;
+            margin-bottom: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .project-card-special .project-url {
+            color: #ef4444;
+        }
+
+        .project-desc {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .project-arrow {
+            font-size: 18px;
+            color: var(--text-muted);
+            flex-shrink: 0;
+            transition: transform 0.2s, color 0.2s;
+            align-self: flex-start;
+        }
+
+        .project-card:hover .project-arrow {
+            color: var(--purple);
+            transform: translate(2px, -2px);
+        }
+
+        .project-card-special:hover .project-arrow {
+            color: #ef4444;
+        }
+
+        @media (max-width: 640px) {
+            .side-projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .stats-strip {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "vnxezkmzul");
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TVK1G9ZFN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0TVK1G9ZFN');
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Creator Economy Tools Home">
+                <div class="logo-mark">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="10" r="8" stroke="url(#grad)" stroke-width="2" />
+                        <circle cx="10" cy="10" r="4" fill="url(#grad)" />
+                        <defs>
+                            <linearGradient id="grad" x1="0" y1="0" x2="20" y2="20">
+                                <stop offset="0%" stop-color="#a855f7" />
+                                <stop offset="100%" stop-color="#ec4899" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Creator Economy Tools</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Directory</a>
+                <a href="/about" class="nav-link active">About</a>
+                <a href="https://creatoreconomyjobs.co/" class="nav-link" target="_blank" rel="noopener">Jobs</a>
+                <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" class="btn btn-primary btn-sm"
+                    target="_blank" rel="noopener">
+                    Download Database
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav-mobile" id="navMobile">
+            <a href="/" class="nav-link">Directory</a>
+            <a href="/about" class="nav-link">About</a>
+            <a href="https://creatoreconomyjobs.co/" class="nav-link" target="_blank" rel="noopener">Jobs</a>
+            <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" class="btn btn-primary" target="_blank"
+                rel="noopener">Download Database</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="about-hero" role="banner">
+        <div class="hero-bg">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="about-hero-label">
+                <span class="badge-dot"></span>
+                <span>About Creator Economy Tools</span>
+            </div>
+            <h1>
+                All the tools I've found<br>
+                in <span class="gradient-text">5+ years</span> in the space
+            </h1>
+            <p>
+                All the tools, platforms, and startups I have accumulated over my 5+ years in the Creator Economy —
+                compiled into the largest directory of its kind.
+            </p>
+            <div class="about-ph-badge">
+                <a href="https://www.producthunt.com/products/creator-economy-tools/launches/creator-economy-tools?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-creator-economy-tools"
+                    target="_blank" rel="noopener noreferrer">
+                    <img alt="Creator Economy Tools - 1000+ tools, platforms & startups in the Creator Economy | Product Hunt"
+                        width="250" height="54"
+                        src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=441646&theme=neutral&period=daily&t=1772180818550">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="about-section">
+
+        <!-- Stats strip -->
+        <div class="stats-strip">
+            <div class="strip-stat">
+                <div class="strip-stat-number">1,000+</div>
+                <div class="strip-stat-label">Tools & Platforms</div>
+            </div>
+            <div class="strip-stat">
+                <div class="strip-stat-number">16</div>
+                <div class="strip-stat-label">Categories</div>
+            </div>
+            <div class="strip-stat">
+                <div class="strip-stat-number">5+</div>
+                <div class="strip-stat-label">Years curating</div>
+            </div>
+        </div>
+
+        <!-- Feature cards -->
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">🗺️</span>
+                <h2>The Largest Creator Economy Map</h2>
+                <p>This is the largest mapping project of the Creator Economy, including startups, tools, and resources.
+                    Creators can find their favorite tools, while professionals can learn more about their field.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🔍</span>
+                <h2>Easy Search & Categorization</h2>
+                <p>Using the user-friendly search and categorization functionality, you can effortlessly browse through
+                    the entire Creator Economy, which has been organized into 16 categories with multi-select filtering.
+                </p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">📥</span>
+                <h2>Download the Full Database — Free</h2>
+                <p>I believe in the power of sharing knowledge. That's why I offer the option to download the full
+                    database file for free, saving you hundreds of hours of research and compilation.</p>
+                <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" target="_blank" rel="noopener"
+                    class="creator-link primary" style="display:inline-flex;margin-top:20px;font-size:13px;">
+                    Download free →
+                </a>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">⚰️</span>
+                <h2>The Graveyard</h2>
+                <p>A unique section tracking creators-economy tools that have shut down, been acquired, or faded away. A
+                    reminder of how fast this space moves — and a tribute to the builders who tried.</p>
+            </div>
+        </div>
+
+        <!-- Side Projects -->
+        <div class="side-projects-wrap">
+            <div class="side-projects-header">
+                <h2 class="side-projects-title">Check out my other side projects</h2>
+                <p class="side-projects-sub">Other things I've built alongside this directory</p>
+            </div>
+            <div class="side-projects-grid">
+                <a class="project-card" href="https://audiencemonetize.com" target="_blank" rel="noopener noreferrer">
+                    <span class="project-icon">💰</span>
+                    <div class="project-body">
+                        <div class="project-name">Audience Monetize</div>
+                        <div class="project-url">audiencemonetize.com</div>
+                        <p class="project-desc">Resources, guides, and tools for creators looking to turn their audience
+                            into a sustainable income stream.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+                <a class="project-card" href="https://audiencemonetize.com/creator-economy-market-map" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="project-icon">🗺️</span>
+                    <div class="project-body">
+                        <div class="project-name">Creator Economy Map</div>
+                        <div class="project-url">audiencemonetize.com/creator-economy-market-map</div>
+                        <p class="project-desc">A visual market map of the entire creator economy, organised by category
+                            and sector — perfect for investors and researchers.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+                <a class="project-card" href="https://creatoreconomyjobs.co/" target="_blank" rel="noopener noreferrer">
+                    <span class="project-icon">💼</span>
+                    <div class="project-body">
+                        <div class="project-name">Creator Economy Jobs</div>
+                        <div class="project-url">creatoreconomyjobs.co</div>
+                        <p class="project-desc">The job board dedicated to the creator economy — find roles at
+                            creator-focused startups and platforms.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+                <a class="project-card project-card-special" href="https://learn.mjartans.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <span class="project-icon">🎬</span>
+                    <div class="project-body">
+                        <div class="project-name">That YouTube List</div>
+                        <div class="project-url">learn.mjartans.com</div>
+                        <p class="project-desc">My personal watchlist of high-quality YouTube documentaries — presented
+                            in a Netflix-style environment. Lean back and learn.</p>
+                    </div>
+                    <span class="project-arrow">↗</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Creator profile -->
+        <div class="creator-section">
+            <div class="creator-avatar-wrap">
+                👋
+            </div>
+            <div class="creator-info">
+                <h2>Janis Mjartans</h2>
+                <p class="creator-subtitle">Creator Economy Professional & Curator</p>
+                <p>
+                    With 5+ years immersed in the Creator Economy, I've spent countless hours researching, tracking, and
+                    cataloguing every notable tool and platform in the space. What started as a personal spreadsheet
+                    grew into the most comprehensive creator economy directory on the internet.
+                </p>
+                <p>
+                    My goal is simple: help creators find the right tools faster, and help professionals understand this
+                    rapidly evolving ecosystem.
+                </p>
+                <div class="creator-links">
+                    <a href="https://www.linkedin.com/in/janismjartans/" target="_blank" rel="noopener"
+                        class="creator-link primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                        Connect on LinkedIn
+                    </a>
+                    <a href="/" class="creator-link secondary">
+                        Browse the Directory →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="logo-mark">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <circle cx="10" cy="10" r="8" stroke="url(#grad2)" stroke-width="2" />
+                            <circle cx="10" cy="10" r="4" fill="url(#grad2)" />
+                            <defs>
+                                <linearGradient id="grad2" x1="0" y1="0" x2="20" y2="20">
+                                    <stop offset="0%" stop-color="#a855f7" />
+                                    <stop offset="100%" stop-color="#ec4899" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Creator Economy Tools</span>
+                </div>
+                <p class="footer-desc">The most comprehensive directory of creator economy tools, platforms, and
+                    startups. Curated for creators and professionals.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h3>Directory</h3>
+                    <a href="/">All Tools</a>
+                    <a href="/about">About</a>
+                    <a href="https://creatoreconomyjobs.co/" target="_blank" rel="noopener">Creator Jobs</a>
+                    <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" target="_blank"
+                        rel="noopener">Download Database</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Creator Economy Tools. Made with ❤️ by <a href="https://www.linkedin.com/in/janismjartans/"
+                    target="_blank" rel="noopener">Janis Mjartans</a></p>
+            <p class="footer-note">1,000+ tools curated for creators worldwide</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 20);
+        }, { passive: true });
+
+        // Mobile nav
+        const navToggle = document.getElementById('navToggle');
+        const navMobile = document.getElementById('navMobile');
+        navToggle?.addEventListener('click', () => {
+            const open = navMobile.classList.toggle('open');
+            navToggle.setAttribute('aria-expanded', open);
+        });
+    </script>
+</body>
+
+</html>

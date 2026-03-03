@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Userp - Creator Economy Tools</title>
+    <meta name="description" content="Discover Userp on Creator Economy Tools. Scale Organic Growth With Authority Backlinks and Performance-Driven SEO." />
+    <meta property="og:title" content="Userp - Creator Economy Tools" />
+    <meta property="og:description" content="Scale Organic Growth With Authority Backlinks and Performance-Driven SEO." />
+    <meta property="og:image" content="https://media.designrush.com/agencies/218456/conversions/uSERP--LLC-logo-profile.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://creatoreconomytools.com/tool/userp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Userp - Creator Economy Tools" />
+    <meta name="twitter:description" content="Scale Organic Growth With Authority Backlinks and Performance-Driven SEO." />
+    <meta name="twitter:image" content="https://media.designrush.com/agencies/218456/conversions/uSERP--LLC-logo-profile.jpg" />
+    <link rel="canonical" href="https://creatoreconomytools.com/tool/userp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%2220%22 y2=%2220%22><stop offset=%220%25%22 stop-color=%22%23a855f7%22/><stop offset=%22100%25%22 stop-color=%22%23ec4899%22/></linearGradient></defs><circle cx=%2210%22 cy=%2210%22 r=%228%22 stroke=%22url(%23g)%22 stroke-width=%222%22 fill=%22none%22/><circle cx=%2210%22 cy=%2210%22 r=%224%22 fill=%22url(%23g)%22/></svg>">
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+        /* Premium Hover Effects & Layout */
+        .tool-hero {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 48px;
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .tool-hero-gradient {
+            position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--purple), var(--pink));
+        }
+        .tool-hero:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 40px 80px rgba(0,0,0,0.2), 0 0 40px rgba(168, 85, 247, 0.15);
+        }
+        .tool-logo-large {
+            flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);
+        }
+        .tool-logo-large img {
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 100%; height: 100%; object-fit: cover;
+        }
+        .tool-hero:hover .tool-logo-large img {
+            transform: scale(1.08);
+        }
+        .tool-info {
+            flex: 1;
+        }
+        .tool-title-row {
+            display: flex; align-items: center; gap: 16px; margin-bottom: 20px; flex-wrap: wrap;
+        }
+        .tool-title {
+            margin: 0; font-size: 42px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; word-break: break-word;
+        }
+        .tool-tags-row {
+            display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap;
+        }
+        .tool-description {
+            font-size: 18px; line-height: 1.6; color: var(--text-muted); margin-bottom: 40px; max-width: 800px;
+        }
+        .related-header {
+            font-size: 28px; font-weight: 800; margin-bottom: 32px; display: flex; align-items: center; gap: 16px;
+        }
+        .related-badge {
+            font-size: 15px; font-weight: 500; color: var(--text-muted); background: var(--surface); padding: 6px 16px; border-radius: 100px; border: 1px solid var(--border);
+        }
+        .related-tools .tool-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+        }
+        .related-tools .tool-card:hover {
+            transform: translateY(-4px) scale(1.01);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 0 20px rgba(236, 72, 153, 0.1);
+            border-color: rgba(168, 85, 247, 0.3);
+        }
+        .modal-visit-btn {
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+        }
+        .modal-visit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(168, 85, 247, 0.25);
+        }
+        .deal-btn:hover {
+            box-shadow: 0 8px 24px rgba(236, 72, 153, 0.35);
+        }
+        @media (max-width: 768px) {
+            .tool-hero {
+                flex-direction: column;
+                align-items: center;
+                padding: 32px 20px;
+                gap: 24px;
+                text-align: center;
+            }
+            .tool-logo-large {
+                width: 80px;
+                height: 80px;
+                border-radius: 20px;
+                font-size: 32px;
+                margin: 0 auto;
+            }
+            .tool-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+            .tool-title-row {
+                justify-content: center;
+            }
+            .tool-title {
+                font-size: 32px;
+            }
+            .tool-tags-row {
+                justify-content: center;
+            }
+            .tool-description {
+                font-size: 16px;
+                margin-bottom: 28px;
+            }
+            .tool-actions-wrap {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            .related-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+            .tools-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Userp",
+      "applicationCategory": "Other",
+      "description": "Scale Organic Growth With Authority Backlinks and Performance-Driven SEO.",
+      "url": "https://creatoreconomytools.com/tool/userp"
+    }
+    </script>
+    <script>
+        // Init theme
+        (function () {
+            var theme = localStorage.getItem('theme');
+            if (theme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+</head>
+<body class="tool-page-body">
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Creator Economy Tools Home">
+                <div class="logo-mark">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="10" r="8" stroke="url(#grad)" stroke-width="2" />
+                        <circle cx="10" cy="10" r="4" fill="url(#grad)" />
+                        <defs>
+                            <linearGradient id="grad" x1="0" y1="0" x2="20" y2="20">
+                                <stop offset="0%" stop-color="#a855f7" />
+                                <stop offset="100%" stop-color="#ec4899" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Creator Economy Tools</span>
+            </a>
+            <div class="nav-links">
+                <a href="/" class="nav-link active">Directory</a>
+                <a href="/about" class="nav-link">About</a>
+                <a href="https://creatoreconomyjobs.co/" class="nav-link" target="_blank" rel="noopener">Jobs</a>
+                <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" class="btn btn-primary btn-sm"
+                    target="_blank" rel="noopener">
+                    Download Database
+                </a>
+                <button class="theme-toggle" id="themeToggleDesk" aria-label="Toggle theme">
+                    <svg class="theme-toggle-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4" />
+                        <path d="M12 2v2" />
+                        <path d="M12 20v2" />
+                        <path d="m4.93 4.93 1.41 1.41" />
+                        <path d="m17.66 17.66 1.41 1.41" />
+                        <path d="M2 12h2" />
+                        <path d="M20 12h2" />
+                        <path d="m6.34 17.66-1.41 1.41" />
+                        <path d="m19.07 4.93-1.41 1.41" />
+                    </svg>
+                    <svg class="theme-toggle-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                    </svg>
+                </button>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav-mobile" id="navMobile">
+            <a href="/" class="nav-link">Directory</a>
+            <a href="/about" class="nav-link">About</a>
+            <a href="https://creatoreconomyjobs.co/" class="nav-link" target="_blank" rel="noopener">Jobs</a>
+            <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" class="btn btn-primary" target="_blank"
+                rel="noopener">Download Database</a>
+            <button class="theme-toggle" id="themeToggleMob" aria-label="Toggle theme"
+                style="margin-top: 8px; justify-content: flex-start; padding-left: 12px; border: 1px solid var(--border);">
+                <svg class="theme-toggle-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="M2 12h2" />
+                    <path d="M20 12h2" />
+                    <path d="m6.34 17.66-1.41 1.41" />
+                    <path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+                <svg class="theme-toggle-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+                <span style="font-size: 13px; font-weight: 500;">Toggle Theme</span>
+            </button>
+        </div>
+    </nav>
+    <main class="main" style="padding-top: 120px; position: relative;">
+        <div class="hero-bg" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; pointer-events: none; z-index: 0;">
+            <div class="hero-orb hero-orb-1" style="top: 0px; left: 30%; width: 400px; height: 400px; opacity: 0.3;"></div>
+            <div class="hero-orb hero-orb-2" style="top: 200px; right: 20%; width: 300px; height: 300px; opacity: 0.2;"></div>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto; padding: 0 20px; position: relative; z-index: 1;">
+            <nav aria-label="breadcrumb" style="margin-bottom: 32px;">
+                <ol style="list-style: none; padding: 0; display: flex; align-items: center; justify-content: flex-start; gap: 8px; color: var(--text-muted); font-size: 14px; margin: 0; flex-wrap: wrap;">
+                    <li><a href="/" style="color: inherit; text-decoration: none; transition: color 0.2s;">Directory</a></li>
+                    <li style="opacity: 0.5;">/</li>
+                    <li><a href="/?category=Other" style="color: inherit; text-decoration: none; transition: color 0.2s;">Other</a></li>
+                    <li style="opacity: 0.5;">/</li>
+                    <li aria-current="page" style="color: var(--text-primary); font-weight: 500;">Userp</li>
+                </ol>
+            </nav>
+
+            <article class="tool-hero">
+                <div class="tool-hero-gradient"></div>
+                
+                <div class="tool-logo-large">
+                    <img src="https://media.designrush.com/agencies/218456/conversions/uSERP--LLC-logo-profile.jpg" alt="Userp logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                    <div class="tool-logo-fallback" style="display:none">U</div>
+                </div>
+
+                <div class="tool-info">
+                    <div class="tool-title-row">
+                        <h1 class="tool-title">Userp</h1>
+                        
+                    </div>
+                    <div class="tool-tags-row">
+                        <span class="category-tag">Other</span>
+                    </div>
+                    <p class="tool-description">
+                        Scale Organic Growth With Authority Backlinks and Performance-Driven SEO.
+                    </p>
+                    
+                    <div class="tool-actions-wrap">
+                        <a href="https://userp.io/" target="_blank" rel="noopener noreferrer" class="modal-visit-btn" style="width: auto; display: inline-flex; text-align: center;">Visit Userp &rarr;</a>
+                    </div>
+                </div>
+            </article>
+            
+            <div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;"><h2 class="related-header">Related Tools <a href="/?category=Other" style="text-decoration:none;"><span class="related-badge">More in Other &rarr;</span></a></h2><div class="tools-grid"><a href="/tool/" class="tool-card deal-card" style="text-decoration: none; color: inherit; display: block;"><div class="deal-banner">Featured ⭐️</div><div class="tool-header"><div class="tool-logo-wrap"><img src="https://i.imgur.com/Ogjw4ks.png" alt="Crayo.AI logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="tool-logo-fallback" style="display:none">CR</div></div><div class="tool-meta"><div class="tool-name">Crayo.AI</div><div class="tool-categories"><span class="category-tag">Content Creation</span><span class="category-tag">AI</span></div></div></div><p class="tool-desc">Create unlimited shorts videos at once. Auto generate captions, effects, background and music for you.</p><div class="tool-footer"><span class="tool-visit deal-visit">Grab deal &rarr;</span></div></a><a href="/tool/" class="tool-card deal-card" style="text-decoration: none; color: inherit; display: block;"><div class="deal-banner">Featured ⭐️</div><div class="tool-header"><div class="tool-logo-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" alt="Notion logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="tool-logo-fallback" style="display:none">NO</div></div><div class="tool-meta"><div class="tool-name">Notion</div><div class="tool-categories"><span class="category-tag">Other</span><span class="category-tag">All-in-one</span></div></div></div><p class="tool-desc">A new tool that blends your everyday work apps into one. It&#039;s the all-in-one workspace for you and your team.</p><div class="tool-footer"><span class="tool-visit deal-visit">Grab deal &rarr;</span></div></a><a href="/tool/" class="tool-card " style="text-decoration: none; color: inherit; display: block;"><div class="tool-header"><div class="tool-logo-wrap"><img src="https://i.imgur.com/V4G1PDc.png" alt="F*** You Pay Me logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="tool-logo-fallback" style="display:none">F*</div></div><div class="tool-meta"><div class="tool-name">F*** You Pay Me</div><div class="tool-categories"><span class="category-tag">Influencer Marketing/Brand Deals</span><span class="category-tag">Finance</span></div></div></div><p class="tool-desc">FYPM is a platform where creators anonymously share their experiences working with different brands and how much they got paid</p><div class="tool-footer"><span class="tool-visit">Visit &rarr;</span></div></a></div></div>
+        </div>
+    </main>
+    
+<footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="logo-mark">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <circle cx="10" cy="10" r="8" stroke="url(#grad2)" stroke-width="2" />
+                            <circle cx="10" cy="10" r="4" fill="url(#grad2)" />
+                            <defs>
+                                <linearGradient id="grad2" x1="0" y1="0" x2="20" y2="20">
+                                    <stop offset="0%" stop-color="#a855f7" />
+                                    <stop offset="100%" stop-color="#ec4899" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Creator Economy Tools</span>
+                </div>
+                <p class="footer-desc">The most comprehensive directory of creator economy tools, platforms, and
+                    startups. Curated for creators and professionals.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/janismjartans/" target="_blank" rel="noopener"
+                        aria-label="LinkedIn" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h3>Directory</h3>
+                    <a href="/">All Tools</a>
+                    <a href="/about">About</a>
+                    <a href="https://creatoreconomyjobs.co/" target="_blank" rel="noopener">Creator Jobs</a>
+                    <a href="https://janismjartans.gumroad.com/l/creatoreconomytools" target="_blank"
+                        rel="noopener">Download Database</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Creator Economy Tools. Made with ❤️ by <a href="https://www.linkedin.com/in/janismjartans/"
+                    target="_blank" rel="noopener">Janis Mjartans</a></p>
+            <p class="footer-note">1,000+ tools curated for creators worldwide</p>
+        </div>
+    </footer>
+
+    <!-- Floating ProductHunt badge -->
+    <a class="ph-float-badge" href="https://www.producthunt.com/products/creator-economy-tools/launches/creator-economy-tools?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-creator-economy-tools" target="_blank" rel="noopener noreferrer" aria-label="Creator Economy Tools on Product Hunt">
+        <img alt="Creator Economy Tools | Product Hunt" width="220" height="48" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=441646&theme=neutral&period=daily&t=1772180818550">
+    </a>
+
+    <script>
+        // Toggle mobile menu
+        const navToggle = document.getElementById('navToggle');
+        const navMobile = document.getElementById('navMobile');
+        if (navToggle && navMobile) {
+            navToggle.addEventListener('click', () => {
+               const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+               navToggle.setAttribute('aria-expanded', !expanded);
+               navMobile.classList.toggle('active');
+            });
+        }
+
+        // Theme toggle
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+        document.getElementById('themeToggleDesk')?.addEventListener('click', toggleTheme);
+        document.getElementById('themeToggleMob')?.addEventListener('click', toggleTheme);
+    </script>
+</body>
+</html>

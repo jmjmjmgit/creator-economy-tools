@@ -7,6 +7,47 @@ const raw = fs.readFileSync(dataPath, 'utf8');
 // Strip the const declaration so we can get the array
 const scriptData = raw.replace('const TOOLS =', 'return');
 const tools = new Function(scriptData)();
+const toolNamesToSlugs = {};
+tools.forEach(t => {
+    if (t.name) toolNamesToSlugs[t.name] = createSlug(t.name);
+});
+
+// Sort names by length descending to match longest possible tool names first
+const sortedToolNames = Object.keys(toolNamesToSlugs).sort((a, b) => b.length - a.length);
+
+function linkToolNames(text, currentToolName) {
+    if (!text) return '';
+    let linkedText = text;
+
+    // We'll use a placeholder to avoid nested links or linking the same thing multiple times
+    const placeholders = [];
+
+    sortedToolNames.forEach((name, index) => {
+        if (name === currentToolName) return;
+        if (name.length < 3) return; // Skip very short names to avoid false positives
+
+        // Escape special characters for regex
+        const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        // Use word boundaries to match exact names
+        const regex = new RegExp('\\b' + escapedName + '\\b', 'gi');
+
+        if (regex.test(linkedText)) {
+            const placeholder = `__TOOL_LINK_${index}__`;
+            placeholders.push({
+                placeholder,
+                html: `<a href="/tool/${toolNamesToSlugs[name]}" style="color: var(--purple); font-weight: 500;">${name}</a>`
+            });
+            linkedText = linkedText.replace(regex, placeholder);
+        }
+    });
+
+    // Restore placeholders
+    placeholders.forEach(p => {
+        linkedText = linkedText.replace(new RegExp(p.placeholder, 'g'), p.html);
+    });
+
+    return linkedText;
+}
 
 const toolDir = path.join(__dirname, 'tool');
 
@@ -60,6 +101,7 @@ tools.forEach(tool => {
     const toolCat = tool.categories.length > 0 ? tool.categories[0] : 'Utility';
     const catParam = encodeURIComponent(toolCat);
     const catSlug = createSlug(toolCat);
+    const catUrl = '/?category=' + encodeURIComponent(toolCat);
 
     // Find related tools (same first category, not dead, not the current tool)
     const relatedTools = tools
@@ -74,7 +116,7 @@ tools.forEach(tool => {
         relatedTools.forEach(rt => {
             const rtSlug = createSlug(rt.name);
             const rtInitials = rt.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
-            const rtCatTags = rt.categories.slice(0, 2).map(c => '<span class="category-tag">' + escapeHtml(c) + '</span>').join('');
+            const rtCatTags = rt.categories.slice(0, 2).map(c => '<a href="/?category=' + encodeURIComponent(c) + '" class="category-tag">' + escapeHtml(c) + '</a>').join('');
             const rtPricingHtml = rt.pricing ? '<span class="tool-pricing ' + (rt.pricing.toLowerCase() === 'paid' ? 'paid' : '') + '">' + escapeHtml(rt.pricing) + '</span>' : '';
 
             let cardHtml = '<a href="/tool/' + rtSlug + '" class="tool-card ' + (rt.deal ? 'deal-card' : '') + '" style="text-decoration: none; color: inherit; display: block;">';
@@ -395,7 +437,7 @@ tools.forEach(tool => {
         '                        ' + catTags + '\n' +
         '                    </div>\n' +
         '                    <p class="tool-description">\n' +
-        '                        ' + escapeHtml(tool.desc).replace(/\n/g, '<br />') + '\n' +
+        '                        ' + linkToolNames(escapeHtml(tool.desc), tool.name).replace(/\n/g, '<br />') + '\n' +
         '                    </p>\n' +
         '                    \n' +
         '                    <div class="tool-actions-wrap">\n' +
@@ -413,7 +455,8 @@ tools.forEach(tool => {
                 if (t.deal) {
                     innerPricing = '<div class="deal-banner">' + escapeHtml(t.deal) + '</div>';
                 }
-                return '<a href="/tool/' + escapeHtml(t.id) + '" class="tool-card ' + (t.deal ? 'deal-card' : '') + '" style="text-decoration: none; color: inherit; display: block;">' +
+                const rtSlug = createSlug(t.name);
+                return '<a href="/tool/' + rtSlug + '" class="tool-card ' + (t.deal ? 'deal-card' : '') + '" style="text-decoration: none; color: inherit; display: block;">' +
                     innerPricing +
                     '<div class="tool-header">' +
                     '<div class="tool-logo-wrap">' +
@@ -427,7 +470,7 @@ tools.forEach(tool => {
                     '</div>' +
                     '</div>' +
                     '</div>' +
-                    '<p class="tool-desc">' + escapeHtml(t.desc) + '</p>' +
+                    '<p class="tool-desc">' + linkToolNames(escapeHtml(t.desc), tool.name) + '</p>' +
                     '<div class="tool-footer">' +
                     '<span class="tool-visit' + (t.deal ? ' deal-visit' : '') + '">' + (t.deal ? 'Grab deal &rarr;' : 'Visit &rarr;') + '</span>' +
                     '</div>' +
@@ -470,7 +513,14 @@ tools.forEach(tool => {
         + '                    </a>\n'
         + '                </div>\n'
         + '            </div>\n'
-        + '            <div class="footer-links">\n'
+        + '            <div class="footer-links" style="display: flex; gap: 48px; flex-wrap: wrap;">\n'
+        + '                <div class="footer-col">\n'
+        + '                    <h3>Popular Categories</h3>\n'
+        + '                    <a href="/?category=AI">AI Tools</a>\n'
+        + '                    <a href="/?category=Content%20Creation">Content Creation</a>\n'
+        + '                    <a href="/?category=Monetization">Monetization</a>\n'
+        + '                    <a href="/?category=Community%20%26%20Engagement">Community</a>\n'
+        + '                </div>\n'
         + '                <div class="footer-col">\n'
         + '                    <h3>Directory</h3>\n'
         + '                    <a href="/">All Tools</a>\n'
