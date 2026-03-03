@@ -1,6 +1,17 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
 const TOOLS = [
   {
+    "name": "Koji",
+    "url": "https://withkoji.com/",
+    "img": "https://i.imgur.com/JShgyTq.jpeg",
+    "desc": "Link-in-bio and creator monetization platform, featuring over 400 mini-apps for selling digital products, engaging audiences, and driving revenue.",
+    "categories": [
+      "Link in bio"
+    ],
+    "pricing": "",
+    "dead": true
+  },
+  {
     "name": "Eden",
     "url": "https://eden.so/",
     "img": "https://i.imgur.com/hRg7X5n.jpeg",
