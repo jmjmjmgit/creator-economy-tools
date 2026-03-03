@@ -1,6 +1,18 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
 const TOOLS = [
   {
+    "name": "Eden",
+    "url": "https://eden.so/",
+    "img": "https://i.imgur.com/hRg7X5n.jpeg",
+    "desc": "Your entire creative workflow in one place\nAdd your files and links. Collaborate on a canvas with spatial AI. Have agents work, organize, and research for you.",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "pricing": "",
+    "dead": false
+  },
+  {
     "name": "Scripe",
     "desc": "An AI-powered content platform that repurposes your audio and video into blogs, threads, and linkedIn posts.",
     "url": "https://scripe.io/",
@@ -576,15 +588,14 @@ const TOOLS = [
   },
   {
     "name": "Clara",
-    "desc": "Clara is a community that empowers creators through transparency, brand reviews/ratings and discoverability. Clara enables creators to create profiles, and post details, reviews and insight on the brand deals they are involved in.",
     "url": "https://claraforcreators.com/",
+    "img": "https://i.imgur.com/eMoCfjd.png",
+    "desc": "Clara is a community that empowers creators through transparency, brand reviews/ratings and discoverability. Clara enables creators to create profiles, and post details, reviews and insight on the brand deals they are involved in.",
     "categories": [
       "Influencer Marketing/Brand Deals"
     ],
-    "img": "https://i.imgur.com/eMoCfjd.png",
     "pricing": "",
-    "dead": true,
-    "featuredOrder": 999
+    "dead": false
   },
   {
     "name": "HiTide",
@@ -8537,17 +8548,16 @@ const TOOLS = [
   },
   {
     "name": "Kortex",
-    "desc": "Build A Second Brain To 10x Your Productivity, Creativity, and Profitability",
     "url": "https://www.kortex.co/",
+    "img": "https://i.imgur.com/gsC21AB.png",
+    "desc": "Build A Second Brain To 10x Your Productivity, Creativity, and Profitability. \nScrapped by Dan Koe - turned into https://eden.so/\nWatch this video to learn more: https://www.youtube.com/watch?v=vbrTv-4PsdA&t=1058s",
     "categories": [
       "Content Creation",
       "AI",
       "Other"
     ],
-    "img": "https://i.imgur.com/gsC21AB.png",
     "pricing": "",
-    "dead": false,
-    "featuredOrder": 999
+    "dead": true
   },
   {
     "name": "Clickable",
@@ -12442,22 +12452,5 @@ const TOOLS = [
     "featuredOrder": 2
   }
 ];
-
-const ALL_CATEGORIES = [
-  "AI",
-  "Adult",
-  "All-in-one",
-  "Community & Engagement",
-  "Content Creation",
-  "Course Creator",
-  "E-commerce",
-  "Finance",
-  "Influencer Marketing/Brand Deals",
-  "Link in bio",
-  "Livestreaming",
-  "Monetization",
-  "Other",
-  "Social Media Management",
-  "Web3/NFT/Blockchain",
-  "Website Builder"
-];
+if (typeof module !== 'undefined' && module.exports) { module.exports = TOOLS; }
+const ALL_CATEGORIES = [...new Set(TOOLS.flatMap(t => t.categories || []))].sort();
