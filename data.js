@@ -1,6 +1,20 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
 const TOOLS = [
   {
+    "name": "1of10",
+    "desc": "1of10.com is a specialized AI‑powered YouTube growth tool that identifies \"outlier\" videos (top 10% performers in your niche) to generate proven ideas, high‑CTR titles, and thumbnails—making it a game‑changer for creators serious about data‑driven content that breaks through the algorithm.",
+    "url": "https://1of10.com/?via=cet",
+    "categories": [
+      "Analytics",
+      "Content Creation"
+    ],
+    "img": "https://framerusercontent.com/images/1of10-logo.png", 
+    "pricing": "Paid",
+    "dead": false,
+    "deal": "Featured ⭐️",
+    "featuredOrder": 0
+  },
+  {
     "name": "Koji",
     "url": "https://withkoji.com/",
     "img": "https://i.imgur.com/JShgyTq.jpeg",
