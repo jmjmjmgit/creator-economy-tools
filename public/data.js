@@ -52,6 +52,20 @@ const TOOLS = [
     "featuredOrder": 1
   },
   {
+    "name": "Blort AI",
+    "desc": "Blort is your own creative strategist. Helps you find your competitor's best content, break it down frame by frame and adapt it for your product instead.",
+    "url": "https://getblort.com/?via=cet",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://framerusercontent.com/images/21WhF0iinsryymNF145NSV4IVYI.png?width=375&height=375",
+    "pricing": "Paid",
+    "dead": false,
+    "deal": "Featured ⭐️",
+    "featuredOrder": 0
+  },
+  {
     "name": "Roster",
     "desc": "Roster is an influencer marketing platform that helps brands recruit and manage ambassadors, creators, and affiliates.",
     "url": "https://www.joinroster.co/",

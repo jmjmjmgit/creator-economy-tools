@@ -121,7 +121,9 @@ tools.forEach(tool => {
         .filter(t => t.relevanceScore > 0)
         .sort((a, b) => {
             if (b.relevanceScore !== a.relevanceScore) return b.relevanceScore - a.relevanceScore;
-            return (a.featuredOrder || 999) - (b.featuredOrder || 999);
+            const orderA = a.featuredOrder !== undefined ? a.featuredOrder : 999;
+            const orderB = b.featuredOrder !== undefined ? b.featuredOrder : 999;
+            return orderA - orderB;
         })
         .slice(0, 3);
 
@@ -198,6 +200,10 @@ tools.forEach(tool => {
                         "${escapeHtml(review.verdict)}"
                     </p>
                 </div>
+                ${review.longReviewHtml ? `
+                <div class="long-review-content" style="margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--border);">
+                    ${review.longReviewHtml}
+                </div>` : ''}
             </section>
             
             <style>
