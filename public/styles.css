@@ -954,21 +954,22 @@ body {
 .tool-logo-wrap {
     width: 46px;
     height: 46px;
-    border-radius: 10px;
-    background: #fff;
+    border-radius: 12px;
+    background: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.12);
     overflow: hidden;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding: 6px;
 }
 
 .tool-logo-wrap img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 5px;
 }
 
 .tool-logo-fallback {

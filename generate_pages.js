@@ -266,11 +266,11 @@ tools.forEach(tool => {
         '            box-shadow: 0 40px 80px rgba(0,0,0,0.2), 0 0 40px rgba(168, 85, 247, 0.15);\n' +
         '        }\n' +
         '        .tool-logo-large {\n' +
-        '            flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);\n' +
+        '            flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted); box-sizing: border-box; padding: 16px;\n' +
         '        }\n' +
         '        .tool-logo-large img {\n' +
         '            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);\n' +
-        '            width: 100%; height: 100%; object-fit: cover;\n' +
+        '            width: 100%; height: 100%; object-fit: contain;\n' +
         '        }\n' +
         '        .tool-hero:hover .tool-logo-large img {\n' +
         '            transform: scale(1.08);\n' +

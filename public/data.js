@@ -1,4 +1,3 @@
-// Auto-generated — Creator Economy Tools by Janis Mjartans
 const TOOLS = [
   {
     "name": "ElevenLabs",
@@ -474,7 +473,7 @@ const TOOLS = [
     "url": "https://shieldapp.ai/",
     "categories": [
       "Social Media Management",
-      "Analytics"
+      "Other"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=Shield%20Analytics",
     "pricing": "Freemium",
@@ -612,7 +611,8 @@ const TOOLS = [
     "desc": "Discover outlier videos in your niche to inspire your next viral hit. Analyze what works on YouTube and craft data-driven content strategies.",
     "url": "https://outlierkit.com/",
     "categories": [
-      "Analytics"
+      "Social Media Management",
+      "Other"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=OutlierKit",
     "pricing": "Paid",
@@ -624,8 +624,10 @@ const TOOLS = [
     "desc": "The premier YouTube channel management and video optimization toolkit. Includes bulk processing, SEO tools, and A/B testing.",
     "url": "https://www.tubebuddy.com/",
     "categories": [
-      "Analytics",
-      "SEO"
+      "Social Media Management",
+      "Other",
+      "Content Creation",
+      "Website Builder"
     ],
     "img": "https://tubebuddy.com/wp-content/uploads/2022/10/TB_Logo_White.png",
     "pricing": "Freemium",
@@ -637,7 +639,8 @@ const TOOLS = [
     "desc": "Automated YouTube thumbnail and title A/B testing to maximize your click-through rates and views.",
     "url": "https://sandcastles.ai/?ref=cet",
     "categories": [
-      "Analytics",
+      "Social Media Management",
+      "Other",
       "AI"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=Sandcastles",
@@ -650,8 +653,10 @@ const TOOLS = [
     "desc": "Advanced analytics and SEO tools for YouTube creators. Track rankings, analyze competitors, and optimize metadata.",
     "url": "https://tubelab.net/",
     "categories": [
-      "Analytics",
-      "SEO"
+      "Social Media Management",
+      "Other",
+      "Content Creation",
+      "Website Builder"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=TubeLab",
     "pricing": "Freemium",
@@ -663,7 +668,8 @@ const TOOLS = [
     "desc": "Deep dive into YouTube statistics. Uncover trends, track channel growth, and analyze video performance metrics.",
     "url": "https://viewstats.com/",
     "categories": [
-      "Analytics"
+      "Social Media Management",
+      "Other"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=Viewstats",
     "pricing": "Paid",
@@ -675,8 +681,10 @@ const TOOLS = [
     "desc": "AI-driven YouTube SEO and growth tools. Provides keyword scores, competitor analysis, and daily video ideas to help you rank higher.",
     "url": "https://vidiq.com/",
     "categories": [
-      "Analytics",
-      "SEO",
+      "Social Media Management",
+      "Other",
+      "Content Creation",
+      "Website Builder",
       "AI"
     ],
     "img": "https://vidiq.com/static/images/vidiq-logo.svg",
@@ -689,8 +697,10 @@ const TOOLS = [
     "desc": "Smarter YouTube analytics designed for actionable insights. Simplifies keyword research and shows you exactly how to grow your channel.",
     "url": "https://morningfa.me/",
     "categories": [
-      "Analytics",
-      "SEO"
+      "Social Media Management",
+      "Other",
+      "Content Creation",
+      "Website Builder"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=MorningFame",
     "pricing": "Paid",
@@ -702,7 +712,8 @@ const TOOLS = [
     "desc": "Get feedback on your YouTube thumbnails from real people before publishing. Optimize for clicks using real human data.",
     "url": "https://thumblytics.com/",
     "categories": [
-      "Analytics"
+      "Social Media Management",
+      "Other"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=Thumblytics",
     "pricing": "Paid",
@@ -714,7 +725,8 @@ const TOOLS = [
     "desc": "A/B test your YouTube thumbnails automatically. Set up tests to swap thumbnails based on performance and boost your CTR.",
     "url": "https://thumbnailtest.com/",
     "categories": [
-      "Analytics"
+      "Social Media Management",
+      "Other"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=ThumbnailTest",
     "pricing": "Paid",
@@ -726,7 +738,7 @@ const TOOLS = [
     "desc": "The ultimate workflow tool for YouTubers. Manage your content calendar, write scripts, and streamline your entire production process.",
     "url": "https://tubespanner.com/",
     "categories": [
-      "Workflows & Automation"
+      "Other"
     ],
     "img": "https://via.placeholder.com/300x300.png?text=TubeSpanner",
     "pricing": "Paid",
@@ -751,8 +763,9 @@ const TOOLS = [
     "desc": "Grow your newsletter automatically with the best referral and cross-promotion platform for creators and media brands.",
     "url": "https://sparkloop.app/",
     "categories": [
-      "Email Marketing",
-      "Audience Growth"
+      "Social Media Management",
+      "Other",
+      "Community & Engagement"
     ],
     "img": "https://sparkloop.app/assets/images/logo-dark.svg",
     "pricing": "Paid",
@@ -790,7 +803,8 @@ const TOOLS = [
     "desc": "1of10.com is a specialized AI‑powered YouTube growth tool that identifies \"outlier\" videos (top 10% performers in your niche) to generate proven ideas, high‑CTR titles, and thumbnails—making it a game‑changer for creators serious about data‑driven content that breaks through the algorithm.",
     "url": "https://1of10.com/?via=cet",
     "categories": [
-      "Analytics",
+      "Social Media Management",
+      "Other",
       "Content Creation"
     ],
     "img": "https://framerusercontent.com/images/1of10-logo.png",

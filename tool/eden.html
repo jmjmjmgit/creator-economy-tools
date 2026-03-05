@@ -46,11 +46,11 @@ Add your files and links. Collaborate on a canvas with spatial AI. Have agents w
             box-shadow: 0 40px 80px rgba(0,0,0,0.2), 0 0 40px rgba(168, 85, 247, 0.15);
         }
         .tool-logo-large {
-            flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: var(--bg); display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted);
+            flex-shrink: 0; width: 110px; height: 110px; border-radius: 28px; background: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 48px; font-weight: 800; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 20px rgba(0,0,0,0.05); color: var(--text-muted); box-sizing: border-box; padding: 16px;
         }
         .tool-logo-large img {
             transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-            width: 100%; height: 100%; object-fit: cover;
+            width: 100%; height: 100%; object-fit: contain;
         }
         .tool-hero:hover .tool-logo-large img {
             transform: scale(1.08);
