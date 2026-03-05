@@ -50,10 +50,14 @@ function linkToolNames(text, currentToolName) {
 }
 
 const toolDir = path.join(__dirname, 'tool');
+const altDir = path.join(__dirname, 'alternatives');
 
-// Ensure 'tool' directory exists
+// Ensure directories exist
 if (!fs.existsSync(toolDir)) {
     fs.mkdirSync(toolDir, { recursive: true });
+}
+if (!fs.existsSync(altDir)) {
+    fs.mkdirSync(altDir, { recursive: true });
 }
 
 // Helper to create a URL-friendly slug
@@ -103,6 +107,10 @@ tools.forEach(tool => {
     const catSlug = createSlug(toolCat);
     const catUrl = '/?category=' + encodeURIComponent(toolCat);
 
+    // SEO updates
+    const pageTitle = escapeHtml(tool.name) + ' Review & Deals for Creators - Creator Economy Tools';
+    const metaDesc = escapeHtml(tool.desc || '').substring(0, 150);
+
     // Find related tools (rank by number of shared categories)
     const relatedTools = tools
         .filter(t => !t.dead && t.name !== tool.name)
@@ -130,21 +138,98 @@ tools.forEach(tool => {
         actionsHtml = '<a href="' + escapeHtml(tool.url) + '" target="_blank" rel="noopener noreferrer" class="modal-visit-btn" style="width: auto; display: inline-flex; text-align: center;">Go to ' + escapeHtml(tool.name) + ' &rarr;</a>';
     }
 
+    const reviewsPath = path.join(__dirname, 'reviews.json');
+    let reviews = {};
+    if (fs.existsSync(reviewsPath)) {
+        reviews = JSON.parse(fs.readFileSync(reviewsPath, 'utf8'));
+    }
+    const review = reviews[slug];
+
+    let reviewHtml = '';
+    if (review) {
+        const fullStars = Math.floor(review.rating);
+        const hasHalfStar = review.rating % 1 >= 0.5;
+        let starsHtml = '';
+        for (let i = 0; i < 5; i++) {
+            if (i < fullStars) {
+                starsHtml += '<span class="star">★</span>';
+            } else if (i === fullStars && hasHalfStar) {
+                starsHtml += '<span class="star half">★</span>';
+            } else {
+                starsHtml += '<span class="star empty">★</span>';
+            }
+        }
+
+        reviewHtml = `
+            <section class="editor-review" style="margin-top: 60px; padding: 40px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 24px; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--purple);"></div>
+                <h2 style="font-size: 24px; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 12px;">
+                    Editor Review
+                    <div class="review-stars" style="color: #fbbf24; font-size: 20px; display: flex; gap: 2px;">
+                        ${starsHtml}
+                        <span style="color: var(--text-muted); font-size: 14px; font-weight: 600; margin-left: 8px; align-self: center;">${review.rating}/5</span>
+                    </div>
+                </h2>
+                
+                <div class="review-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px;">
+                    <div class="review-pros">
+                        <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: #10b981; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Pros
+                        </h3>
+                        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+                            ${review.pros.map(p => `<li style="font-size: 15px; color: var(--text-secondary); display: flex; gap: 10px;">• ${escapeHtml(p)}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="review-cons">
+                        <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: #ef4444; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                            Cons
+                        </h3>
+                        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+                            ${review.cons.map(c => `<li style="font-size: 15px; color: var(--text-secondary); display: flex; gap: 10px;">• ${escapeHtml(c)}</li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="review-verdict" style="padding-top: 24px; border-top: 1px solid var(--border);">
+                    <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 12px;">Final Verdict</h3>
+                    <p style="font-size: 16px; line-height: 1.6; color: var(--text-primary); font-style: italic;">
+                        "${escapeHtml(review.verdict)}"
+                    </p>
+                </div>
+            </section>
+            
+            <style>
+                .review-stars .star { position: relative; display: inline-block; }
+                .review-stars .star.empty { color: var(--border); }
+                .review-stars .star.half { color: var(--border); }
+                .review-stars .star.half::after {
+                    content: '★'; position: absolute; left: 0; top: 0; width: 50%; overflow: hidden; color: #fbbf24;
+                }
+                @media (max-width: 640px) {
+                    .review-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
+                    .editor-review { padding: 24px !important; }
+                }
+            </style>
+        `;
+    }
+
     const htmlContent = '<!DOCTYPE html>\n' +
         '<html lang="en">\n' +
         '<head>\n' +
         '    <meta charset="UTF-8" />\n' +
         '    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n' +
-        '    <title>' + escapeHtml(tool.name) + ' - Creator Economy Tools</title>\n' +
-        '    <meta name="description" content="Discover ' + escapeHtml(tool.name) + ' on Creator Economy Tools. ' + escapeHtml(tool.desc) + '" />\n' +
-        '    <meta property="og:title" content="' + escapeHtml(tool.name) + ' - Creator Economy Tools" />\n' +
-        '    <meta property="og:description" content="' + escapeHtml(tool.desc) + '" />\n' +
+        '    <title>' + pageTitle + '</title>\n' +
+        '    <meta name="description" content="' + metaDesc + '" />\n' +
+        '    <meta property="og:title" content="' + pageTitle + '" />\n' +
+        '    <meta property="og:description" content="' + metaDesc + '" />\n' +
         '    <meta property="og:image" content="' + ogImg + '" />\n' +
         '    <meta property="og:type" content="website" />\n' +
         '    <meta property="og:url" content="https://creatoreconomytools.com/tool/' + slug + '" />\n' +
         '    <meta name="twitter:card" content="summary_large_image" />\n' +
-        '    <meta name="twitter:title" content="' + escapeHtml(tool.name) + ' - Creator Economy Tools" />\n' +
-        '    <meta name="twitter:description" content="' + escapeHtml(tool.desc) + '" />\n' +
+        '    <meta name="twitter:title" content="' + pageTitle + '" />\n' +
+        '    <meta name="twitter:description" content="' + metaDesc + '" />\n' +
         '    <meta name="twitter:image" content="' + ogImg + '" />\n' +
         '    <link rel="canonical" href="https://creatoreconomytools.com/tool/' + slug + '" />\n' +
         '    <link rel="preconnect" href="https://fonts.googleapis.com" />\n' +
@@ -421,8 +506,21 @@ tools.forEach(tool => {
         '                    <div class="tool-actions-wrap">\n' +
         '                        ' + actionsHtml + '\n' +
         '                    </div>\n' +
+        '                    \n' +
+        '                    <div class="tool-detailed-info" style="margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--border);">\n' +
+        '                        <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 12px;">About ' + escapeHtml(tool.name) + '</h3>\n' +
+        '                        <p style="font-size: 16px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 24px;">\n' +
+        '                            ' + escapeHtml(tool.desc) + '\n' +
+        '                        </p>\n' +
+        '                        ' + (tool.pricing ? `\n' +
+        '                        <div class="tool-pricing-section">\n' +
+        '                            <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px;">Pricing Information</h3>\n' +
+        '                            <span class="category-tag" style="background: var(--purple-glow); color: var(--purple); border-color: var(--purple-glow);">' + escapeHtml(tool.pricing) + '</span>\n' +
+        '                        </div>` : '') + '\n' +
+        '                    </div>\n' +
         '                </div>\n' +
         '            </article>\n' +
+        '\n' + reviewHtml +
         '            \n' +
         '            ' + (relatedTools.length > 0 ?
             '<div class="related-tools" style="margin-top: 80px; margin-bottom: 40px;">' +
@@ -549,6 +647,44 @@ tools.forEach(tool => {
 
     try {
         fs.writeFileSync(filePath, htmlContent, 'utf8');
+
+        // --- GENERATE ALTERNATIVES PAGE ---
+        const altPageTitle = 'Alternatives to ' + escapeHtml(tool.name);
+        const altSeoTitle = escapeHtml(tool.name) + ' Alternatives - Creator Economy Tools';
+        const altMetaDesc = `Looking for the best ${escapeHtml(tool.name)} alternatives? Discover the top competitors for creators, including features, pricing, and reviews for similar tools.`;
+        const altFilePath = path.join(altDir, fileName);
+        sitemapUrls.push('https://creatoreconomytools.com/alternatives/' + slug);
+
+        const altHtmlContent = htmlContent
+            .replace('<title>' + pageTitle + '</title>', '<title>' + altSeoTitle + '</title>')
+            .replace('<meta name="description" content="' + metaDesc + '" />', '<meta name="description" content="' + altMetaDesc + '" />')
+            .replace('<meta property="og:title" content="' + pageTitle + '" />', '<meta property="og:title" content="' + altSeoTitle + '" />')
+            .replace('<meta property="og:description" content="' + metaDesc + '" />', '<meta property="og:description" content="' + altMetaDesc + '" />')
+            .replace('<meta name="twitter:title" content="' + pageTitle + '" />', '<meta name="twitter:title" content="' + altSeoTitle + '" />')
+            .replace('<meta name="twitter:description" content="' + metaDesc + '" />', '<meta name="twitter:description" content="' + altMetaDesc + '" />')
+            .replace('<link rel="canonical" href="https://creatoreconomytools.com/tool/' + slug + '" />', '<link rel="canonical" href="https://creatoreconomytools.com/alternatives/' + slug + '" />')
+            .replace('<meta property="og:url" content="https://creatoreconomytools.com/tool/' + slug + '" />', '<meta property="og:url" content="https://creatoreconomytools.com/alternatives/' + slug + '" />')
+            .replace('<link rel="stylesheet" href="../styles.css" />', '<link rel="stylesheet" href="../styles.css" />') // Already correct from tool/
+            .replace(/href="\/"/g, 'href="/"')
+            .replace(/href="\.\.\/styles\.css"/g, 'href="../styles.css"')
+            // Replace breadcrumb
+            .replace(/<li aria-current="page".*?<\/li>/, `<li><a href="/tool/${slug}" style="color: inherit; text-decoration: none; transition: color 0.2s;">${escapeHtml(tool.name)}</a></li><li style="opacity: 0.5;">/</li><li aria-current="page" style="color: var(--text-primary); font-weight: 500;">Alternatives</li>`)
+            // Replace hero content with alternatives intro
+            .replace(/<article class="tool-hero">[\s\S]*?<\/article>/, `
+                <article class="tool-hero">
+                    <div class="tool-hero-gradient"></div>
+                    <div class="tool-info">
+                        <h1 class="tool-title" style="margin-bottom: 16px;">${altPageTitle}</h1>
+                        <p class="tool-description" style="margin-bottom: 0;">
+                            Looking for something else? Here are the best ${escapeHtml(tool.name)} alternatives for creators.
+                        </p>
+                    </div>
+                </article>
+            `)
+            .replace(reviewHtml, ''); // Remove review from alternatives page
+
+        fs.writeFileSync(altFilePath, altHtmlContent, 'utf8');
+
         successCount++;
     } catch (e) {
         console.error('Failed to write ' + fileName + ': ', e);

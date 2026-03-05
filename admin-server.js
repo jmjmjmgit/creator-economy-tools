@@ -12,6 +12,11 @@ app.use(express.static(__dirname));
 
 const DATA_PATH = path.join(__dirname, 'data.js');
 
+// Redirect /admin to /admin.html
+app.get('/admin', (req, res) => {
+    res.redirect('/admin.html');
+});
+
 // Get all tools
 app.get('/api/tools', (req, res) => {
     try {
