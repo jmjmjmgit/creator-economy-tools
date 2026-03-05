@@ -346,6 +346,12 @@ function buildCard(tool, isListView) {
         ? `<span class="tool-pricing ${tool.pricing.toLowerCase() === 'paid' ? 'paid' : ''}">${tool.pricing}</span>`
         : '';
 
+    const visitButtonHtml = tool.dead
+        ? `<span class="dead-badge">💀 Shut down</span>`
+        : tool.deal
+            ? `<span class="tool-visit deal-visit">Grab deal →</span>`
+            : `<span class="tool-visit">Learn more →</span>`;
+
     const initials = tool.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
 
     a.innerHTML = `
@@ -365,12 +371,7 @@ function buildCard(tool, isListView) {
     </div>
     <p class="tool-desc">${escHtml(tool.desc) || 'No description available.'}</p>
     <div class="tool-footer">
-      ${tool.dead
-            ? `<span class="dead-badge">💀 Shut down</span>`
-            : tool.deal
-                ? `<span class="tool-visit deal-visit">Grab deal →</span>`
-                : `<span class="tool-visit">Visit →</span>`
-        }
+      ${visitButtonHtml}
       ${pricingHtml}
     </div>
   `;
@@ -401,6 +402,25 @@ function openModal(tool) {
     ).join('');
     const pricingHtml = tool.pricing ? `<span class="tool-pricing ${tool.pricing.toLowerCase() === 'paid' ? 'paid' : ''}">${tool.pricing}</span>` : '';
 
+    let actionsHtml = '';
+    if (tool.dead) {
+        actionsHtml = `<div class="modal-dead-notice">
+             <span>💀</span>
+             <span>This tool is no longer available — it shut down or was acquired.</span>
+           </div>`;
+    } else if (tool.deal) {
+        actionsHtml = `<div class="modal-deal-box">
+                     <span class="modal-deal-label">${escHtml(tool.deal)}</span>
+                     <a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn deal-btn">
+                       Grab this deal →
+                     </a>
+                   </div>`;
+    } else {
+        actionsHtml = `<a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn">
+             Learn more →
+           </a>`;
+    }
+
     $modalContent.innerHTML = `
     <div class="modal-logo-wrap">
       ${tool.img
@@ -416,22 +436,7 @@ function openModal(tool) {
     <div class="modal-cats">${catTags}</div>
     <p class="modal-desc">${escHtml(tool.desc) || 'No description available.'}</p>
     <div class="modal-actions">
-      ${tool.dead
-            ? `<div class="modal-dead-notice">
-             <span>💀</span>
-             <span>This tool is no longer available — it shut down or was acquired.</span>
-           </div>`
-            : tool.deal
-                ? `<div class="modal-deal-box">
-                     <span class="modal-deal-label">${escHtml(tool.deal)}</span>
-                     <a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn deal-btn">
-                       Grab this deal →
-                     </a>
-                   </div>`
-                : `<a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn">
-             Visit ${escHtml(tool.name)} →
-           </a>`
-        }
+      ${actionsHtml}
     </div>
   `;
 
