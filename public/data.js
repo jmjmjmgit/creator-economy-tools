@@ -1,6 +1,600 @@
 // Auto-generated — Creator Economy Tools by Janis Mjartans
 const TOOLS = [
   {
+    "name": "ElevenLabs",
+    "desc": "ElevenLabs is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://elevenlabs.io/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=ElevenLabs",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Adobe Firefly",
+    "desc": "Adobe Firefly is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://firefly.adobe.com/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Adobe%20Firefly",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Veo 3",
+    "desc": "Veo 3 is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://deepmind.google/technologies/veo/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Veo%203",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Riverside",
+    "desc": "Riverside is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://riverside.fm/",
+    "categories": [
+      "Content Creation",
+      "Livestreaming"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Riverside",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "iMini AI",
+    "desc": "iMini AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://imini.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=iMini%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Manus AI",
+    "desc": "Manus AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://manus.im/",
+    "categories": [
+      "AI"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Manus%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Vidoser",
+    "desc": "Vidoser is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://vidoser.com/",
+    "categories": [
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Vidoser",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Elevista",
+    "desc": "Elevista is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://elevista.ai/",
+    "categories": [
+      "AI"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Elevista",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Anifun AI",
+    "desc": "Anifun AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://anifun.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Anifun%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Yupp.ai",
+    "desc": "Yupp.ai is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://yupp.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Yupp.ai",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Toolify AI",
+    "desc": "Toolify AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.toolify.ai/",
+    "categories": [
+      "AI",
+      "Other"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Toolify%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Udio AI",
+    "desc": "Udio AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.udio.com/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Udio%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Wavel.ai",
+    "desc": "Wavel.ai is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://wavel.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Wavel.ai",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Recraft.ai",
+    "desc": "Recraft.ai is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.recraft.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Recraft.ai",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Elicit AI",
+    "desc": "Elicit AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://elicit.com/",
+    "categories": [
+      "AI"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Elicit%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Reelmind.ai",
+    "desc": "Reelmind.ai is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://reelmind.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Reelmind.ai",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Zanfia",
+    "desc": "Zanfia is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://zanfia.com/",
+    "categories": [
+      "AI"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Zanfia",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Membership.io",
+    "desc": "Membership.io is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://membership.io/",
+    "categories": [
+      "Course Creator",
+      "Community & Engagement"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Membership.io",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Tipalti",
+    "desc": "Tipalti is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://tipalti.com/",
+    "categories": [
+      "Finance"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Tipalti",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Shopify Collabs",
+    "desc": "Shopify Collabs is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.shopify.com/collabs",
+    "categories": [
+      "E-commerce",
+      "Influencer Marketing/Brand Deals"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Shopify%20Collabs",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Teamhub",
+    "desc": "Teamhub is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://teamhub.com/",
+    "categories": [
+      "Other"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Teamhub",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Repurpose.io",
+    "desc": "Repurpose.io is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://repurpose.io/",
+    "categories": [
+      "Social Media Management",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Repurpose.io",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Sendfox",
+    "desc": "Sendfox is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://sendfox.com/",
+    "categories": [
+      "Other"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Sendfox",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "CapCut Pro",
+    "desc": "CapCut Pro is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.capcut.com/",
+    "categories": [
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=CapCut%20Pro",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Descript Overdub",
+    "desc": "Descript Overdub is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.descript.com/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Descript%20Overdub",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Claude.ai",
+    "desc": "Claude.ai is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://claude.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Claude.ai",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Perplexity AI",
+    "desc": "Perplexity AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.perplexity.ai/",
+    "categories": [
+      "AI"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Perplexity%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Runway Gen-3",
+    "desc": "Runway Gen-3 is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://runwayml.com/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Runway%20Gen-3",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Supergrow.ai",
+    "desc": "Supergrow.ai is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.supergrow.ai/",
+    "categories": [
+      "AI",
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Supergrow.ai",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "EasyGen",
+    "desc": "EasyGen is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://easygen.io/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=EasyGen",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "ContentIn",
+    "desc": "ContentIn is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://contentin.io/",
+    "categories": [
+      "Content Creation",
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=ContentIn",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "OmniCreator",
+    "desc": "OmniCreator is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://www.omnicreator.club/",
+    "categories": [
+      "Other"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=OmniCreator",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "AuthoredUp",
+    "desc": "AuthoredUp is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://authoredup.com/",
+    "categories": [
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=AuthoredUp",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Saywhat",
+    "desc": "Saywhat is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://saywhat.so/",
+    "categories": [
+      "Other"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Saywhat",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "MagicPost",
+    "desc": "MagicPost is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://magicpost.ai/",
+    "categories": [
+      "AI",
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=MagicPost",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Kleo",
+    "desc": "Kleo is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://kleo.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Kleo",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Postline AI",
+    "desc": "Postline AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://postline.ai/",
+    "categories": [
+      "AI",
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Postline%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Shield Analytics",
+    "desc": "Shield Analytics is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://shieldapp.ai/",
+    "categories": [
+      "Social Media Management",
+      "Analytics"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Shield%20Analytics",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Expando",
+    "desc": "Expando is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://expandi.io/",
+    "categories": [
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Expando",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Dripify",
+    "desc": "Dripify is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://dripify.io/",
+    "categories": [
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Dripify",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "ReactIn",
+    "desc": "ReactIn is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://reactin.ai/",
+    "categories": [
+      "AI",
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=ReactIn",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Influencer Studio",
+    "desc": "Influencer Studio is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://influencerstudio.ai/",
+    "categories": [
+      "Influencer Marketing/Brand Deals"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Influencer%20Studio",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Virbo AI",
+    "desc": "Virbo AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://virbo.wondershare.com/ai-influencer-generator.html",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Virbo%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "eesel AI",
+    "desc": "eesel AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://eesel.ai/",
+    "categories": [
+      "AI"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=eesel%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Postiv AI",
+    "desc": "Postiv AI is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://postiv.ai/",
+    "categories": [
+      "AI",
+      "Social Media Management"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Postiv%20AI",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "Overchat AI Influencer Studio",
+    "desc": "Overchat AI Influencer Studio is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://overchat.ai/",
+    "categories": [
+      "AI",
+      "Influencer Marketing/Brand Deals"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=Overchat%20AI%20Influencer%20Studio",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
+    "name": "iMini AI Studio",
+    "desc": "iMini AI Studio is a powerful tool for creators and professionals. Explore it today to streamline your workflow.",
+    "url": "https://imini.ai/",
+    "categories": [
+      "AI",
+      "Content Creation"
+    ],
+    "img": "https://via.placeholder.com/300x300.png?text=iMini%20AI%20Studio",
+    "pricing": "Freemium",
+    "dead": false,
+    "featuredOrder": 999
+  },
+  {
     "name": "Thumio",
     "desc": "Generate high-converting YouTube thumbnails in seconds using AI. Perfect for creators looking to boost their CTR without spending hours in Photoshop.",
     "url": "https://thumio.com/",
