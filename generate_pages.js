@@ -518,11 +518,11 @@ tools.forEach(tool => {
         '                        <p style="font-size: 16px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 24px;">\n' +
         '                            ' + escapeHtml(tool.desc) + '\n' +
         '                        </p>\n' +
-        '                        ' + (tool.pricing ? `\n' +
-        '                        <div class="tool-pricing-section">\n' +
-        '                            <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px;">Pricing Information</h3>\n' +
-        '                            <span class="category-tag" style="background: var(--purple-glow); color: var(--purple); border-color: var(--purple-glow);">' + escapeHtml(tool.pricing) + '</span>\n' +
-        '                        </div>` : '') + '\n' +
+        '                        ' + (tool.pricing ? '\n' +
+            '                        <div class="tool-pricing-section">\n' +
+            '                            <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px;">Pricing Information</h3>\n' +
+            '                            <span class="category-tag" style="background: var(--purple-glow); color: var(--purple); border-color: var(--purple-glow);">' + escapeHtml(tool.pricing) + '</span>\n' +
+            '                        </div>' : '') + '\n' +
         '                    </div>\n' +
         '                </div>\n' +
         '            </article>\n' +
