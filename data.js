@@ -41,7 +41,7 @@ const TOOLS = [
   {
     "name": "Sandcastles",
     "desc": "Automated YouTube thumbnail and title A/B testing to maximize your click-through rates and views.",
-    "url": "https://sandcastles.ai/",
+    "url": "https://sandcastles.ai/?ref=cet",
     "categories": [
       "Analytics",
       "AI"
@@ -199,7 +199,7 @@ const TOOLS = [
       "Analytics",
       "Content Creation"
     ],
-    "img": "https://framerusercontent.com/images/1of10-logo.png", 
+    "img": "https://framerusercontent.com/images/1of10-logo.png",
     "pricing": "Paid",
     "dead": false,
     "deal": "Featured ⭐️",
