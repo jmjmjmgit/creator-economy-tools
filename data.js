@@ -1711,7 +1711,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=hopin.com&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -1750,7 +1750,7 @@ const TOOLS = [
     ],
     "img": "https://marketplacecontent.zoom.us/%2FNw_seJ1wSNiRlH8DR9Fo8g%2FAkYbjalAThW93uN2tdmjow%2Fapp%2FeoNwAjE2TzOGHaBr3ATL1g%2FDNohDdvMSbmbsHGEsnIR-w.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -1827,7 +1827,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/JME3t4j.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -2516,7 +2516,7 @@ const TOOLS = [
     ],
     "img": "https://cdn.betakit.com/wp-content/uploads/2019/02/stageten.jpg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -5895,7 +5895,7 @@ const TOOLS = [
     ],
     "img": "https://cdn.betakit.com/wp-content/uploads/2019/02/stageten.jpg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
