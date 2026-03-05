@@ -411,12 +411,12 @@ function openModal(tool) {
     } else if (tool.deal) {
         actionsHtml = `<div class="modal-deal-box">
                      <span class="modal-deal-label">${escHtml(tool.deal)}</span>
-                     <a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn deal-btn">
+                     <a href="/tool/${createSlug(tool.name)}" class="modal-visit-btn deal-btn">
                        Grab this deal →
                      </a>
                    </div>`;
     } else {
-        actionsHtml = `<a href="${escHtml(tool.url)}" target="_blank" rel="noopener noreferrer" class="modal-visit-btn">
+        actionsHtml = `<a href="/tool/${createSlug(tool.name)}" class="modal-visit-btn">
              Learn more →
            </a>`;
     }
