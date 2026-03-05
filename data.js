@@ -4278,7 +4278,7 @@ const TOOLS = [
     ],
     "img": "https://imgs.search.brave.com/PaQBOaNjuTIpbbc5ulD0BEu_pI8fvOw72-8amocAZVM/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC8yYi82ZC80ZC8y/YjZkNGQyZmVjYWI0/MTcxOWVkZGI1MDQ1/MzI3OWI3MS5qcGc",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
