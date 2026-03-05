@@ -655,7 +655,7 @@ tools.forEach(tool => {
         fs.writeFileSync(filePath, htmlContent, 'utf8');
 
         // --- GENERATE ALTERNATIVES PAGE ---
-        const altPageTitle = 'Alternatives to ' + escapeHtml(tool.name);
+        const altPageTitle = escapeHtml(tool.name) + ' Alternatives';
         const altSeoTitle = escapeHtml(tool.name) + ' Alternatives - Creator Economy Tools';
         const altMetaDesc = `Looking for the best ${escapeHtml(tool.name)} alternatives? Discover the top competitors for creators, including features, pricing, and reviews for similar tools.`;
         const altFilePath = path.join(altDir, fileName);
@@ -687,7 +687,8 @@ tools.forEach(tool => {
                     </div>
                 </article>
             `)
-            .replace(reviewHtml, ''); // Remove review from alternatives page
+            .replace(reviewHtml, '') // Remove review from alternatives page
+            .replace('<h2 class="related-header">Related Tools ', `<h2 class="related-header">Alternatives to ${escapeHtml(tool.name)} `);
 
         fs.writeFileSync(altFilePath, altHtmlContent, 'utf8');
 
