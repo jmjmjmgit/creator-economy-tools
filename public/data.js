@@ -2580,7 +2580,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/eeyThH5.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -6399,7 +6399,7 @@ const TOOLS = [
     ],
     "img": "https://mma.prnewswire.com/media/1775936/NG_wordmark_2.jpg?p=facebook",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -6558,7 +6558,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=mintable.com&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -6728,7 +6728,7 @@ const TOOLS = [
     ],
     "img": "https://hustle.amplify.ai/static/img/hustle-engine-logo.png?0823",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -7578,7 +7578,7 @@ const TOOLS = [
     ],
     "img": "https://trubify.com/wp-content/uploads/2022/06/cropped-tru-favicon-22.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -8214,7 +8214,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GVnKOlH.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -8629,7 +8629,7 @@ const TOOLS = [
     ],
     "img": "https://dazzl.ink/assets/images/dazzlink-logo.svg",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -10014,7 +10014,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=fastreply.io&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -10039,7 +10039,7 @@ const TOOLS = [
     ],
     "img": "https://www.google.com/s2/favicons?domain=hourone.ai&sz=256",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -10337,7 +10337,7 @@ const TOOLS = [
     ],
     "img": "https://framerusercontent.com/images/8r18U6GThOf6Okvqkbs9pFyxw5o.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -12335,7 +12335,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/N60oBn7.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
@@ -13182,7 +13182,7 @@ const TOOLS = [
     ],
     "img": "https://i.imgur.com/GFYJI1G.png",
     "pricing": "",
-    "dead": false,
+    "dead": true,
     "featuredOrder": 999
   },
   {
