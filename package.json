@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "node generate_pages.js && mkdir -p public && cp index.html about.html app.js data.js styles.css sitemap.xml robots.txt *.png public/ 2>/dev/null || : && cp -r tool alternatives public/"
+    "build": "node generate_pages.js && mkdir -p public && cp index.html about.html 404.html app.js data.js styles.css sitemap.xml robots.txt *.png public/ 2>/dev/null || : && cp -r tool alternatives public/"
   },
   "dependencies": {
     "body-parser": "^2.2.2",
