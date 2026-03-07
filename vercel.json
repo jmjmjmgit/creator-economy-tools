@@ -6,6 +6,14 @@
       "destination": "/about.html"
     },
     {
+      "source": "/tool/:slug",
+      "destination": "/tool/:slug.html"
+    },
+    {
+      "source": "/alternatives/:slug",
+      "destination": "/alternatives/:slug.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/404.html"
     }

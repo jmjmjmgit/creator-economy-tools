@@ -78,10 +78,14 @@ function escapeHtml(unsafe) {
         .replace(/'/g, "&#039;");
 }
 
-let sitemapUrls = [
-    'https://creatoreconomytools.com/',
-    'https://creatoreconomytools.com/about'
+const TODAY = new Date().toISOString().split('T')[0];
+
+let sitemapMain = [
+    { url: 'https://creatoreconomytools.com/', priority: '1.0', changefreq: 'daily' },
+    { url: 'https://creatoreconomytools.com/about', priority: '0.6', changefreq: 'monthly' }
 ];
+let sitemapTools = [];
+let sitemapAlts = [];
 
 console.log('Generating pages for ' + tools.length + ' tools...');
 
@@ -95,7 +99,7 @@ tools.forEach(tool => {
     const filePath = path.join(toolDir, fileName);
 
     // Add to sitemap
-    sitemapUrls.push('https://creatoreconomytools.com/tool/' + slug);
+    sitemapTools.push({ url: 'https://creatoreconomytools.com/tool/' + slug, priority: '0.9', changefreq: 'weekly' });
 
     const initials = tool.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
     const catTags = tool.categories.map(c => '<span class="category-tag">' + escapeHtml(c) + '</span>').join('');
@@ -109,7 +113,8 @@ tools.forEach(tool => {
 
     // SEO updates
     const pageTitle = escapeHtml(tool.name) + ' Review & Deals for Creators - Creator Economy Tools';
-    const metaDesc = escapeHtml(tool.desc || '').substring(0, 150);
+    const rawDesc = tool.desc || '';
+    const metaDesc = escapeHtml(rawDesc).substring(0, 160);
 
     // Find related tools (rank by number of shared categories)
     const relatedTools = tools
@@ -238,6 +243,7 @@ tools.forEach(tool => {
         '    <meta name="twitter:description" content="' + metaDesc + '" />\n' +
         '    <meta name="twitter:image" content="' + ogImg + '" />\n' +
         '    <link rel="canonical" href="https://creatoreconomytools.com/tool/' + slug + '" />\n' +
+        '    <link rel="alternate" href="https://creatoreconomytools.com/alternatives/' + slug + '" title="' + escapeHtml(tool.name) + ' Alternatives" />\n' +
         '    <link rel="preconnect" href="https://fonts.googleapis.com" />\n' +
         '    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n' +
         '    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />\n' +
@@ -371,7 +377,7 @@ tools.forEach(tool => {
         '        }\n' +
         '    </style>\n' +
         '\n' +
-        '    <!-- Structured Data -->\n' +
+        '    <!-- Structured Data: SoftwareApplication -->\n' +
         '    <script type="application/ld+json">\n' +
         '    {\n' +
         '      "@context": "https://schema.org",\n' +
@@ -379,7 +385,31 @@ tools.forEach(tool => {
         '      "name": "' + escName + '",\n' +
         '      "applicationCategory": "' + toolCat + '",\n' +
         '      "description": "' + escDesc + '",\n' +
-        '      "url": "https://creatoreconomytools.com/tool/' + slug + '"\n' +
+        '      "url": "https://creatoreconomytools.com/tool/' + slug + '",\n' +
+        '      "operatingSystem": "Web"' +
+        (tool.pricing && tool.pricing.toLowerCase().includes('free')
+            ? ',\n      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }'
+            : tool.pricing
+                ? ',\n      "offers": { "@type": "Offer", "price": "", "priceCurrency": "USD", "description": "' + escapeHtml(tool.pricing) + '" }'
+                : '') +
+        ',\n' +
+        '      "publisher": {\n' +
+        '        "@type": "Organization",\n' +
+        '        "name": "Creator Economy Tools",\n' +
+        '        "url": "https://creatoreconomytools.com"\n' +
+        '      }\n' +
+        '    }\n' +
+        '    </script>\n' +
+        '    <!-- Structured Data: BreadcrumbList -->\n' +
+        '    <script type="application/ld+json">\n' +
+        '    {\n' +
+        '      "@context": "https://schema.org",\n' +
+        '      "@type": "BreadcrumbList",\n' +
+        '      "itemListElement": [\n' +
+        '        { "@type": "ListItem", "position": 1, "name": "Directory", "item": "https://creatoreconomytools.com/" },\n' +
+        '        { "@type": "ListItem", "position": 2, "name": "' + escapeHtml(toolCat) + '", "item": "https://creatoreconomytools.com/?category=' + catParam + '" },\n' +
+        '        { "@type": "ListItem", "position": 3, "name": "' + escName + '", "item": "https://creatoreconomytools.com/tool/' + slug + '" }\n' +
+        '      ]\n' +
         '    }\n' +
         '    </script>\n' +
         '    <script>\n' +
@@ -656,10 +686,40 @@ tools.forEach(tool => {
 
         // --- GENERATE ALTERNATIVES PAGE ---
         const altPageTitle = escapeHtml(tool.name) + ' Alternatives';
-        const altSeoTitle = escapeHtml(tool.name) + ' Alternatives - Creator Economy Tools';
-        const altMetaDesc = `Looking for the best ${escapeHtml(tool.name)} alternatives? Discover the top competitors for creators, including features, pricing, and reviews for similar tools.`;
+        const numAlts = relatedTools.length;
+        const altSeoTitle = 'Best ' + escapeHtml(tool.name) + ' Alternatives for Creators in 2025 - Creator Economy Tools';
+        const altMetaDesc = `Compare the ${numAlts > 0 ? numAlts + ' best' : 'top'} alternatives to ${escapeHtml(tool.name)} for creators. Side-by-side features, pricing, and reviews to find the right tool for your needs.`;
         const altFilePath = path.join(altDir, fileName);
-        sitemapUrls.push('https://creatoreconomytools.com/alternatives/' + slug);
+        sitemapAlts.push({ url: 'https://creatoreconomytools.com/alternatives/' + slug, priority: '0.7', changefreq: 'weekly' });
+
+        // Build FAQPage JSON-LD for alternatives page
+        const faqItems = [
+            {
+                q: `What is the best alternative to ${tool.name}?`,
+                a: relatedTools.length > 0
+                    ? `Some of the best alternatives to ${tool.name} are: ${relatedTools.map(t => t.name).join(', ')}. These are similar tools for creators.`
+                    : `Browse our directory at creatoreconomytools.com to find the best alternatives for your needs.`
+            },
+            {
+                q: `Is ${tool.name} free?`,
+                a: tool.pricing
+                    ? `${tool.name} has ${tool.pricing.toLowerCase().includes('free') ? 'a free option available' : tool.pricing + ' pricing'}.`
+                    : `Check the ${tool.name} website for current pricing information.`
+            },
+            {
+                q: `What does ${tool.name} do?`,
+                a: (rawDesc).substring(0, 300) || `${tool.name} is a tool for creators in the ${toolCat} category.`
+            }
+        ];
+        const faqJsonLd = JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqItems.map(f => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: { '@type': 'Answer', text: f.a }
+            }))
+        }, null, 2);
 
         const altHtmlContent = htmlContent
             .replace('<title>' + pageTitle + '</title>', '<title>' + altSeoTitle + '</title>')
@@ -668,27 +728,33 @@ tools.forEach(tool => {
             .replace('<meta property="og:description" content="' + metaDesc + '" />', '<meta property="og:description" content="' + altMetaDesc + '" />')
             .replace('<meta name="twitter:title" content="' + pageTitle + '" />', '<meta name="twitter:title" content="' + altSeoTitle + '" />')
             .replace('<meta name="twitter:description" content="' + metaDesc + '" />', '<meta name="twitter:description" content="' + altMetaDesc + '" />')
-            .replace('<link rel="canonical" href="https://creatoreconomytools.com/tool/' + slug + '" />', '<link rel="canonical" href="https://creatoreconomytools.com/alternatives/' + slug + '" />')
+            // Fix canonical: swap tool canonical → alternatives canonical, and flip rel=alternate back to tool page
+            .replace(
+                '<link rel="canonical" href="https://creatoreconomytools.com/tool/' + slug + '" />\n    <link rel="alternate" href="https://creatoreconomytools.com/alternatives/' + slug + '" title="' + escapeHtml(tool.name) + ' Alternatives" />',
+                '<link rel="canonical" href="https://creatoreconomytools.com/alternatives/' + slug + '" />\n    <link rel="alternate" href="https://creatoreconomytools.com/tool/' + slug + '" title="' + escapeHtml(tool.name) + '" />'
+            )
             .replace('<meta property="og:url" content="https://creatoreconomytools.com/tool/' + slug + '" />', '<meta property="og:url" content="https://creatoreconomytools.com/alternatives/' + slug + '" />')
-            .replace('<link rel="stylesheet" href="/styles.css" />', '<link rel="stylesheet" href="/styles.css" />') // Already correct from tool/
             .replace(/href="\/"/g, 'href="/"')
             .replace(/href="\.\.\/styles\.css"/g, 'href="/styles.css"')
-            // Replace breadcrumb
+            // Replace breadcrumb last item
             .replace(/<li aria-current="page".*?<\/li>/, `<li><a href="/tool/${slug}" style="color: inherit; text-decoration: none; transition: color 0.2s;">${escapeHtml(tool.name)}</a></li><li style="opacity: 0.5;">/</li><li aria-current="page" style="color: var(--text-primary); font-weight: 500;">Alternatives</li>`)
-            // Replace hero content with alternatives intro
+            // Replace hero content with a distinct alternatives intro
             .replace(/<article class="tool-hero">[\s\S]*?<\/article>/, `
                 <article class="tool-hero">
                     <div class="tool-hero-gradient"></div>
                     <div class="tool-info">
                         <h1 class="tool-title" style="margin-bottom: 16px;">${altPageTitle}</h1>
-                        <p class="tool-description" style="margin-bottom: 0;">
-                            Looking for something else? Here are the best ${escapeHtml(tool.name)} alternatives for creators.
+                        <p class="tool-description" style="margin-bottom: 24px;">
+                            Looking for the best ${escapeHtml(tool.name)} alternatives in 2025? We&apos;ve curated the top creator tools compared by features, pricing, and use case.
                         </p>
+                        <a href="/tool/${slug}" style="color: var(--purple); font-size: 14px; font-weight: 500; text-decoration: none;">&larr; Back to ${escapeHtml(tool.name)}</a>
                     </div>
                 </article>
             `)
             .replace(reviewHtml, '') // Remove review from alternatives page
-            .replace('<h2 class="related-header">Related Tools ', `<h2 class="related-header">Alternatives to ${escapeHtml(tool.name)} `);
+            .replace('<h2 class="related-header">Related Tools ', `<h2 class="related-header">Alternatives to ${escapeHtml(tool.name)} `)
+            // Inject FAQ JSON-LD before </head>
+            .replace('</head>', `    <script type="application/ld+json">\n${faqJsonLd}\n    </script>\n</head>`);
 
         fs.writeFileSync(altFilePath, altHtmlContent, 'utf8');
 
@@ -700,17 +766,43 @@ tools.forEach(tool => {
 
 console.log('Successfully generated ' + successCount + ' individual tool pages.');
 
-// Generate sitemap.xml
-const sitemapPath = path.join(__dirname, 'sitemap.xml');
-let sitemapUrlsXml = '';
-for (let i = 0; i < sitemapUrls.length; i++) {
-    sitemapUrlsXml += '  <url>\n    <loc>' + escapeHtml(sitemapUrls[i]) + '</loc>\n    <changefreq>weekly</changefreq>\n  </url>\n';
+// Helper to generate XML url entry
+function urlEntry(item) {
+    return `  <url>\n    <loc>${escapeHtml(item.url)}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>${item.changefreq}</changefreq>\n    <priority>${item.priority}</priority>\n  </url>\n`;
 }
 
-const sitemapContent = '<?xml version="1.0" encoding="UTF-8"?>\n' +
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    sitemapUrlsXml +
-    '</urlset>';
+// Generate sitemap-main.xml (homepage + about)
+const sitemapMainXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    sitemapMain.map(urlEntry).join('') + '</urlset>';
+fs.writeFileSync(path.join(__dirname, 'sitemap-main.xml'), sitemapMainXml, 'utf8');
+console.log('Generated sitemap-main.xml (' + sitemapMain.length + ' URLs)');
 
-fs.writeFileSync(sitemapPath, sitemapContent, 'utf8');
-console.log('Successfully generated sitemap.xml');
+// Generate sitemap-tools.xml
+const sitemapToolsXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    sitemapTools.map(urlEntry).join('') + '</urlset>';
+fs.writeFileSync(path.join(__dirname, 'sitemap-tools.xml'), sitemapToolsXml, 'utf8');
+console.log('Generated sitemap-tools.xml (' + sitemapTools.length + ' URLs)');
+
+// Generate sitemap-alternatives.xml
+const sitemapAltsXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    sitemapAlts.map(urlEntry).join('') + '</urlset>';
+fs.writeFileSync(path.join(__dirname, 'sitemap-alternatives.xml'), sitemapAltsXml, 'utf8');
+console.log('Generated sitemap-alternatives.xml (' + sitemapAlts.length + ' URLs)');
+
+// Generate sitemap_index.xml
+const sitemapIndex = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    '  <sitemap>\n    <loc>https://creatoreconomytools.com/sitemap-main.xml</loc>\n    <lastmod>' + TODAY + '</lastmod>\n  </sitemap>\n' +
+    '  <sitemap>\n    <loc>https://creatoreconomytools.com/sitemap-tools.xml</loc>\n    <lastmod>' + TODAY + '</lastmod>\n  </sitemap>\n' +
+    '  <sitemap>\n    <loc>https://creatoreconomytools.com/sitemap-alternatives.xml</loc>\n    <lastmod>' + TODAY + '</lastmod>\n  </sitemap>\n' +
+    '</sitemapindex>';
+fs.writeFileSync(path.join(__dirname, 'sitemap_index.xml'), sitemapIndex, 'utf8');
+console.log('Generated sitemap_index.xml');
+
+// Also generate flat sitemap.xml for backwards compatibility
+const allUrls = [...sitemapMain, ...sitemapTools, ...sitemapAlts];
+const sitemapContent = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    allUrls.map(urlEntry).join('') + '</urlset>';
+fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), sitemapContent, 'utf8');
+console.log('Generated sitemap.xml (' + allUrls.length + ' total URLs)');
+

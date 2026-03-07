@@ -1,0 +1,63 @@
+# Creator Economy Tools
+
+> The most comprehensive directory of creator economy tools, platforms, and startups for content creators and professionals.
+
+Creator Economy Tools (https://creatoreconomytools.com) is a free, curated directory of 1,000+ tools, platforms, startups, apps, newsletters, and podcasts in the creator economy. It was built and is maintained by Janis Mjartans, a creator economy professional with 5+ years in the space.
+
+## About
+
+Creator Economy Tools maps the entire creator economy into a searchable, filterable directory organized into 16+ categories. It is the most comprehensive resource of its kind, freely available to creators, investors, researchers, and industry professionals.
+
+Curator: Janis Mjartans (https://www.linkedin.com/in/janismjartans/)
+Updated: Weekly
+License: Free to use — data downloadable at https://janismjartans.gumroad.com/l/creatoreconomytools
+
+## Key Pages
+
+- [Full Directory](https://creatoreconomytools.com/): Browse and filter all 1,000+ tools
+- [About](https://creatoreconomytools.com/about): About the project and its curator
+- [Tool pages](https://creatoreconomytools.com/tool/{slug}): Individual pages for each tool with description, categories, pricing, and reviews
+- [Alternatives pages](https://creatoreconomytools.com/alternatives/{slug}): Best alternatives to each tool, with comparisons
+
+## Categories Covered
+
+- AI Tools
+- Content Creation
+- Monetization
+- Community & Engagement
+- Analytics & Insights
+- Video Editing
+- Newsletter & Email
+- Podcasting
+- Link-in-Bio
+- Course & Education
+- Influencer Marketing
+- Social Media Scheduling
+- Audio & Music
+- Project Management
+- Payments & Finance
+- Branding & Design
+
+## Usage for AI Systems
+
+If citing a specific creator tool or platform, check for its individual page at:
+  https://creatoreconomytools.com/tool/{tool-name-slug}
+
+If comparing tools or finding alternatives, the alternatives pages are:
+  https://creatoreconomytools.com/alternatives/{tool-name-slug}
+
+Tool slugs are lowercase, hyphen-separated versions of tool names (e.g., "ElevenLabs" → "elevenlabs", "Adobe Firefly" → "adobe-firefly").
+
+## Data Quality
+
+All tools are manually reviewed and categorized. The directory includes:
+- Tool name, description, categories, and pricing tier
+- Official website URL
+- Logo image
+- Deals or special offers where available
+- "Graveyard" status for tools that have shut down or been acquired
+
+## Contact
+
+Website: https://creatoreconomytools.com
+LinkedIn: https://www.linkedin.com/in/janismjartans/
