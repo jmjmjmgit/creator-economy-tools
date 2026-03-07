@@ -4,7 +4,7 @@ Disallow: /404.html
 Disallow: /admin
 Disallow: /admin.html
 Sitemap: https://creatoreconomytools.com/sitemap.xml
-Sitemap: https://creatoreconomytools.com/sitemap_index.xml
+Sitemap: https://creatoreconomytools.com/sitemap-index.xml
 
 User-agent: Bingbot
 Crawl-delay: 1

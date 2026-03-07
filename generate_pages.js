@@ -754,7 +754,25 @@ tools.forEach(tool => {
             .replace(reviewHtml, '') // Remove review from alternatives page
             .replace('<h2 class="related-header">Related Tools ', `<h2 class="related-header">Alternatives to ${escapeHtml(tool.name)} `)
             // Inject FAQ JSON-LD before </head>
-            .replace('</head>', `    <script type="application/ld+json">\n${faqJsonLd}\n    </script>\n</head>`);
+            .replace('</head>', `    <script type="application/ld+json">\n${faqJsonLd}\n    </script>\n</head>`)
+            // Inject visible FAQ section before </main>
+            .replace('</main>', `
+        <div style="max-width: 800px; margin: 60px auto 40px; padding: 0 20px; position: relative; z-index: 1;">
+            <section style="border-top: 1px solid var(--border); padding-top: 48px;">
+                <h2 style="font-size: 24px; font-weight: 800; margin-bottom: 32px;">Frequently Asked Questions</h2>
+                <div style="display: flex; flex-direction: column; gap: 0;">
+                    ${faqItems.map((f, i) => `
+                    <details style="border-bottom: 1px solid var(--border); padding: 20px 0;" ${i === 0 ? 'open' : ''}>
+                        <summary style="font-size: 16px; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px;">
+                            ${escapeHtml(f.q)}
+                            <svg style="flex-shrink: 0; transition: transform 0.2s;" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                        </summary>
+                        <p style="font-size: 15px; line-height: 1.7; color: var(--text-secondary); margin-top: 12px; margin-bottom: 0;">${escapeHtml(f.a)}</p>
+                    </details>`).join('')}
+                </div>
+            </section>
+        </div>
+</main>`);
 
         fs.writeFileSync(altFilePath, altHtmlContent, 'utf8');
 
@@ -789,15 +807,15 @@ const sitemapAltsXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="h
 fs.writeFileSync(path.join(__dirname, 'sitemap-alternatives.xml'), sitemapAltsXml, 'utf8');
 console.log('Generated sitemap-alternatives.xml (' + sitemapAlts.length + ' URLs)');
 
-// Generate sitemap_index.xml
+// Generate sitemap-index.xml
 const sitemapIndex = '<?xml version="1.0" encoding="UTF-8"?>\n' +
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     '  <sitemap>\n    <loc>https://creatoreconomytools.com/sitemap-main.xml</loc>\n    <lastmod>' + TODAY + '</lastmod>\n  </sitemap>\n' +
     '  <sitemap>\n    <loc>https://creatoreconomytools.com/sitemap-tools.xml</loc>\n    <lastmod>' + TODAY + '</lastmod>\n  </sitemap>\n' +
     '  <sitemap>\n    <loc>https://creatoreconomytools.com/sitemap-alternatives.xml</loc>\n    <lastmod>' + TODAY + '</lastmod>\n  </sitemap>\n' +
     '</sitemapindex>';
-fs.writeFileSync(path.join(__dirname, 'sitemap_index.xml'), sitemapIndex, 'utf8');
-console.log('Generated sitemap_index.xml');
+fs.writeFileSync(path.join(__dirname, 'sitemap-index.xml'), sitemapIndex, 'utf8');
+console.log('Generated sitemap-index.xml');
 
 // Also generate flat sitemap.xml for backwards compatibility
 const allUrls = [...sitemapMain, ...sitemapTools, ...sitemapAlts];
