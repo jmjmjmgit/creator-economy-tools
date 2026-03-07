@@ -12,10 +12,6 @@
     {
       "source": "/alternatives/:slug",
       "destination": "/alternatives/:slug.html"
-    },
-    {
-      "source": "/((?!.*\\.).*)",
-      "destination": "/404.html"
     }
   ]
 }
